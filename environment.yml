@@ -1,0 +1,11 @@
+name: psrl-experiments
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.11
+  - pip
+  - pip:
+      - "nicewebrl @ git+https://github.com/KempnerInstitute/nicewebrl.git"
+      - matplotlib
+      - python-dotenv
