@@ -1,0 +1,1146 @@
+[31muser 1/1:  3903748427 |block 0: undefined| |stage 0: undefined| nicewebrl.experiment - INFO - Block order: ['block_ced52f338e464062ab01c751b4a975f0', 'block_657fdffe3a834e8d8a83d7e15aba512b', 'block_a373d9564b1f4a1483567ab9ddc508bf']
+[0m[31muser 1/1:  3903748427 |block 0: undefined| |stage 0: undefined| __mp_main__ - INFO - New episode: rule=color 'red'
+[0m[31muser 1/1:  3903748427 |block 0: block_ced52f338e464062ab01c751b4a975f0| |stage 0: Instructions| nicewebrl.utils - INFO - {'message': 'Ping 3103'}
+[0m[31muser 1/1:  3903748427 |block 1: block_657fdffe3a834e8d8a83d7e15aba512b| |stage 1: GridWorld| nicewebrl.utils - INFO - {'message': 'Ping 6403'}
+[0m[31muser 1/1:  3903748427 |block 1: block_657fdffe3a834e8d8a83d7e15aba512b| |stage 1: GridWorld| __mp_main__ - INFO - Stage finished: GridWorld
+[0m[31muser 1/1:  3903748427 |block 3: block_a373d9564b1f4a1483567ab9ddc508bf| |stage 3: Debrief| __mp_main__ - INFO - Metadata saved → ./data/user_meta_3903748427.json
+[0m[31muser 1/1:  3903748427 |block 3: block_a373d9564b1f4a1483567ab9ddc508bf| |stage 3: Debrief| nicewebrl.utils - INFO - {'message': 'Ping 1720'}
+[0m[31muser 1/1:  3903748427 |block 3: block_a373d9564b1f4a1483567ab9ddc508bf| |stage 3: Debrief| nicewebrl.utils - INFO - {'message': 'Ping 6577'}
+[0m[31muser 1/1:  3903748427 |block 3: block_a373d9564b1f4a1483567ab9ddc508bf| |stage 3: Debrief| nicegui - WARNING - http://localhost:8084/.well-known/appspecific/com.chrome.devtools.json not found
+[0m[32muser 2/2:  109285854 |block 0: undefined| |stage 0: undefined| nicewebrl.experiment - INFO - Block order: ['block_ced52f338e464062ab01c751b4a975f0', 'block_657fdffe3a834e8d8a83d7e15aba512b', 'block_a373d9564b1f4a1483567ab9ddc508bf']
+[0m[32muser 2/2:  109285854 |block 0: undefined| |stage 0: undefined| __mp_main__ - INFO - New episode: rule=color 'yellow'
+[0m[32muser 2/2:  109285854 |block 0: block_ced52f338e464062ab01c751b4a975f0| |stage 0: Instructions| nicegui - WARNING - http://localhost:8084/.well-known/appspecific/com.chrome.devtools.json not found
+[0m[32muser 2/2:  109285854 |block 0: block_ced52f338e464062ab01c751b4a975f0| |stage 0: Instructions| nicewebrl.utils - INFO - {'message': 'Ping 5396'}
+[0m[32muser 2/2:  109285854 |block 1: block_657fdffe3a834e8d8a83d7e15aba512b| |stage 1: GridWorld| nicewebrl.utils - INFO - {'message': 'Ping 7878'}
+[0m[32muser 2/2:  109285854 |block 1: block_657fdffe3a834e8d8a83d7e15aba512b| |stage 1: GridWorld| __mp_main__ - INFO - Stage finished: GridWorld
+[0m[32muser 2/2:  109285854 |block 3: block_a373d9564b1f4a1483567ab9ddc508bf| |stage 3: Debrief| __mp_main__ - INFO - Metadata saved → ./data/user_meta_109285854.json
+[0m[32muser 2/2:  109285854 |block 3: block_a373d9564b1f4a1483567ab9ddc508bf| |stage 3: Debrief| nicegui - WARNING - http://localhost:8084/.well-known/appspecific/com.chrome.devtools.json not found
+[0m[32muser 2/2:  109285854 |block 3: block_a373d9564b1f4a1483567ab9ddc508bf| |stage 3: Debrief| nicewebrl.utils - INFO - {'message': 'Ping 5787'}
+[0m[33muser 3/3:  1559327732 |block 0: undefined| |stage 0: undefined| nicewebrl.experiment - INFO - Block order: ['block_ced52f338e464062ab01c751b4a975f0', 'block_657fdffe3a834e8d8a83d7e15aba512b', 'block_a373d9564b1f4a1483567ab9ddc508bf']
+[0m[33muser 3/3:  1559327732 |block 0: undefined| |stage 0: undefined| __mp_main__ - INFO - New episode: rule=color 'red'
+[0m[33muser 3/3:  1559327732 |block 0: block_ced52f338e464062ab01c751b4a975f0| |stage 0: Instructions| nicegui - WARNING - http://localhost:8084/.well-known/appspecific/com.chrome.devtools.json not found
+[0m[33muser 3/3:  1559327732 |block 0: block_ced52f338e464062ab01c751b4a975f0| |stage 0: Instructions| nicewebrl.utils - INFO - {'message': 'Ping 9714'}
+[0m[33muser 3/3:  1559327732 |block 1: block_657fdffe3a834e8d8a83d7e15aba512b| |stage 1: GridWorld| __mp_main__ - INFO - Stage finished: GridWorld
+[0m[33muser 3/3:  1559327732 |block 3: block_a373d9564b1f4a1483567ab9ddc508bf| |stage 3: Debrief| __mp_main__ - INFO - Metadata saved → ./data/user_meta_1559327732.json
+[0m[33muser 3/3:  1559327732 |block 3: block_a373d9564b1f4a1483567ab9ddc508bf| |stage 3: Debrief| nicewebrl.utils - INFO - {'message': 'Ping 7069'}
+[0m[33muser 3/3:  1559327732 |block 3: block_a373d9564b1f4a1483567ab9ddc508bf| |stage 3: Debrief| nicewebrl.utils - INFO - {'message': 'Ping 6257'}
+[0m[33muser 3/3:  1559327732 |block 3: block_a373d9564b1f4a1483567ab9ddc508bf| |stage 3: Debrief| nicewebrl.utils - INFO - {'message': 'Ping 2475'}
+[0m[33muser 3/3:  1559327732 |block 3: block_a373d9564b1f4a1483567ab9ddc508bf| |stage 3: Debrief| nicewebrl.utils - INFO - {'message': 'Ping 4251'}
+[0m[33muser 3/3:  1559327732 |block 3: block_a373d9564b1f4a1483567ab9ddc508bf| |stage 3: Debrief| nicewebrl.utils - INFO - {'message': 'Ping 4637'}
+[0m[33muser 3/3:  1559327732 |block 3: block_a373d9564b1f4a1483567ab9ddc508bf| |stage 3: Debrief| nicewebrl.utils - INFO - {'message': 'Ping 1360'}
+[0m[33muser 3/3:  1559327732 |block 3: block_a373d9564b1f4a1483567ab9ddc508bf| |stage 3: Debrief| nicewebrl.utils - INFO - {'message': 'Ping 8381'}
+[0m[33muser 3/3:  1559327732 |block 3: block_a373d9564b1f4a1483567ab9ddc508bf| |stage 3: Debrief| nicewebrl.utils - INFO - {'message': 'Ping 8682'}
+[0m[33muser 3/3:  1559327732 |block 3: block_a373d9564b1f4a1483567ab9ddc508bf| |stage 3: Debrief| nicewebrl.utils - INFO - {'message': 'Ping 2233'}
+[0m[33muser 3/3:  1559327732 |block 3: block_a373d9564b1f4a1483567ab9ddc508bf| |stage 3: Debrief| nicewebrl.utils - INFO - {'message': 'Ping 7362'}
+[0m[33muser 3/3:  1559327732 |block 3: block_a373d9564b1f4a1483567ab9ddc508bf| |stage 3: Debrief| nicewebrl.utils - INFO - {'message': 'Ping 4084'}
+[0m[33muser 3/3:  1559327732 |block 3: block_a373d9564b1f4a1483567ab9ddc508bf| |stage 3: Debrief| nicewebrl.utils - INFO - {'message': 'Ping 1259'}
+[0m[31muser 1/1:  1119442266 |block 0: undefined| |stage 0: undefined| nicewebrl.experiment - INFO - Block order: ['block_24e9a68b18724ffdbd630dde02e016fa', 'block_19c4b0c7b6d240ee889569507380e4d8', 'block_61b3585a049f4b4ab9788fedb4655012']
+[0m[31muser 1/1:  1119442266 |block 0: undefined| |stage 0: undefined| __mp_main__ - INFO - New episode: rule=shape 'circle'
+[0m[31muser 1/1:  1119442266 |block 0: block_24e9a68b18724ffdbd630dde02e016fa| |stage 0: Instructions| nicewebrl.utils - INFO - {'message': 'Ping 8388'}
+[0m[31muser 1/1:  1119442266 |block 1: block_19c4b0c7b6d240ee889569507380e4d8| |stage 1: GridWorld| nicewebrl.utils - INFO - {'message': 'Ping 3231'}
+[0m[31muser 1/1:  1119442266 |block 1: undefined| |stage 1: undefined| nicewebrl.experiment - INFO - Block order: ['block_f538f6f5f751403c9138d0fa98966194', 'block_bfa58b3b16024a77b015e785fdcebf1b', 'block_bf8fc28394634db793204c0b6800a5f5']
+[0m[31muser 1/1:  1119442266 |block 1: block_bfa58b3b16024a77b015e785fdcebf1b| |stage 1: GridWorld| nicegui - WARNING - http://localhost:8084/.well-known/appspecific/com.chrome.devtools.json not found
+[0m[31muser 1/1:  1119442266 |block 1: block_bfa58b3b16024a77b015e785fdcebf1b| |stage 1: GridWorld| nicewebrl.utils - INFO - {'message': 'Ping 5562'}
+[0m[32muser 2/2:  3842845596 |block 0: undefined| |stage 0: undefined| nicewebrl.experiment - INFO - Block order: ['block_f538f6f5f751403c9138d0fa98966194', 'block_bfa58b3b16024a77b015e785fdcebf1b', 'block_bf8fc28394634db793204c0b6800a5f5']
+[0m[32muser 2/2:  3842845596 |block 0: undefined| |stage 0: undefined| __mp_main__ - INFO - New episode: rule=shape 'square'
+[0m[32muser 2/2:  3842845596 |block 0: block_f538f6f5f751403c9138d0fa98966194| |stage 0: Instructions| nicegui - WARNING - http://localhost:8084/.well-known/appspecific/com.chrome.devtools.json not found
+[0m[32muser 2/2:  3842845596 |block 0: block_f538f6f5f751403c9138d0fa98966194| |stage 0: Instructions| nicewebrl.utils - INFO - {'message': 'Ping 9930'}
+[0m[32muser 2/2:  3842845596 |block 1: block_bfa58b3b16024a77b015e785fdcebf1b| |stage 1: GridWorld| __mp_main__ - INFO - Stage finished: GridWorld
+[0m[32muser 2/2:  3842845596 |block 3: block_bf8fc28394634db793204c0b6800a5f5| |stage 3: Debrief| __mp_main__ - INFO - Metadata saved → ./data/user_meta_3842845596.json
+[0m[32muser 2/2:  3842845596 |block 3: block_bf8fc28394634db793204c0b6800a5f5| |stage 3: Debrief| nicewebrl.utils - INFO - {'message': 'Ping 4146'}
+[0m[33muser 3/3:  2375774597 |block 0: undefined| |stage 0: undefined| nicewebrl.experiment - INFO - Block order: ['block_f538f6f5f751403c9138d0fa98966194', 'block_bfa58b3b16024a77b015e785fdcebf1b', 'block_bf8fc28394634db793204c0b6800a5f5']
+[0m[33muser 3/3:  2375774597 |block 0: undefined| |stage 0: undefined| __mp_main__ - INFO - New episode: rule=shape 'triangle'
+[0m[33muser 3/3:  2375774597 |block 0: block_f538f6f5f751403c9138d0fa98966194| |stage 0: Instructions| nicegui - WARNING - http://localhost:8084/.well-known/appspecific/com.chrome.devtools.json not found
+[0m[33muser 3/3:  2375774597 |block 0: block_f538f6f5f751403c9138d0fa98966194| |stage 0: Instructions| nicewebrl.utils - INFO - {'message': 'Ping 8460'}
+[0m[33muser 3/3:  2375774597 |block 1: block_bfa58b3b16024a77b015e785fdcebf1b| |stage 1: GridWorld| __mp_main__ - INFO - Stage finished: GridWorld
+[0m[33muser 3/3:  2375774597 |block 3: block_bf8fc28394634db793204c0b6800a5f5| |stage 3: Debrief| __mp_main__ - INFO - Metadata saved → ./data/user_meta_2375774597.json
+[0m[33muser 3/3:  2375774597 |block 3: block_bf8fc28394634db793204c0b6800a5f5| |stage 3: Debrief| nicewebrl.utils - INFO - {'message': 'Ping 3476'}
+[0m[31muser 1/1:  2375774597 |block 3: undefined| |stage 3: undefined| nicewebrl.experiment - INFO - Block order: ['block_92badc746321401696206b25edddc4bf', 'block_a9acbfb9a8ac4384b03d5c1198155c54', 'block_9f4980cec56d468d880c51b911aa2155']
+[0m[31muser 1/1:  2375774597 |block 3: undefined| |stage 3: undefined| __mp_main__ - INFO - Metadata saved → ./data/user_meta_2375774597.json
+[0m[31muser 1/1:  2375774597 |block 3: undefined| |stage 3: undefined| nicegui - WARNING - http://localhost:8084/.well-known/appspecific/com.chrome.devtools.json not found
+[0m[31muser 1/1:  2375774597 |block 3: undefined| |stage 3: undefined| nicewebrl.utils - INFO - {'message': 'Ping 3442'}
+[0m[32muser 2/2:  3780743549 |block 0: undefined| |stage 0: undefined| nicewebrl.experiment - INFO - Block order: ['block_92badc746321401696206b25edddc4bf', 'block_a9acbfb9a8ac4384b03d5c1198155c54', 'block_9f4980cec56d468d880c51b911aa2155']
+[0m[32muser 2/2:  3780743549 |block 0: undefined| |stage 0: undefined| __mp_main__ - INFO - New episode: mode=random rule=color 'yellow'
+[0m[32muser 2/2:  3780743549 |block 0: block_92badc746321401696206b25edddc4bf| |stage 0: Instructions| nicegui - WARNING - http://localhost:8084/.well-known/appspecific/com.chrome.devtools.json not found
+[0m[32muser 2/2:  3780743549 |block 0: block_92badc746321401696206b25edddc4bf| |stage 0: Instructions| nicewebrl.utils - INFO - {'message': 'Ping 1090'}
+[0m[32muser 2/2:  3780743549 |block 1: block_a9acbfb9a8ac4384b03d5c1198155c54| |stage 1: GridWorld| nicewebrl.utils - INFO - {'message': 'Ping 1059'}
+[0m[32muser 2/2:  3780743549 |block 1: block_a9acbfb9a8ac4384b03d5c1198155c54| |stage 1: GridWorld| __mp_main__ - INFO - Stage finished: GridWorld
+[0m[32muser 2/2:  3780743549 |block 3: block_9f4980cec56d468d880c51b911aa2155| |stage 3: Debrief| __mp_main__ - INFO - Metadata saved → ./data/user_meta_3780743549.json
+[0m[33muser 3/3:  4102096243 |block 0: undefined| |stage 0: undefined| nicewebrl.experiment - INFO - Block order: ['block_92badc746321401696206b25edddc4bf', 'block_a9acbfb9a8ac4384b03d5c1198155c54', 'block_9f4980cec56d468d880c51b911aa2155']
+[0m[33muser 3/3:  4102096243 |block 0: undefined| |stage 0: undefined| __mp_main__ - INFO - New episode: mode=random rule=shape 'star'
+[0m[33muser 3/3:  4102096243 |block 0: block_92badc746321401696206b25edddc4bf| |stage 0: Instructions| nicegui - WARNING - http://localhost:8084/.well-known/appspecific/com.chrome.devtools.json not found
+[0m[33muser 3/3:  4102096243 |block 0: block_92badc746321401696206b25edddc4bf| |stage 0: Instructions| nicewebrl.utils - INFO - {'message': 'Ping 420'}
+[0m[33muser 3/3:  4102096243 |block 1: block_a9acbfb9a8ac4384b03d5c1198155c54| |stage 1: GridWorld| __mp_main__ - INFO - Stage finished: GridWorld
+[0m[33muser 3/3:  4102096243 |block 3: block_9f4980cec56d468d880c51b911aa2155| |stage 3: Debrief| __mp_main__ - INFO - Metadata saved → ./data/user_meta_4102096243.json
+[0m[33muser 3/3:  4102096243 |block 3: block_9f4980cec56d468d880c51b911aa2155| |stage 3: Debrief| nicewebrl.utils - INFO - {'message': 'Ping 7774'}
+[0m[31muser 1/1:  4054066875 |block 0: undefined| |stage 0: undefined| nicewebrl.experiment - INFO - Block order: ['block_45e7c2c182ec4a05b70d4cdc35213ed6', 'block_ff4c25ac9f9a4df28d5db38f37ec62d4', 'block_d7c29c5e5d614beab26bbbd52626407f']
+[0m[31muser 1/1:  4054066875 |block 0: undefined| |stage 0: undefined| __mp_main__ - INFO - New episode: mode=no-repeat rule=color 'green'
+[0m[31muser 1/1:  4054066875 |block 0: block_45e7c2c182ec4a05b70d4cdc35213ed6| |stage 0: Instructions| nicegui - WARNING - http://localhost:8084/.well-known/appspecific/com.chrome.devtools.json not found
+[0m[31muser 1/1:  4054066875 |block 0: block_45e7c2c182ec4a05b70d4cdc35213ed6| |stage 0: Instructions| nicewebrl.utils - INFO - {'message': 'Ping 6206'}
+[0m[31muser 1/1:  4054066875 |block 1: block_ff4c25ac9f9a4df28d5db38f37ec62d4| |stage 1: GridWorld| nicewebrl.utils - INFO - {'message': 'Ping 3652'}
+[0m[31muser 1/1:  4054066875 |block 1: block_ff4c25ac9f9a4df28d5db38f37ec62d4| |stage 1: GridWorld| __mp_main__ - INFO - Stage finished: GridWorld
+[0m[31muser 1/1:  4054066875 |block 3: block_d7c29c5e5d614beab26bbbd52626407f| |stage 3: Debrief| __mp_main__ - INFO - Metadata saved → ./data/user_meta_4054066875.json
+[0m[32muser 2/2:  1929520550 |block 0: undefined| |stage 0: undefined| nicewebrl.experiment - INFO - Block order: ['block_45e7c2c182ec4a05b70d4cdc35213ed6', 'block_ff4c25ac9f9a4df28d5db38f37ec62d4', 'block_d7c29c5e5d614beab26bbbd52626407f']
+[0m[32muser 2/2:  1929520550 |block 0: undefined| |stage 0: undefined| __mp_main__ - INFO - New episode: mode=no-repeat rule=shape 'star'
+[0m[32muser 2/2:  1929520550 |block 0: block_45e7c2c182ec4a05b70d4cdc35213ed6| |stage 0: Instructions| nicegui - WARNING - http://localhost:8084/.well-known/appspecific/com.chrome.devtools.json not found
+[0m[32muser 2/2:  1929520550 |block 0: block_45e7c2c182ec4a05b70d4cdc35213ed6| |stage 0: Instructions| nicewebrl.utils - INFO - {'message': 'Ping 509'}
+[0m[32muser 2/2:  1929520550 |block 1: block_ff4c25ac9f9a4df28d5db38f37ec62d4| |stage 1: GridWorld| nicewebrl.utils - INFO - {'message': 'Ping 5379'}
+[0m[32muser 2/2:  1929520550 |block 1: block_ff4c25ac9f9a4df28d5db38f37ec62d4| |stage 1: GridWorld| __mp_main__ - INFO - Stage finished: GridWorld
+[0m[32muser 2/2:  1929520550 |block 3: block_d7c29c5e5d614beab26bbbd52626407f| |stage 3: Debrief| __mp_main__ - INFO - Metadata saved → ./data/user_meta_1929520550.json
+[0m[32muser 2/2:  1929520550 |block 3: block_d7c29c5e5d614beab26bbbd52626407f| |stage 3: Debrief| nicewebrl.utils - INFO - {'message': 'Ping 4987'}
+[0m[31muser 1/1:  1929520550 |block 3: undefined| |stage 3: undefined| nicewebrl.experiment - INFO - Block order: ['block_4501008a6af94d2da8e718a0d808864b', 'block_b635bfcf046049e89f5f388165e645ff', 'block_669116ba36f74310a63b3ca6b9258dee']
+[0m[31muser 1/1:  1929520550 |block 3: undefined| |stage 3: undefined| __mp_main__ - INFO - Metadata saved → ./data/user_meta_1929520550.json
+[0m[31muser 1/1:  1929520550 |block 3: undefined| |stage 3: undefined| nicegui - WARNING - http://localhost:8084/.well-known/appspecific/com.chrome.devtools.json not found
+[0m[31muser 1/1:  1929520550 |block 3: undefined| |stage 3: undefined| nicewebrl.utils - INFO - {'message': 'Ping 5267'}
+[0m[32muser 2/2:  2349324358 |block 0: undefined| |stage 0: undefined| nicewebrl.experiment - INFO - Block order: ['block_4501008a6af94d2da8e718a0d808864b', 'block_b635bfcf046049e89f5f388165e645ff', 'block_669116ba36f74310a63b3ca6b9258dee']
+[0m[32muser 2/2:  2349324358 |block 0: undefined| |stage 0: undefined| __mp_main__ - INFO - New episode: mode=bijection rule=shape 'triangle'
+[0m[32muser 2/2:  2349324358 |block 0: block_4501008a6af94d2da8e718a0d808864b| |stage 0: Instructions| nicegui - WARNING - http://localhost:8084/.well-known/appspecific/com.chrome.devtools.json not found
+[0m[32muser 2/2:  2349324358 |block 0: block_4501008a6af94d2da8e718a0d808864b| |stage 0: Instructions| nicewebrl.utils - INFO - {'message': 'Ping 3819'}
+[0m[32muser 2/2:  2349324358 |block 1: block_b635bfcf046049e89f5f388165e645ff| |stage 1: GridWorld| nicewebrl.utils - INFO - {'message': 'Ping 9357'}
+[0m[32muser 2/2:  2349324358 |block 1: block_b635bfcf046049e89f5f388165e645ff| |stage 1: GridWorld| __mp_main__ - INFO - Stage finished: GridWorld
+[0m[32muser 2/2:  2349324358 |block 3: block_669116ba36f74310a63b3ca6b9258dee| |stage 3: Debrief| __mp_main__ - INFO - Metadata saved → ./data/user_meta_2349324358.json
+[0m[33muser 3/3:  1350455368 |block 0: undefined| |stage 0: undefined| nicewebrl.experiment - INFO - Block order: ['block_4501008a6af94d2da8e718a0d808864b', 'block_b635bfcf046049e89f5f388165e645ff', 'block_669116ba36f74310a63b3ca6b9258dee']
+[0m[33muser 3/3:  1350455368 |block 0: undefined| |stage 0: undefined| __mp_main__ - INFO - New episode: mode=bijection rule=shape 'star'
+[0m[33muser 3/3:  1350455368 |block 0: block_4501008a6af94d2da8e718a0d808864b| |stage 0: Instructions| nicegui - WARNING - http://localhost:8084/.well-known/appspecific/com.chrome.devtools.json not found
+[0m[33muser 3/3:  1350455368 |block 0: block_4501008a6af94d2da8e718a0d808864b| |stage 0: Instructions| nicewebrl.utils - INFO - {'message': 'Ping 3727'}
+[0m[33muser 3/3:  1350455368 |block 1: block_b635bfcf046049e89f5f388165e645ff| |stage 1: GridWorld| nicewebrl.utils - INFO - {'message': 'Ping 3066'}
+[0m[33muser 3/3:  1350455368 |block 1: block_b635bfcf046049e89f5f388165e645ff| |stage 1: GridWorld| nicewebrl.utils - INFO - {'message': 'Ping 2662'}
+[0m[33muser 3/3:  1350455368 |block 1: block_b635bfcf046049e89f5f388165e645ff| |stage 1: GridWorld| nicewebrl.utils - INFO - {'message': 'Ping 3803'}
+[0m[33muser 3/3:  1350455368 |block 1: block_b635bfcf046049e89f5f388165e645ff| |stage 1: GridWorld| nicewebrl.utils - INFO - {'message': 'Ping 1169'}
+[0m[33muser 3/3:  1350455368 |block 1: block_b635bfcf046049e89f5f388165e645ff| |stage 1: GridWorld| nicewebrl.utils - INFO - {'message': 'Ping 984'}
+[0m[33muser 3/3:  1350455368 |block 1: block_b635bfcf046049e89f5f388165e645ff| |stage 1: GridWorld| nicewebrl.utils - INFO - {'message': 'Ping 9210'}
+[0m[33muser 3/3:  1350455368 |block 1: block_b635bfcf046049e89f5f388165e645ff| |stage 1: GridWorld| nicewebrl.utils - INFO - {'message': 'Ping 5539'}
+[0m[33muser 3/3:  1350455368 |block 1: block_b635bfcf046049e89f5f388165e645ff| |stage 1: GridWorld| nicewebrl.utils - INFO - {'message': 'Ping 5652'}
+[0m[33muser 3/3:  1350455368 |block 1: block_b635bfcf046049e89f5f388165e645ff| |stage 1: GridWorld| nicewebrl.utils - INFO - {'message': 'Ping 7339'}
+[0m[33muser 3/3:  1350455368 |block 1: block_b635bfcf046049e89f5f388165e645ff| |stage 1: GridWorld| nicewebrl.utils - INFO - {'message': 'Ping 1951'}
+[0m[33muser 3/3:  1350455368 |block 1: block_b635bfcf046049e89f5f388165e645ff| |stage 1: GridWorld| nicewebrl.utils - INFO - {'message': 'Ping 8461'}
+[0m[31muser 1/1:  1350455368 |block 1: undefined| |stage 1: undefined| nicewebrl.experiment - INFO - Block order: ['block_c3c6fbb674244facb836169a0ad47bd5', 'block_9752a28545254442862c570a6e3efd84', 'block_5d66eb797ff04061b5cf892209d56e03']
+[0m[31muser 1/1:  1350455368 |block 1: block_9752a28545254442862c570a6e3efd84| |stage 1: GridWorld| nicegui - WARNING - http://localhost:8084/.well-known/appspecific/com.chrome.devtools.json not found
+[0m[31muser 1/1:  1350455368 |block 1: undefined| |stage 1: undefined| nicewebrl.experiment - INFO - Block order: ['block_107a7817578d466dbd993ffe29e57982', 'block_11afff4b3775458abb89dfdde692de66', 'block_47cab4a3024a43cab747c82dc392ef26']
+[0m[31muser 1/1:  1350455368 |block 1: block_11afff4b3775458abb89dfdde692de66| |stage 1: GridWorld| nicegui - WARNING - http://localhost:8084/.well-known/appspecific/com.chrome.devtools.json not found
+[0m[31muser 1/1:  1350455368 |block 1: block_11afff4b3775458abb89dfdde692de66| |stage 1: GridWorld| nicewebrl.utils - INFO - {'message': 'Ping 4941'}
+[0m[31muser 1/1:  1350455368 |block 1: undefined| |stage 1: undefined| nicewebrl.experiment - INFO - Block order: ['block_9eb8ad9ce9434220952f65e9d140c6ad', 'block_179221b874574727a65bdaf757ae42b7', 'block_900271e2e7124da5bc3b1717d86e564c']
+[0m[31muser 1/1:  1350455368 |block 1: block_179221b874574727a65bdaf757ae42b7| |stage 1: GridWorld| nicegui - WARNING - http://localhost:8084/.well-known/appspecific/com.chrome.devtools.json not found
+[0m[31muser 1/1:  1350455368 |block 1: block_179221b874574727a65bdaf757ae42b7| |stage 1: GridWorld| nicewebrl.utils - INFO - {'message': 'Ping 9475'}
+[0m[31muser 1/1:  1350455368 |block 1: undefined| |stage 1: undefined| nicewebrl.experiment - INFO - Block order: ['block_1adae4b2bea74517afea64316c74dcdb', 'block_ea8ddc5a79d34bf8968a013234eefd9c', 'block_2b8686727fdf41b19188271b8b02a2fb']
+[0m[31muser 1/1:  1350455368 |block 1: block_ea8ddc5a79d34bf8968a013234eefd9c| |stage 1: GridWorld| nicegui - WARNING - http://localhost:8084/.well-known/appspecific/com.chrome.devtools.json not found
+[0m[31muser 1/1:  1350455368 |block 1: block_ea8ddc5a79d34bf8968a013234eefd9c| |stage 1: GridWorld| nicewebrl.utils - INFO - {'message': 'Ping 1501'}
+[0m[31muser 1/1:  1350455368 |block 1: undefined| |stage 1: undefined| nicewebrl.experiment - INFO - Block order: ['block_09b610a33db24396b063cf5cc7b5bbe5', 'block_8f31c7520a61434ca66176bc419ea7aa', 'block_5588419dc54a48c0ac0a899b3261c3fe']
+[0m[31muser 1/1:  1350455368 |block 1: block_8f31c7520a61434ca66176bc419ea7aa| |stage 1: GridWorld| nicegui - WARNING - http://localhost:8084/.well-known/appspecific/com.chrome.devtools.json not found
+[0m[31muser 1/1:  1350455368 |block 1: block_8f31c7520a61434ca66176bc419ea7aa| |stage 1: GridWorld| nicewebrl.utils - INFO - {'message': 'Ping 9986'}
+[0m[31muser 1/1:  1350455368 |block 1: undefined| |stage 1: undefined| nicewebrl.experiment - INFO - Block order: ['block_246429d6f7ff46f29e50ff090dd74ec1', 'block_e8ccd0747bf8415da58f9992e80796c9', 'block_bd1b46fc5d754292818b230233e7c184']
+[0m[31muser 1/1:  1350455368 |block 1: block_e8ccd0747bf8415da58f9992e80796c9| |stage 1: GridWorld| nicegui - WARNING - http://localhost:8084/.well-known/appspecific/com.chrome.devtools.json not found
+[0m[31muser 1/1:  1350455368 |block 1: block_e8ccd0747bf8415da58f9992e80796c9| |stage 1: GridWorld| nicewebrl.utils - INFO - {'message': 'Ping 6139'}
+[0m[31muser 1/1:  1350455368 |block 1: undefined| |stage 1: undefined| nicewebrl.experiment - INFO - Block order: ['block_5616b2d9f3db46aab5f377bd394d28aa', 'block_3b02b703a89a40338fff04cf144b1626', 'block_8075d78302b844818bd4e6f906a6e379']
+[0m[31muser 1/1:  1350455368 |block 1: block_3b02b703a89a40338fff04cf144b1626| |stage 1: GridWorld| nicegui - WARNING - http://localhost:8084/.well-known/appspecific/com.chrome.devtools.json not found
+[0m[31muser 1/1:  1350455368 |block 1: block_3b02b703a89a40338fff04cf144b1626| |stage 1: GridWorld| nicewebrl.utils - INFO - {'message': 'Ping 8588'}
+[0m[31muser 1/1:  1350455368 |block 1: undefined| |stage 1: undefined| nicewebrl.experiment - INFO - Block order: ['block_889fd1d084c84f33b602d8c81ae33ff2', 'block_712af8df18164deab94a74db65eb1a48', 'block_cae7c363292a4db6b293fe1bcd244c85']
+[0m[31muser 1/1:  1350455368 |block 1: block_712af8df18164deab94a74db65eb1a48| |stage 1: GridWorld| nicegui - WARNING - http://localhost:8084/.well-known/appspecific/com.chrome.devtools.json not found
+[0m[31muser 1/1:  1350455368 |block 1: block_712af8df18164deab94a74db65eb1a48| |stage 1: GridWorld| nicewebrl.utils - INFO - {'message': 'Ping 5224'}
+[0m[31muser 1/1:  1350455368 |block 1: block_712af8df18164deab94a74db65eb1a48| |stage 1: GridWorld| nicewebrl.utils - INFO - {'message': 'Ping 2940'}
+[0m[31muser 1/1:  1350455368 |block 1: block_712af8df18164deab94a74db65eb1a48| |stage 1: GridWorld| nicewebrl.utils - INFO - {'message': 'Ping 7636'}
+[0m[31muser 1/1:  1350455368 |block 1: undefined| |stage 1: undefined| nicewebrl.experiment - INFO - Block order: ['block_95d384600beb4771b42f0d9f23c7dff5', 'block_e0ddb87432f3407face2b3358ef65df9', 'block_6836243e79104ffab8b27714fa41f013']
+[0m[31muser 1/1:  1350455368 |block 1: block_e0ddb87432f3407face2b3358ef65df9| |stage 1: GridWorld| nicegui - WARNING - http://localhost:8084/.well-known/appspecific/com.chrome.devtools.json not found
+[0m[31muser 1/1:  1350455368 |block 1: block_e0ddb87432f3407face2b3358ef65df9| |stage 1: GridWorld| nicewebrl.utils - INFO - {'message': 'Ping 7975'}
+[0m[31muser 1/1:  1350455368 |block 1: undefined| |stage 1: undefined| nicewebrl.experiment - INFO - Block order: ['block_5392a743d9e84e98bc2b0f914f89c54c', 'block_e9913ff9b75a436ca2d55747081388b7', 'block_7f46f03ef51146329291b12a7ff292b5']
+[0m[31muser 1/1:  1350455368 |block 1: block_e9913ff9b75a436ca2d55747081388b7| |stage 1: GridWorld| nicegui - WARNING - http://localhost:8084/.well-known/appspecific/com.chrome.devtools.json not found
+[0m[31muser 1/1:  1350455368 |block 1: block_e9913ff9b75a436ca2d55747081388b7| |stage 1: GridWorld| nicewebrl.utils - INFO - {'message': 'Ping 6369'}
+[0m[31muser 1/1:  1350455368 |block 1: undefined| |stage 1: undefined| nicewebrl.experiment - INFO - Block order: ['block_be4b46166ae84d25a123bbaa665af77e', 'block_8f2e194806244c3bacfdcf2b4c95ec58', 'block_a1c2393d595b428aa54d88d882c2983e']
+[0m[31muser 1/1:  1350455368 |block 1: block_8f2e194806244c3bacfdcf2b4c95ec58| |stage 1: GridWorld| nicegui - WARNING - http://localhost:8084/.well-known/appspecific/com.chrome.devtools.json not found
+[0m[31muser 1/1:  1350455368 |block 1: block_8f2e194806244c3bacfdcf2b4c95ec58| |stage 1: GridWorld| nicewebrl.utils - INFO - {'message': 'Ping 4145'}
+[0m[32muser 2/2:  3284551260 |block 0: undefined| |stage 0: undefined| nicewebrl.experiment - INFO - Block order: ['block_be4b46166ae84d25a123bbaa665af77e', 'block_8f2e194806244c3bacfdcf2b4c95ec58', 'block_a1c2393d595b428aa54d88d882c2983e']
+[0m[32muser 2/2:  3284551260 |block 0: undefined| |stage 0: undefined| __mp_main__ - INFO - New episode: mode=no-repeat rule=color 'green'
+[0m[32muser 2/2:  3284551260 |block 0: block_be4b46166ae84d25a123bbaa665af77e| |stage 0: Instructions| nicegui - WARNING - http://localhost:8084/.well-known/appspecific/com.chrome.devtools.json not found
+[0m[32muser 2/2:  3284551260 |block 0: block_be4b46166ae84d25a123bbaa665af77e| |stage 0: Instructions| nicewebrl.utils - INFO - {'message': 'Ping 7545'}
+[0m[32muser 2/2:  3284551260 |block 1: block_8f2e194806244c3bacfdcf2b4c95ec58| |stage 1: GridWorld| nicewebrl.utils - INFO - {'message': 'Ping 7299'}
+[0m[32muser 2/2:  3284551260 |block 1: block_8f2e194806244c3bacfdcf2b4c95ec58| |stage 1: GridWorld| __mp_main__ - INFO - Stage finished: GridWorld
+[0m[32muser 2/2:  3284551260 |block 3: block_a1c2393d595b428aa54d88d882c2983e| |stage 3: Debrief| __mp_main__ - INFO - Metadata saved → ./data/user_meta_3284551260.json
+[0m[33muser 3/3:  875660577 |block 0: undefined| |stage 0: undefined| nicewebrl.experiment - INFO - Block order: ['block_be4b46166ae84d25a123bbaa665af77e', 'block_8f2e194806244c3bacfdcf2b4c95ec58', 'block_a1c2393d595b428aa54d88d882c2983e']
+[0m[33muser 3/3:  875660577 |block 0: undefined| |stage 0: undefined| __mp_main__ - INFO - New episode: mode=no-repeat rule=color 'blue'
+[0m[33muser 3/3:  875660577 |block 0: block_be4b46166ae84d25a123bbaa665af77e| |stage 0: Instructions| nicegui - WARNING - http://localhost:8084/.well-known/appspecific/com.chrome.devtools.json not found
+[0m[33muser 3/3:  875660577 |block 0: block_be4b46166ae84d25a123bbaa665af77e| |stage 0: Instructions| nicewebrl.utils - INFO - {'message': 'Ping 7255'}
+[0m[33muser 3/3:  875660577 |block 1: block_8f2e194806244c3bacfdcf2b4c95ec58| |stage 1: GridWorld| nicewebrl.utils - INFO - {'message': 'Ping 5375'}
+[0m[33muser 3/3:  875660577 |block 1: block_8f2e194806244c3bacfdcf2b4c95ec58| |stage 1: GridWorld| __mp_main__ - INFO - Stage finished: GridWorld
+[0m[33muser 3/3:  875660577 |block 3: block_a1c2393d595b428aa54d88d882c2983e| |stage 3: Debrief| __mp_main__ - INFO - Metadata saved → ./data/user_meta_875660577.json
+[0m[31muser 1/1:  1559327732 |block 3: undefined| |stage 3: undefined| nicewebrl.experiment - INFO - Block order: ['block_e0526557a36649d28598383bb2e232ed', 'block_7301b358a9c141b89a4bc326f4e47752', 'block_8fba2d4463c7461581797aae0ba8c7a9']
+[0m[31muser 1/1:  1559327732 |block 3: undefined| |stage 3: undefined| nicegui - ERROR - 'goals'
+  + Exception Group Traceback (most recent call last):
+  |   File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/starlette/_utils.py", line 85, in create_collapsing_task_group
+  |     async with anyio.create_task_group() as tg:
+  |   File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/anyio/_backends/_asyncio.py", line 799, in __aexit__
+  |     raise BaseExceptionGroup(
+  | ExceptionGroup: unhandled errors in a TaskGroup (1 sub-exception)
+  +-+---------------- 1 ----------------
+    | Traceback (most recent call last):
+    |   File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/starlette/middleware/errors.py", line 164, in __call__
+    |     await self.app(scope, receive, _send)
+    |   File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/starlette/middleware/sessions.py", line 88, in __call__
+    |     await self.app(scope, receive, send_wrapper)
+    |   File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/starlette/middleware/base.py", line 193, in __call__
+    |     response = await self.dispatch_func(request, call_next)
+    |                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    |   File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/nicegui/storage.py", line 39, in dispatch
+    |     response = await call_next(request)
+    |                ^^^^^^^^^^^^^^^^^^^^^^^^
+    |   File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/starlette/middleware/base.py", line 168, in call_next
+    |     raise app_exc from app_exc.__cause__ or app_exc.__context__
+    |   File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/starlette/middleware/base.py", line 144, in coro
+    |     await self.app(scope, receive_or_disconnect, send_no_error)
+    |   File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/starlette/middleware/base.py", line 193, in __call__
+    |     response = await self.dispatch_func(request, call_next)
+    |                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    |   File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/nicegui/middlewares.py", line 23, in dispatch
+    |     response = await call_next(request)
+    |                ^^^^^^^^^^^^^^^^^^^^^^^^
+    |   File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/starlette/middleware/base.py", line 168, in call_next
+    |     raise app_exc from app_exc.__cause__ or app_exc.__context__
+    |   File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/starlette/middleware/base.py", line 144, in coro
+    |     await self.app(scope, receive_or_disconnect, send_no_error)
+    |   File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/starlette/middleware/base.py", line 193, in __call__
+    |     response = await self.dispatch_func(request, call_next)
+    |                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    |   File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/nicegui/middlewares.py", line 13, in dispatch
+    |     response = await call_next(request)
+    |                ^^^^^^^^^^^^^^^^^^^^^^^^
+    |   File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/starlette/middleware/base.py", line 168, in call_next
+    |     raise app_exc from app_exc.__cause__ or app_exc.__context__
+    |   File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/starlette/middleware/base.py", line 144, in coro
+    |     await self.app(scope, receive_or_disconnect, send_no_error)
+    |   File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/starlette/middleware/gzip.py", line 29, in __call__
+    |     await responder(scope, receive, send)
+    |   File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/starlette/middleware/gzip.py", line 130, in __call__
+    |     await super().__call__(scope, receive, send)
+    |   File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/starlette/middleware/gzip.py", line 46, in __call__
+    |     await self.app(scope, receive, self.send_with_compression)
+    |   File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/starlette/middleware/exceptions.py", line 63, in __call__
+    |     await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+    |   File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    |     raise exc
+    |   File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    |     await app(scope, receive, sender)
+    |   File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/fastapi/middleware/asyncexitstack.py", line 18, in __call__
+    |     await self.app(scope, receive, send)
+    |   File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/starlette/routing.py", line 660, in __call__
+    |     await self.middleware_stack(scope, receive, send)
+    |   File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/starlette/routing.py", line 680, in app
+    |     await route.handle(scope, receive, send)
+    |   File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/starlette/routing.py", line 276, in handle
+    |     await self.app(scope, receive, send)
+    |   File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/fastapi/routing.py", line 134, in app
+    |     await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+    |   File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    |     raise exc
+    |   File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    |     await app(scope, receive, sender)
+    |   File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/fastapi/routing.py", line 120, in app
+    |     response = await f(request)
+    |                ^^^^^^^^^^^^^^^^
+    |   File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/fastapi/routing.py", line 674, in app
+    |     raw_response = await run_endpoint_function(
+    |                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    |   File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/fastapi/routing.py", line 328, in run_endpoint_function
+    |     return await dependant.call(**values)
+    |            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    |   File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/nicegui/page.py", line 199, in decorated
+    |     result = task.result()
+    |              ^^^^^^^^^^^^^
+    |   File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/nicegui/page.py", line 180, in wait_for_result
+    |     return create_500_error_page(e, request)
+    |            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    |   File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/nicegui/page.py", line 140, in create_500_error_page
+    |     raise e
+    |   File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/nicegui/page.py", line 177, in wait_for_result
+    |     return await result
+    |            ^^^^^^^^^^^^
+    |   File "/Users/km6297/Library/Mobile Documents/com~apple~CloudDocs/Desktop/projects/psrl/psrl-experiments/fourroom_concept/web_app.py", line 284, in index
+    |     await start_experiment(meta_container, stage_container)
+    |   File "/Users/km6297/Library/Mobile Documents/com~apple~CloudDocs/Desktop/projects/psrl/psrl-experiments/fourroom_concept/web_app.py", line 202, in start_experiment
+    |     await finish_experiment(meta_container)
+    |   File "/Users/km6297/Library/Mobile Documents/com~apple~CloudDocs/Desktop/projects/psrl/psrl-experiments/fourroom_concept/web_app.py", line 221, in finish_experiment
+    |     "mazes": [
+    |              ^
+    |   File "/Users/km6297/Library/Mobile Documents/com~apple~CloudDocs/Desktop/projects/psrl/psrl-experiments/fourroom_concept/web_app.py", line 226, in <listcomp>
+    |     "goals":          m["goals"],
+    |                       ~^^^^^^^^^
+    | KeyError: 'goals'
+    +------------------------------------
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/starlette/middleware/errors.py", line 164, in __call__
+    await self.app(scope, receive, _send)
+  File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/starlette/middleware/sessions.py", line 88, in __call__
+    await self.app(scope, receive, send_wrapper)
+  File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/starlette/middleware/base.py", line 193, in __call__
+    response = await self.dispatch_func(request, call_next)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/nicegui/storage.py", line 39, in dispatch
+    response = await call_next(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/starlette/middleware/base.py", line 168, in call_next
+    raise app_exc from app_exc.__cause__ or app_exc.__context__
+  File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/starlette/middleware/base.py", line 144, in coro
+    await self.app(scope, receive_or_disconnect, send_no_error)
+  File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/starlette/middleware/base.py", line 193, in __call__
+    response = await self.dispatch_func(request, call_next)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/nicegui/middlewares.py", line 23, in dispatch
+    response = await call_next(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/starlette/middleware/base.py", line 168, in call_next
+    raise app_exc from app_exc.__cause__ or app_exc.__context__
+  File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/starlette/middleware/base.py", line 144, in coro
+    await self.app(scope, receive_or_disconnect, send_no_error)
+  File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/starlette/middleware/base.py", line 193, in __call__
+    response = await self.dispatch_func(request, call_next)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/nicegui/middlewares.py", line 13, in dispatch
+    response = await call_next(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/starlette/middleware/base.py", line 168, in call_next
+    raise app_exc from app_exc.__cause__ or app_exc.__context__
+  File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/starlette/middleware/base.py", line 144, in coro
+    await self.app(scope, receive_or_disconnect, send_no_error)
+  File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/starlette/middleware/gzip.py", line 29, in __call__
+    await responder(scope, receive, send)
+  File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/starlette/middleware/gzip.py", line 130, in __call__
+    await super().__call__(scope, receive, send)
+  File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/starlette/middleware/gzip.py", line 46, in __call__
+    await self.app(scope, receive, self.send_with_compression)
+  File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/starlette/middleware/exceptions.py", line 63, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/fastapi/middleware/asyncexitstack.py", line 18, in __call__
+    await self.app(scope, receive, send)
+  File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/starlette/routing.py", line 660, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/starlette/routing.py", line 680, in app
+    await route.handle(scope, receive, send)
+  File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/starlette/routing.py", line 276, in handle
+    await self.app(scope, receive, send)
+  File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/fastapi/routing.py", line 134, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/fastapi/routing.py", line 120, in app
+    response = await f(request)
+               ^^^^^^^^^^^^^^^^
+  File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/fastapi/routing.py", line 674, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/fastapi/routing.py", line 328, in run_endpoint_function
+    return await dependant.call(**values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/nicegui/page.py", line 199, in decorated
+    result = task.result()
+             ^^^^^^^^^^^^^
+  File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/nicegui/page.py", line 180, in wait_for_result
+    return create_500_error_page(e, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/nicegui/page.py", line 140, in create_500_error_page
+    raise e
+  File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/nicegui/page.py", line 177, in wait_for_result
+    return await result
+           ^^^^^^^^^^^^
+  File "/Users/km6297/Library/Mobile Documents/com~apple~CloudDocs/Desktop/projects/psrl/psrl-experiments/fourroom_concept/web_app.py", line 284, in index
+    await start_experiment(meta_container, stage_container)
+  File "/Users/km6297/Library/Mobile Documents/com~apple~CloudDocs/Desktop/projects/psrl/psrl-experiments/fourroom_concept/web_app.py", line 202, in start_experiment
+    await finish_experiment(meta_container)
+  File "/Users/km6297/Library/Mobile Documents/com~apple~CloudDocs/Desktop/projects/psrl/psrl-experiments/fourroom_concept/web_app.py", line 221, in finish_experiment
+    "mazes": [
+             ^
+  File "/Users/km6297/Library/Mobile Documents/com~apple~CloudDocs/Desktop/projects/psrl/psrl-experiments/fourroom_concept/web_app.py", line 226, in <listcomp>
+    "goals":          m["goals"],
+                      ~^^^^^^^^^
+KeyError: 'goals'
+[0m[31muser 1/1:  1559327732 |block 3: undefined| |stage 3: undefined| nicewebrl.experiment - INFO - Block order: ['block_a5e7b50f410441d3b8bd8820ffae0e1f', 'block_269e14fbbc004a8aa96a077336b16c11', 'block_c3677ac35d9449f18abdb25b809af48e']
+[0m[31muser 1/1:  1559327732 |block 3: undefined| |stage 3: undefined| nicegui - ERROR - 'goals'
+  + Exception Group Traceback (most recent call last):
+  |   File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/starlette/_utils.py", line 85, in create_collapsing_task_group
+  |     async with anyio.create_task_group() as tg:
+  |   File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/anyio/_backends/_asyncio.py", line 799, in __aexit__
+  |     raise BaseExceptionGroup(
+  | ExceptionGroup: unhandled errors in a TaskGroup (1 sub-exception)
+  +-+---------------- 1 ----------------
+    | Traceback (most recent call last):
+    |   File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/starlette/middleware/errors.py", line 164, in __call__
+    |     await self.app(scope, receive, _send)
+    |   File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/starlette/middleware/sessions.py", line 88, in __call__
+    |     await self.app(scope, receive, send_wrapper)
+    |   File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/starlette/middleware/base.py", line 193, in __call__
+    |     response = await self.dispatch_func(request, call_next)
+    |                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    |   File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/nicegui/storage.py", line 39, in dispatch
+    |     response = await call_next(request)
+    |                ^^^^^^^^^^^^^^^^^^^^^^^^
+    |   File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/starlette/middleware/base.py", line 168, in call_next
+    |     raise app_exc from app_exc.__cause__ or app_exc.__context__
+    |   File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/starlette/middleware/base.py", line 144, in coro
+    |     await self.app(scope, receive_or_disconnect, send_no_error)
+    |   File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/starlette/middleware/base.py", line 193, in __call__
+    |     response = await self.dispatch_func(request, call_next)
+    |                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    |   File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/nicegui/middlewares.py", line 23, in dispatch
+    |     response = await call_next(request)
+    |                ^^^^^^^^^^^^^^^^^^^^^^^^
+    |   File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/starlette/middleware/base.py", line 168, in call_next
+    |     raise app_exc from app_exc.__cause__ or app_exc.__context__
+    |   File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/starlette/middleware/base.py", line 144, in coro
+    |     await self.app(scope, receive_or_disconnect, send_no_error)
+    |   File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/starlette/middleware/base.py", line 193, in __call__
+    |     response = await self.dispatch_func(request, call_next)
+    |                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    |   File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/nicegui/middlewares.py", line 13, in dispatch
+    |     response = await call_next(request)
+    |                ^^^^^^^^^^^^^^^^^^^^^^^^
+    |   File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/starlette/middleware/base.py", line 168, in call_next
+    |     raise app_exc from app_exc.__cause__ or app_exc.__context__
+    |   File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/starlette/middleware/base.py", line 144, in coro
+    |     await self.app(scope, receive_or_disconnect, send_no_error)
+    |   File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/starlette/middleware/gzip.py", line 29, in __call__
+    |     await responder(scope, receive, send)
+    |   File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/starlette/middleware/gzip.py", line 130, in __call__
+    |     await super().__call__(scope, receive, send)
+    |   File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/starlette/middleware/gzip.py", line 46, in __call__
+    |     await self.app(scope, receive, self.send_with_compression)
+    |   File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/starlette/middleware/exceptions.py", line 63, in __call__
+    |     await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+    |   File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    |     raise exc
+    |   File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    |     await app(scope, receive, sender)
+    |   File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/fastapi/middleware/asyncexitstack.py", line 18, in __call__
+    |     await self.app(scope, receive, send)
+    |   File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/starlette/routing.py", line 660, in __call__
+    |     await self.middleware_stack(scope, receive, send)
+    |   File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/starlette/routing.py", line 680, in app
+    |     await route.handle(scope, receive, send)
+    |   File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/starlette/routing.py", line 276, in handle
+    |     await self.app(scope, receive, send)
+    |   File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/fastapi/routing.py", line 134, in app
+    |     await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+    |   File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    |     raise exc
+    |   File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    |     await app(scope, receive, sender)
+    |   File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/fastapi/routing.py", line 120, in app
+    |     response = await f(request)
+    |                ^^^^^^^^^^^^^^^^
+    |   File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/fastapi/routing.py", line 674, in app
+    |     raw_response = await run_endpoint_function(
+    |                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    |   File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/fastapi/routing.py", line 328, in run_endpoint_function
+    |     return await dependant.call(**values)
+    |            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    |   File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/nicegui/page.py", line 199, in decorated
+    |     result = task.result()
+    |              ^^^^^^^^^^^^^
+    |   File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/nicegui/page.py", line 180, in wait_for_result
+    |     return create_500_error_page(e, request)
+    |            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    |   File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/nicegui/page.py", line 140, in create_500_error_page
+    |     raise e
+    |   File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/nicegui/page.py", line 177, in wait_for_result
+    |     return await result
+    |            ^^^^^^^^^^^^
+    |   File "/Users/km6297/Library/Mobile Documents/com~apple~CloudDocs/Desktop/projects/psrl/psrl-experiments/fourroom_concept/web_app.py", line 284, in index
+    |     await start_experiment(meta_container, stage_container)
+    |   File "/Users/km6297/Library/Mobile Documents/com~apple~CloudDocs/Desktop/projects/psrl/psrl-experiments/fourroom_concept/web_app.py", line 202, in start_experiment
+    |     await finish_experiment(meta_container)
+    |   File "/Users/km6297/Library/Mobile Documents/com~apple~CloudDocs/Desktop/projects/psrl/psrl-experiments/fourroom_concept/web_app.py", line 221, in finish_experiment
+    |     "mazes": [
+    |              ^
+    |   File "/Users/km6297/Library/Mobile Documents/com~apple~CloudDocs/Desktop/projects/psrl/psrl-experiments/fourroom_concept/web_app.py", line 226, in <listcomp>
+    |     "goals":          m["goals"],
+    |                       ~^^^^^^^^^
+    | KeyError: 'goals'
+    +------------------------------------
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/starlette/middleware/errors.py", line 164, in __call__
+    await self.app(scope, receive, _send)
+  File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/starlette/middleware/sessions.py", line 88, in __call__
+    await self.app(scope, receive, send_wrapper)
+  File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/starlette/middleware/base.py", line 193, in __call__
+    response = await self.dispatch_func(request, call_next)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/nicegui/storage.py", line 39, in dispatch
+    response = await call_next(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/starlette/middleware/base.py", line 168, in call_next
+    raise app_exc from app_exc.__cause__ or app_exc.__context__
+  File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/starlette/middleware/base.py", line 144, in coro
+    await self.app(scope, receive_or_disconnect, send_no_error)
+  File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/starlette/middleware/base.py", line 193, in __call__
+    response = await self.dispatch_func(request, call_next)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/nicegui/middlewares.py", line 23, in dispatch
+    response = await call_next(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/starlette/middleware/base.py", line 168, in call_next
+    raise app_exc from app_exc.__cause__ or app_exc.__context__
+  File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/starlette/middleware/base.py", line 144, in coro
+    await self.app(scope, receive_or_disconnect, send_no_error)
+  File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/starlette/middleware/base.py", line 193, in __call__
+    response = await self.dispatch_func(request, call_next)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/nicegui/middlewares.py", line 13, in dispatch
+    response = await call_next(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/starlette/middleware/base.py", line 168, in call_next
+    raise app_exc from app_exc.__cause__ or app_exc.__context__
+  File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/starlette/middleware/base.py", line 144, in coro
+    await self.app(scope, receive_or_disconnect, send_no_error)
+  File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/starlette/middleware/gzip.py", line 29, in __call__
+    await responder(scope, receive, send)
+  File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/starlette/middleware/gzip.py", line 130, in __call__
+    await super().__call__(scope, receive, send)
+  File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/starlette/middleware/gzip.py", line 46, in __call__
+    await self.app(scope, receive, self.send_with_compression)
+  File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/starlette/middleware/exceptions.py", line 63, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/fastapi/middleware/asyncexitstack.py", line 18, in __call__
+    await self.app(scope, receive, send)
+  File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/starlette/routing.py", line 660, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/starlette/routing.py", line 680, in app
+    await route.handle(scope, receive, send)
+  File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/starlette/routing.py", line 276, in handle
+    await self.app(scope, receive, send)
+  File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/fastapi/routing.py", line 134, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/fastapi/routing.py", line 120, in app
+    response = await f(request)
+               ^^^^^^^^^^^^^^^^
+  File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/fastapi/routing.py", line 674, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/fastapi/routing.py", line 328, in run_endpoint_function
+    return await dependant.call(**values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/nicegui/page.py", line 199, in decorated
+    result = task.result()
+             ^^^^^^^^^^^^^
+  File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/nicegui/page.py", line 180, in wait_for_result
+    return create_500_error_page(e, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/nicegui/page.py", line 140, in create_500_error_page
+    raise e
+  File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/nicegui/page.py", line 177, in wait_for_result
+    return await result
+           ^^^^^^^^^^^^
+  File "/Users/km6297/Library/Mobile Documents/com~apple~CloudDocs/Desktop/projects/psrl/psrl-experiments/fourroom_concept/web_app.py", line 284, in index
+    await start_experiment(meta_container, stage_container)
+  File "/Users/km6297/Library/Mobile Documents/com~apple~CloudDocs/Desktop/projects/psrl/psrl-experiments/fourroom_concept/web_app.py", line 202, in start_experiment
+    await finish_experiment(meta_container)
+  File "/Users/km6297/Library/Mobile Documents/com~apple~CloudDocs/Desktop/projects/psrl/psrl-experiments/fourroom_concept/web_app.py", line 221, in finish_experiment
+    "mazes": [
+             ^
+  File "/Users/km6297/Library/Mobile Documents/com~apple~CloudDocs/Desktop/projects/psrl/psrl-experiments/fourroom_concept/web_app.py", line 226, in <listcomp>
+    "goals":          m["goals"],
+                      ~^^^^^^^^^
+KeyError: 'goals'
+[0m[31muser 1/1:  1559327732 |block 3: undefined| |stage 3: undefined| nicewebrl.experiment - INFO - Block order: ['block_80639b0fae184c86bd700e25e557bde7', 'block_f0b82982721642c7b72e83eea185de6c', 'block_f5d4d2b84bfb4862aeaf28ab50634b9d']
+[0m[31muser 1/1:  1559327732 |block 3: undefined| |stage 3: undefined| __mp_main__ - INFO - Discarding stale session state (old format)
+[0m[31muser 1/1:  1559327732 |block 3: undefined| |stage 3: undefined| __mp_main__ - INFO - New episode: mode=no-repeat dims=['shape', 'color'] n_kinds={'shape': 4, 'color': 4} n_goals=4 rule=color='yellow'
+[0m[31muser 1/1:  1559327732 |block 3: undefined| |stage 3: undefined| __mp_main__ - INFO - Metadata saved → ./data/user_meta_1559327732.json
+[0m[31muser 1/1:  1559327732 |block 3: undefined| |stage 3: undefined| nicewebrl.utils - INFO - {'message': 'Ping 6367'}
+[0m[31muser 1/1:  1559327732 |block 3: undefined| |stage 3: undefined| nicewebrl.experiment - INFO - Block order: ['block_96ce13d72b60490cbe93a0f7343bd9e4', 'block_9cae742ca0c34e75a35d12605b87d6c7', 'block_ff4b60a056fe4e2dbae48cef5cc8bf03']
+[0m[31muser 1/1:  1559327732 |block 3: undefined| |stage 3: undefined| __mp_main__ - INFO - Metadata saved → ./data/user_meta_1559327732.json
+[0m[31muser 1/1:  1559327732 |block 3: undefined| |stage 3: undefined| nicewebrl.utils - INFO - {'message': 'Ping 8475'}
+[0m[31muser 1/1:  1559327732 |block 3: undefined| |stage 3: undefined| nicegui - WARNING - http://localhost:8084/.well-known/appspecific/com.chrome.devtools.json not found
+[0m[31muser 1/1:  3858997253 |block 0: undefined| |stage 0: undefined| nicewebrl.experiment - INFO - Block order: ['block_3b5fe47620ed43a18f16062c8f422c0b', 'block_e3bda88717644b62b6f1f0055dc03541', 'block_dcd863529ddf420da2f64c1a5a3eb3d1']
+[0m[31muser 1/1:  3858997253 |block 0: undefined| |stage 0: undefined| __mp_main__ - INFO - New episode: mode=no-repeat dims=['shape', 'color'] n_kinds={'shape': 4, 'color': 4} n_goals=4 rule=shape='star'
+[0m[31muser 1/1:  3858997253 |block 0: block_3b5fe47620ed43a18f16062c8f422c0b| |stage 0: Instructions| nicegui - WARNING - http://localhost:8084/.well-known/appspecific/com.chrome.devtools.json not found
+[0m[31muser 1/1:  3858997253 |block 0: block_3b5fe47620ed43a18f16062c8f422c0b| |stage 0: Instructions| nicewebrl.utils - INFO - {'message': 'Ping 1917'}
+[0m[32muser 2/2:  1777104247 |block 0: undefined| |stage 0: undefined| nicewebrl.experiment - INFO - Block order: ['block_3b5fe47620ed43a18f16062c8f422c0b', 'block_e3bda88717644b62b6f1f0055dc03541', 'block_dcd863529ddf420da2f64c1a5a3eb3d1']
+[0m[32muser 2/2:  1777104247 |block 0: undefined| |stage 0: undefined| __mp_main__ - INFO - New episode: mode=no-repeat dims=['shape', 'color'] n_kinds={'shape': 4, 'color': 4} n_goals=4 rule=shape='triangle'
+[0m[32muser 2/2:  1777104247 |block 0: block_3b5fe47620ed43a18f16062c8f422c0b| |stage 0: Instructions| nicegui - WARNING - http://localhost:8084/.well-known/appspecific/com.chrome.devtools.json not found
+[0m[32muser 2/2:  1777104247 |block 0: block_3b5fe47620ed43a18f16062c8f422c0b| |stage 0: Instructions| nicewebrl.utils - INFO - {'message': 'Ping 7455'}
+[0m[32muser 2/2:  1777104247 |block 1: block_e3bda88717644b62b6f1f0055dc03541| |stage 1: GridWorld| nicewebrl.utils - INFO - {'message': 'Ping 2872'}
+[0m[32muser 2/2:  1777104247 |block 1: block_e3bda88717644b62b6f1f0055dc03541| |stage 1: GridWorld| __mp_main__ - INFO - Stage finished: GridWorld
+[0m[32muser 2/2:  1777104247 |block 3: block_dcd863529ddf420da2f64c1a5a3eb3d1| |stage 3: Debrief| __mp_main__ - INFO - Metadata saved → ./data/user_meta_1777104247.json
+[0m[32muser 2/2:  1777104247 |block 3: block_dcd863529ddf420da2f64c1a5a3eb3d1| |stage 3: Debrief| nicewebrl.utils - INFO - {'message': 'Ping 92'}
+[0m[31muser 1/2:  3858997253 |block 0: block_3b5fe47620ed43a18f16062c8f422c0b| |stage 0: Instructions| nicewebrl.utils - ERROR - 0. Task was cancelled. Cleaning up and retrying...
+[0m[31muser 1/2:  3858997253 |block 0: block_3b5fe47620ed43a18f16062c8f422c0b| |stage 0: Instructions| nicewebrl.utils - ERROR - Error: ''
+[0m[31muser 1/2:  3858997253 |block 0: block_3b5fe47620ed43a18f16062c8f422c0b| |stage 0: Instructions| nicegui - WARNING - Client has been deleted but is still being used. This is most likely a bug in your application code. See https://github.com/zauberzeug/nicegui/issues/3028 for more information.
+Stack (most recent call last):
+  File "<string>", line 1, in <module>
+  File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/multiprocessing/spawn.py", line 122, in spawn_main
+    exitcode = _main(fd, parent_sentinel)
+  File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/multiprocessing/spawn.py", line 135, in _main
+    return self._bootstrap(parent_sentinel)
+  File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/multiprocessing/process.py", line 314, in _bootstrap
+    self.run()
+  File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/uvicorn/_subprocess.py", line 80, in subprocess_started
+    target(sockets=sockets)
+  File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/nicegui/server.py", line 45, in run
+    super().run(sockets=sockets)
+  File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/uvicorn/server.py", line 75, in run
+    return asyncio_run(self.serve(sockets=sockets), loop_factory=self.config.get_loop_factory())
+  File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/uvicorn/_compat.py", line 30, in asyncio_run
+    return runner.run(main)
+  File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/asyncio/runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+  File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/nicegui/page.py", line 177, in wait_for_result
+    return await result
+  File "/Users/km6297/Library/Mobile Documents/com~apple~CloudDocs/Desktop/projects/psrl/psrl-experiments/fourroom_concept/web_app.py", line 292, in index
+    await start_experiment(meta_container, stage_container)
+  File "/Users/km6297/Library/Mobile Documents/com~apple~CloudDocs/Desktop/projects/psrl/psrl-experiments/fourroom_concept/web_app.py", line 206, in start_experiment
+    await run_stage(stage, stage_container)
+  File "/Users/km6297/Library/Mobile Documents/com~apple~CloudDocs/Desktop/projects/psrl/psrl-experiments/fourroom_concept/web_app.py", line 167, in run_stage
+    await wait_for_button_or_keypress(button)
+  File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/nicewebrl/utils.py", line 128, in wait_for_button_or_keypress
+    keyboard.delete()
+  File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/nicegui/element.py", line 547, in delete
+    parent_slot.parent.remove(self)
+  File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/nicegui/element.py", line 537, in remove
+    self.client.remove_elements(element.descendants(include_self=True))
+  File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/nicegui/client.py", line 403, in remove_elements
+    self.outbox.enqueue_delete(element)
+  File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/nicegui/outbox.py", line 71, in enqueue_delete
+    self.client.check_existence()
+  File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/nicegui/client.py", line 444, in check_existence
+    helpers.warn_once('Client has been deleted but is still being used. '
+  File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/nicegui/helpers/warnings.py", line 9, in warn_once
+    log.warning(message, stack_info=stack_info)
+[0m[31muser 1/2:  3858997253 |block 0: block_3b5fe47620ed43a18f16062c8f422c0b| |stage 0: Instructions| nicewebrl.utils - ERROR - 0. Error deleting keyboard: 'list.remove(x): x not in list'
+[0m[31muser 1/2:  3858997253 |block 0: block_3b5fe47620ed43a18f16062c8f422c0b| |stage 0: Instructions| nicewebrl.utils - ERROR - 0. Task was cancelled. Cleaning up and retrying...
+[0m[31muser 1/2:  3858997253 |block 0: block_3b5fe47620ed43a18f16062c8f422c0b| |stage 0: Instructions| nicewebrl.utils - ERROR - Error: ''
+[0m[31muser 1/1:  2910511347 |block 0: undefined| |stage 0: undefined| nicewebrl.experiment - INFO - Block order: ['block_3d34e202d30a43efaed12c4b6a9c78f7', 'block_0bb2aa287e844b9c8cb345e46f002549', 'block_953c410a8dd3475c97aed5bfc6c8bdb1']
+[0m[31muser 1/1:  2910511347 |block 0: undefined| |stage 0: undefined| __mp_main__ - INFO - New episode: mode=no-repeat dims=['shape', 'color', 'texture'] n_kinds={'shape': 4, 'color': 4, 'texture': 4} n_goals=4 rule=texture='solid'
+[0m[31muser 1/1:  2910511347 |block 0: block_3d34e202d30a43efaed12c4b6a9c78f7| |stage 0: Instructions| nicegui - WARNING - http://localhost:8084/.well-known/appspecific/com.chrome.devtools.json not found
+[0m[31muser 1/1:  2910511347 |block 0: block_3d34e202d30a43efaed12c4b6a9c78f7| |stage 0: Instructions| nicewebrl.utils - INFO - {'message': 'Ping 6235'}
+[0m[31muser 1/1:  2910511347 |block 1: block_0bb2aa287e844b9c8cb345e46f002549| |stage 1: GridWorld| nicewebrl.utils - INFO - {'message': 'Ping 9160'}
+[0m[31muser 1/1:  2910511347 |block 1: block_0bb2aa287e844b9c8cb345e46f002549| |stage 1: GridWorld| nicewebrl.utils - INFO - {'message': 'Ping 3007'}
+[0m[31muser 1/1:  2910511347 |block 1: block_0bb2aa287e844b9c8cb345e46f002549| |stage 1: GridWorld| nicewebrl.utils - INFO - {'message': 'Ping 6697'}
+[0m[31muser 1/1:  2910511347 |block 1: block_0bb2aa287e844b9c8cb345e46f002549| |stage 1: GridWorld| __mp_main__ - INFO - Stage finished: GridWorld
+[0m[31muser 1/1:  2910511347 |block 3: block_953c410a8dd3475c97aed5bfc6c8bdb1| |stage 3: Debrief| __mp_main__ - INFO - Metadata saved → ./data/user_meta_2910511347.json
+[0m[31muser 1/1:  2910511347 |block 3: undefined| |stage 3: undefined| nicewebrl.experiment - INFO - Block order: ['block_e13f1040c64e40ce822e490d8426f388', 'block_38b84cd4c9e147e7a39586b8e1724345', 'block_3689142b105d49ca9020ebd0baab0100']
+[0m[31muser 1/1:  2910511347 |block 3: undefined| |stage 3: undefined| __mp_main__ - INFO - Metadata saved → ./data/user_meta_2910511347.json
+[0m[31muser 1/1:  2910511347 |block 3: undefined| |stage 3: undefined| nicewebrl.utils - INFO - {'message': 'Ping 7659'}
+[0m[31muser 1/1:  2910511347 |block 3: undefined| |stage 3: undefined| nicegui - WARNING - http://localhost:8084/.well-known/appspecific/com.chrome.devtools.json not found
+[0m[32muser 2/2:  1139628588 |block 0: undefined| |stage 0: undefined| nicewebrl.experiment - INFO - Block order: ['block_e13f1040c64e40ce822e490d8426f388', 'block_38b84cd4c9e147e7a39586b8e1724345', 'block_3689142b105d49ca9020ebd0baab0100']
+[0m[32muser 2/2:  1139628588 |block 0: undefined| |stage 0: undefined| nicegui - ERROR - n_goals=8 exceeds number of rooms (4)
+  + Exception Group Traceback (most recent call last):
+  |   File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/starlette/_utils.py", line 85, in create_collapsing_task_group
+  |     async with anyio.create_task_group() as tg:
+  |   File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/anyio/_backends/_asyncio.py", line 799, in __aexit__
+  |     raise BaseExceptionGroup(
+  | ExceptionGroup: unhandled errors in a TaskGroup (1 sub-exception)
+  +-+---------------- 1 ----------------
+    | Traceback (most recent call last):
+    |   File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/starlette/middleware/errors.py", line 164, in __call__
+    |     await self.app(scope, receive, _send)
+    |   File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/starlette/middleware/sessions.py", line 88, in __call__
+    |     await self.app(scope, receive, send_wrapper)
+    |   File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/starlette/middleware/base.py", line 193, in __call__
+    |     response = await self.dispatch_func(request, call_next)
+    |                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    |   File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/nicegui/storage.py", line 39, in dispatch
+    |     response = await call_next(request)
+    |                ^^^^^^^^^^^^^^^^^^^^^^^^
+    |   File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/starlette/middleware/base.py", line 168, in call_next
+    |     raise app_exc from app_exc.__cause__ or app_exc.__context__
+    |   File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/starlette/middleware/base.py", line 144, in coro
+    |     await self.app(scope, receive_or_disconnect, send_no_error)
+    |   File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/starlette/middleware/base.py", line 193, in __call__
+    |     response = await self.dispatch_func(request, call_next)
+    |                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    |   File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/nicegui/middlewares.py", line 23, in dispatch
+    |     response = await call_next(request)
+    |                ^^^^^^^^^^^^^^^^^^^^^^^^
+    |   File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/starlette/middleware/base.py", line 168, in call_next
+    |     raise app_exc from app_exc.__cause__ or app_exc.__context__
+    |   File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/starlette/middleware/base.py", line 144, in coro
+    |     await self.app(scope, receive_or_disconnect, send_no_error)
+    |   File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/starlette/middleware/base.py", line 193, in __call__
+    |     response = await self.dispatch_func(request, call_next)
+    |                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    |   File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/nicegui/middlewares.py", line 13, in dispatch
+    |     response = await call_next(request)
+    |                ^^^^^^^^^^^^^^^^^^^^^^^^
+    |   File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/starlette/middleware/base.py", line 168, in call_next
+    |     raise app_exc from app_exc.__cause__ or app_exc.__context__
+    |   File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/starlette/middleware/base.py", line 144, in coro
+    |     await self.app(scope, receive_or_disconnect, send_no_error)
+    |   File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/starlette/middleware/gzip.py", line 29, in __call__
+    |     await responder(scope, receive, send)
+    |   File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/starlette/middleware/gzip.py", line 130, in __call__
+    |     await super().__call__(scope, receive, send)
+    |   File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/starlette/middleware/gzip.py", line 46, in __call__
+    |     await self.app(scope, receive, self.send_with_compression)
+    |   File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/starlette/middleware/exceptions.py", line 63, in __call__
+    |     await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+    |   File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    |     raise exc
+    |   File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    |     await app(scope, receive, sender)
+    |   File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/fastapi/middleware/asyncexitstack.py", line 18, in __call__
+    |     await self.app(scope, receive, send)
+    |   File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/starlette/routing.py", line 660, in __call__
+    |     await self.middleware_stack(scope, receive, send)
+    |   File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/starlette/routing.py", line 680, in app
+    |     await route.handle(scope, receive, send)
+    |   File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/starlette/routing.py", line 276, in handle
+    |     await self.app(scope, receive, send)
+    |   File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/fastapi/routing.py", line 134, in app
+    |     await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+    |   File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    |     raise exc
+    |   File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    |     await app(scope, receive, sender)
+    |   File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/fastapi/routing.py", line 120, in app
+    |     response = await f(request)
+    |                ^^^^^^^^^^^^^^^^
+    |   File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/fastapi/routing.py", line 674, in app
+    |     raw_response = await run_endpoint_function(
+    |                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    |   File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/fastapi/routing.py", line 328, in run_endpoint_function
+    |     return await dependant.call(**values)
+    |            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    |   File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/nicegui/page.py", line 199, in decorated
+    |     result = task.result()
+    |              ^^^^^^^^^^^^^
+    |   File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/nicegui/page.py", line 180, in wait_for_result
+    |     return create_500_error_page(e, request)
+    |            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    |   File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/nicegui/page.py", line 140, in create_500_error_page
+    |     raise e
+    |   File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/nicegui/page.py", line 177, in wait_for_result
+    |     return await result
+    |            ^^^^^^^^^^^^
+    |   File "/Users/km6297/Library/Mobile Documents/com~apple~CloudDocs/Desktop/projects/psrl/psrl-experiments/fourroom_concept/web_app.py", line 292, in index
+    |     await start_experiment(meta_container, stage_container)
+    |   File "/Users/km6297/Library/Mobile Documents/com~apple~CloudDocs/Desktop/projects/psrl/psrl-experiments/fourroom_concept/web_app.py", line 190, in start_experiment
+    |     state = gw.init_episode(
+    |             ^^^^^^^^^^^^^^^^
+    |   File "/Users/km6297/Library/Mobile Documents/com~apple~CloudDocs/Desktop/projects/psrl/psrl-experiments/fourroom_concept/gridworld.py", line 226, in init_episode
+    |     raise ValueError(f"n_goals={n_goals} exceeds number of rooms (4)")
+    | ValueError: n_goals=8 exceeds number of rooms (4)
+    +------------------------------------
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/starlette/middleware/errors.py", line 164, in __call__
+    await self.app(scope, receive, _send)
+  File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/starlette/middleware/sessions.py", line 88, in __call__
+    await self.app(scope, receive, send_wrapper)
+  File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/starlette/middleware/base.py", line 193, in __call__
+    response = await self.dispatch_func(request, call_next)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/nicegui/storage.py", line 39, in dispatch
+    response = await call_next(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/starlette/middleware/base.py", line 168, in call_next
+    raise app_exc from app_exc.__cause__ or app_exc.__context__
+  File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/starlette/middleware/base.py", line 144, in coro
+    await self.app(scope, receive_or_disconnect, send_no_error)
+  File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/starlette/middleware/base.py", line 193, in __call__
+    response = await self.dispatch_func(request, call_next)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/nicegui/middlewares.py", line 23, in dispatch
+    response = await call_next(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/starlette/middleware/base.py", line 168, in call_next
+    raise app_exc from app_exc.__cause__ or app_exc.__context__
+  File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/starlette/middleware/base.py", line 144, in coro
+    await self.app(scope, receive_or_disconnect, send_no_error)
+  File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/starlette/middleware/base.py", line 193, in __call__
+    response = await self.dispatch_func(request, call_next)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/nicegui/middlewares.py", line 13, in dispatch
+    response = await call_next(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/starlette/middleware/base.py", line 168, in call_next
+    raise app_exc from app_exc.__cause__ or app_exc.__context__
+  File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/starlette/middleware/base.py", line 144, in coro
+    await self.app(scope, receive_or_disconnect, send_no_error)
+  File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/starlette/middleware/gzip.py", line 29, in __call__
+    await responder(scope, receive, send)
+  File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/starlette/middleware/gzip.py", line 130, in __call__
+    await super().__call__(scope, receive, send)
+  File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/starlette/middleware/gzip.py", line 46, in __call__
+    await self.app(scope, receive, self.send_with_compression)
+  File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/starlette/middleware/exceptions.py", line 63, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/fastapi/middleware/asyncexitstack.py", line 18, in __call__
+    await self.app(scope, receive, send)
+  File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/starlette/routing.py", line 660, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/starlette/routing.py", line 680, in app
+    await route.handle(scope, receive, send)
+  File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/starlette/routing.py", line 276, in handle
+    await self.app(scope, receive, send)
+  File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/fastapi/routing.py", line 134, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/fastapi/routing.py", line 120, in app
+    response = await f(request)
+               ^^^^^^^^^^^^^^^^
+  File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/fastapi/routing.py", line 674, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/fastapi/routing.py", line 328, in run_endpoint_function
+    return await dependant.call(**values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/nicegui/page.py", line 199, in decorated
+    result = task.result()
+             ^^^^^^^^^^^^^
+  File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/nicegui/page.py", line 180, in wait_for_result
+    return create_500_error_page(e, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/nicegui/page.py", line 140, in create_500_error_page
+    raise e
+  File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/nicegui/page.py", line 177, in wait_for_result
+    return await result
+           ^^^^^^^^^^^^
+  File "/Users/km6297/Library/Mobile Documents/com~apple~CloudDocs/Desktop/projects/psrl/psrl-experiments/fourroom_concept/web_app.py", line 292, in index
+    await start_experiment(meta_container, stage_container)
+  File "/Users/km6297/Library/Mobile Documents/com~apple~CloudDocs/Desktop/projects/psrl/psrl-experiments/fourroom_concept/web_app.py", line 190, in start_experiment
+    state = gw.init_episode(
+            ^^^^^^^^^^^^^^^^
+  File "/Users/km6297/Library/Mobile Documents/com~apple~CloudDocs/Desktop/projects/psrl/psrl-experiments/fourroom_concept/gridworld.py", line 226, in init_episode
+    raise ValueError(f"n_goals={n_goals} exceeds number of rooms (4)")
+ValueError: n_goals=8 exceeds number of rooms (4)
+[0m[33muser 3/3:  None nicegui - WARNING - http://localhost:8084/.well-known/appspecific/com.chrome.devtools.json not found
+[0m[34muser 4/4:  3853293827 |block 0: undefined| |stage 0: undefined| nicewebrl.experiment - INFO - Block order: ['block_e13f1040c64e40ce822e490d8426f388', 'block_38b84cd4c9e147e7a39586b8e1724345', 'block_3689142b105d49ca9020ebd0baab0100']
+[0m[34muser 4/4:  3853293827 |block 0: undefined| |stage 0: undefined| nicegui - ERROR - n_goals=8 exceeds number of rooms (4)
+  + Exception Group Traceback (most recent call last):
+  |   File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/starlette/_utils.py", line 85, in create_collapsing_task_group
+  |     async with anyio.create_task_group() as tg:
+  |   File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/anyio/_backends/_asyncio.py", line 799, in __aexit__
+  |     raise BaseExceptionGroup(
+  | ExceptionGroup: unhandled errors in a TaskGroup (1 sub-exception)
+  +-+---------------- 1 ----------------
+    | Traceback (most recent call last):
+    |   File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/starlette/middleware/errors.py", line 164, in __call__
+    |     await self.app(scope, receive, _send)
+    |   File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/starlette/middleware/sessions.py", line 88, in __call__
+    |     await self.app(scope, receive, send_wrapper)
+    |   File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/starlette/middleware/base.py", line 193, in __call__
+    |     response = await self.dispatch_func(request, call_next)
+    |                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    |   File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/nicegui/storage.py", line 39, in dispatch
+    |     response = await call_next(request)
+    |                ^^^^^^^^^^^^^^^^^^^^^^^^
+    |   File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/starlette/middleware/base.py", line 168, in call_next
+    |     raise app_exc from app_exc.__cause__ or app_exc.__context__
+    |   File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/starlette/middleware/base.py", line 144, in coro
+    |     await self.app(scope, receive_or_disconnect, send_no_error)
+    |   File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/starlette/middleware/base.py", line 193, in __call__
+    |     response = await self.dispatch_func(request, call_next)
+    |                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    |   File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/nicegui/middlewares.py", line 23, in dispatch
+    |     response = await call_next(request)
+    |                ^^^^^^^^^^^^^^^^^^^^^^^^
+    |   File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/starlette/middleware/base.py", line 168, in call_next
+    |     raise app_exc from app_exc.__cause__ or app_exc.__context__
+    |   File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/starlette/middleware/base.py", line 144, in coro
+    |     await self.app(scope, receive_or_disconnect, send_no_error)
+    |   File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/starlette/middleware/base.py", line 193, in __call__
+    |     response = await self.dispatch_func(request, call_next)
+    |                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    |   File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/nicegui/middlewares.py", line 13, in dispatch
+    |     response = await call_next(request)
+    |                ^^^^^^^^^^^^^^^^^^^^^^^^
+    |   File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/starlette/middleware/base.py", line 168, in call_next
+    |     raise app_exc from app_exc.__cause__ or app_exc.__context__
+    |   File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/starlette/middleware/base.py", line 144, in coro
+    |     await self.app(scope, receive_or_disconnect, send_no_error)
+    |   File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/starlette/middleware/gzip.py", line 29, in __call__
+    |     await responder(scope, receive, send)
+    |   File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/starlette/middleware/gzip.py", line 130, in __call__
+    |     await super().__call__(scope, receive, send)
+    |   File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/starlette/middleware/gzip.py", line 46, in __call__
+    |     await self.app(scope, receive, self.send_with_compression)
+    |   File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/starlette/middleware/exceptions.py", line 63, in __call__
+    |     await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+    |   File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    |     raise exc
+    |   File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    |     await app(scope, receive, sender)
+    |   File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/fastapi/middleware/asyncexitstack.py", line 18, in __call__
+    |     await self.app(scope, receive, send)
+    |   File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/starlette/routing.py", line 660, in __call__
+    |     await self.middleware_stack(scope, receive, send)
+    |   File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/starlette/routing.py", line 680, in app
+    |     await route.handle(scope, receive, send)
+    |   File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/starlette/routing.py", line 276, in handle
+    |     await self.app(scope, receive, send)
+    |   File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/fastapi/routing.py", line 134, in app
+    |     await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+    |   File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    |     raise exc
+    |   File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    |     await app(scope, receive, sender)
+    |   File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/fastapi/routing.py", line 120, in app
+    |     response = await f(request)
+    |                ^^^^^^^^^^^^^^^^
+    |   File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/fastapi/routing.py", line 674, in app
+    |     raw_response = await run_endpoint_function(
+    |                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    |   File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/fastapi/routing.py", line 328, in run_endpoint_function
+    |     return await dependant.call(**values)
+    |            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    |   File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/nicegui/page.py", line 199, in decorated
+    |     result = task.result()
+    |              ^^^^^^^^^^^^^
+    |   File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/nicegui/page.py", line 180, in wait_for_result
+    |     return create_500_error_page(e, request)
+    |            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    |   File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/nicegui/page.py", line 140, in create_500_error_page
+    |     raise e
+    |   File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/nicegui/page.py", line 177, in wait_for_result
+    |     return await result
+    |            ^^^^^^^^^^^^
+    |   File "/Users/km6297/Library/Mobile Documents/com~apple~CloudDocs/Desktop/projects/psrl/psrl-experiments/fourroom_concept/web_app.py", line 292, in index
+    |     await start_experiment(meta_container, stage_container)
+    |   File "/Users/km6297/Library/Mobile Documents/com~apple~CloudDocs/Desktop/projects/psrl/psrl-experiments/fourroom_concept/web_app.py", line 190, in start_experiment
+    |     state = gw.init_episode(
+    |             ^^^^^^^^^^^^^^^^
+    |   File "/Users/km6297/Library/Mobile Documents/com~apple~CloudDocs/Desktop/projects/psrl/psrl-experiments/fourroom_concept/gridworld.py", line 226, in init_episode
+    |     raise ValueError(f"n_goals={n_goals} exceeds number of rooms (4)")
+    | ValueError: n_goals=8 exceeds number of rooms (4)
+    +------------------------------------
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/starlette/middleware/errors.py", line 164, in __call__
+    await self.app(scope, receive, _send)
+  File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/starlette/middleware/sessions.py", line 88, in __call__
+    await self.app(scope, receive, send_wrapper)
+  File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/starlette/middleware/base.py", line 193, in __call__
+    response = await self.dispatch_func(request, call_next)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/nicegui/storage.py", line 39, in dispatch
+    response = await call_next(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/starlette/middleware/base.py", line 168, in call_next
+    raise app_exc from app_exc.__cause__ or app_exc.__context__
+  File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/starlette/middleware/base.py", line 144, in coro
+    await self.app(scope, receive_or_disconnect, send_no_error)
+  File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/starlette/middleware/base.py", line 193, in __call__
+    response = await self.dispatch_func(request, call_next)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/nicegui/middlewares.py", line 23, in dispatch
+    response = await call_next(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/starlette/middleware/base.py", line 168, in call_next
+    raise app_exc from app_exc.__cause__ or app_exc.__context__
+  File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/starlette/middleware/base.py", line 144, in coro
+    await self.app(scope, receive_or_disconnect, send_no_error)
+  File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/starlette/middleware/base.py", line 193, in __call__
+    response = await self.dispatch_func(request, call_next)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/nicegui/middlewares.py", line 13, in dispatch
+    response = await call_next(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/starlette/middleware/base.py", line 168, in call_next
+    raise app_exc from app_exc.__cause__ or app_exc.__context__
+  File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/starlette/middleware/base.py", line 144, in coro
+    await self.app(scope, receive_or_disconnect, send_no_error)
+  File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/starlette/middleware/gzip.py", line 29, in __call__
+    await responder(scope, receive, send)
+  File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/starlette/middleware/gzip.py", line 130, in __call__
+    await super().__call__(scope, receive, send)
+  File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/starlette/middleware/gzip.py", line 46, in __call__
+    await self.app(scope, receive, self.send_with_compression)
+  File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/starlette/middleware/exceptions.py", line 63, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/fastapi/middleware/asyncexitstack.py", line 18, in __call__
+    await self.app(scope, receive, send)
+  File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/starlette/routing.py", line 660, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/starlette/routing.py", line 680, in app
+    await route.handle(scope, receive, send)
+  File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/starlette/routing.py", line 276, in handle
+    await self.app(scope, receive, send)
+  File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/fastapi/routing.py", line 134, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/fastapi/routing.py", line 120, in app
+    response = await f(request)
+               ^^^^^^^^^^^^^^^^
+  File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/fastapi/routing.py", line 674, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/fastapi/routing.py", line 328, in run_endpoint_function
+    return await dependant.call(**values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/nicegui/page.py", line 199, in decorated
+    result = task.result()
+             ^^^^^^^^^^^^^
+  File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/nicegui/page.py", line 180, in wait_for_result
+    return create_500_error_page(e, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/nicegui/page.py", line 140, in create_500_error_page
+    raise e
+  File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/nicegui/page.py", line 177, in wait_for_result
+    return await result
+           ^^^^^^^^^^^^
+  File "/Users/km6297/Library/Mobile Documents/com~apple~CloudDocs/Desktop/projects/psrl/psrl-experiments/fourroom_concept/web_app.py", line 292, in index
+    await start_experiment(meta_container, stage_container)
+  File "/Users/km6297/Library/Mobile Documents/com~apple~CloudDocs/Desktop/projects/psrl/psrl-experiments/fourroom_concept/web_app.py", line 190, in start_experiment
+    state = gw.init_episode(
+            ^^^^^^^^^^^^^^^^
+  File "/Users/km6297/Library/Mobile Documents/com~apple~CloudDocs/Desktop/projects/psrl/psrl-experiments/fourroom_concept/gridworld.py", line 226, in init_episode
+    raise ValueError(f"n_goals={n_goals} exceeds number of rooms (4)")
+ValueError: n_goals=8 exceeds number of rooms (4)
+[0m[33muser 3/4:  None nicegui - WARNING - http://localhost:8084/.well-known/appspecific/com.chrome.devtools.json not found
+[0m[31muser 1/1:  4177475843 |block 0: undefined| |stage 0: undefined| nicewebrl.experiment - INFO - Block order: ['block_16b1ced5b52f4f34a737ab801224adf0', 'block_ee0ddc057e884cddab3cf72dedba5176', 'block_4a879f30ee33460c82dd1fea6ca34ed1']
+[0m[31muser 1/1:  4177475843 |block 0: undefined| |stage 0: undefined| __mp_main__ - INFO - New episode: mode=no-repeat dims=['shape', 'color', 'texture'] n_kinds={'shape': 4, 'color': 4, 'texture': 4} n_goals=8 rule=shape='triangle'
+[0m[31muser 1/1:  4177475843 |block 0: block_16b1ced5b52f4f34a737ab801224adf0| |stage 0: Instructions| nicegui - WARNING - http://localhost:8084/.well-known/appspecific/com.chrome.devtools.json not found
+[0m[31muser 1/1:  4177475843 |block 0: block_16b1ced5b52f4f34a737ab801224adf0| |stage 0: Instructions| nicewebrl.utils - INFO - {'message': 'Ping 3072'}
+[0m[31muser 1/1:  4177475843 |block 1: block_ee0ddc057e884cddab3cf72dedba5176| |stage 1: GridWorld| nicewebrl.utils - INFO - {'message': 'Ping 2521'}
+[0m[31muser 1/1:  4177475843 |block 1: block_ee0ddc057e884cddab3cf72dedba5176| |stage 1: GridWorld| __mp_main__ - INFO - Stage finished: GridWorld
+[0m[31muser 1/1:  4177475843 |block 3: block_4a879f30ee33460c82dd1fea6ca34ed1| |stage 3: Debrief| __mp_main__ - INFO - Metadata saved → ./data/user_meta_4177475843.json
+[0m[32muser 2/2:  3153060836 |block 0: undefined| |stage 0: undefined| nicewebrl.experiment - INFO - Block order: ['block_16b1ced5b52f4f34a737ab801224adf0', 'block_ee0ddc057e884cddab3cf72dedba5176', 'block_4a879f30ee33460c82dd1fea6ca34ed1']
+[0m[32muser 2/2:  3153060836 |block 0: undefined| |stage 0: undefined| __mp_main__ - INFO - New episode: mode=no-repeat dims=['shape', 'color', 'texture'] n_kinds={'shape': 4, 'color': 4, 'texture': 4} n_goals=8 rule=shape='square'
+[0m[32muser 2/2:  3153060836 |block 0: block_16b1ced5b52f4f34a737ab801224adf0| |stage 0: Instructions| nicegui - WARNING - http://localhost:8084/.well-known/appspecific/com.chrome.devtools.json not found
+[0m[32muser 2/2:  3153060836 |block 0: block_16b1ced5b52f4f34a737ab801224adf0| |stage 0: Instructions| nicewebrl.utils - INFO - {'message': 'Ping 4292'}
+[0m[32muser 2/2:  3153060836 |block 1: block_ee0ddc057e884cddab3cf72dedba5176| |stage 1: GridWorld| nicewebrl.utils - INFO - {'message': 'Ping 1004'}
+[0m[32muser 2/2:  3153060836 |block 1: block_ee0ddc057e884cddab3cf72dedba5176| |stage 1: GridWorld| __mp_main__ - INFO - Stage finished: GridWorld
+[0m[32muser 2/2:  3153060836 |block 3: block_4a879f30ee33460c82dd1fea6ca34ed1| |stage 3: Debrief| __mp_main__ - INFO - Metadata saved → ./data/user_meta_3153060836.json
+[0m[32muser 2/2:  3153060836 |block 3: block_4a879f30ee33460c82dd1fea6ca34ed1| |stage 3: Debrief| nicewebrl.utils - INFO - {'message': 'Ping 6802'}
+[0m[31muser 1/1:  3153060836 |block 3: undefined| |stage 3: undefined| nicewebrl.experiment - INFO - Block order: ['block_9dcafedef0224784a6fcffea4ca55754', 'block_411210b42b1f458f94091169529fe958', 'block_85751fc35ea74a7e888f7346c31c0d1e']
+[0m[31muser 1/1:  3153060836 |block 3: undefined| |stage 3: undefined| __mp_main__ - INFO - Metadata saved → ./data/user_meta_3153060836.json
+[0m[31muser 1/1:  3153060836 |block 3: undefined| |stage 3: undefined| nicegui - WARNING - http://localhost:8084/.well-known/appspecific/com.chrome.devtools.json not found
+[0m[31muser 1/1:  3153060836 |block 3: undefined| |stage 3: undefined| nicewebrl.utils - INFO - {'message': 'Ping 4553'}
+[0m[32muser 2/2:  1650379491 |block 0: undefined| |stage 0: undefined| nicewebrl.experiment - INFO - Block order: ['block_9dcafedef0224784a6fcffea4ca55754', 'block_411210b42b1f458f94091169529fe958', 'block_85751fc35ea74a7e888f7346c31c0d1e']
+[0m[32muser 2/2:  1650379491 |block 0: undefined| |stage 0: undefined| __mp_main__ - INFO - New episode: mode=no-repeat dims=['shape', 'color', 'texture'] n_kinds={'shape': 4, 'color': 4, 'texture': 4} n_goals=8 rule=shape='square'
+[0m[32muser 2/2:  1650379491 |block 0: block_9dcafedef0224784a6fcffea4ca55754| |stage 0: Instructions| nicegui - WARNING - http://localhost:8084/.well-known/appspecific/com.chrome.devtools.json not found
+[0m[32muser 2/2:  1650379491 |block 0: block_9dcafedef0224784a6fcffea4ca55754| |stage 0: Instructions| nicewebrl.utils - INFO - {'message': 'Ping 7524'}
+[0m[32muser 2/2:  1650379491 |block 1: block_411210b42b1f458f94091169529fe958| |stage 1: GridWorld| __mp_main__ - INFO - Stage finished: GridWorld
+[0m[32muser 2/2:  1650379491 |block 3: block_85751fc35ea74a7e888f7346c31c0d1e| |stage 3: Debrief| __mp_main__ - INFO - Metadata saved → ./data/user_meta_1650379491.json
+[0m[32muser 2/2:  1650379491 |block 3: block_85751fc35ea74a7e888f7346c31c0d1e| |stage 3: Debrief| nicegui - WARNING - http://localhost:8084/.well-known/appspecific/com.chrome.devtools.json not found
+[0m[33muser 3/3:  1678296484 |block 0: undefined| |stage 0: undefined| nicewebrl.experiment - INFO - Block order: ['block_9dcafedef0224784a6fcffea4ca55754', 'block_411210b42b1f458f94091169529fe958', 'block_85751fc35ea74a7e888f7346c31c0d1e']
+[0m[33muser 3/3:  1678296484 |block 0: undefined| |stage 0: undefined| __mp_main__ - INFO - New episode: mode=no-repeat dims=['shape', 'color', 'texture'] n_kinds={'shape': 4, 'color': 4, 'texture': 4} n_goals=8 rule=shape='circle'
+[0m[33muser 3/3:  1678296484 |block 0: block_9dcafedef0224784a6fcffea4ca55754| |stage 0: Instructions| nicegui - WARNING - http://localhost:8084/.well-known/appspecific/com.chrome.devtools.json not found
+[0m[33muser 3/3:  1678296484 |block 0: block_9dcafedef0224784a6fcffea4ca55754| |stage 0: Instructions| nicewebrl.utils - INFO - {'message': 'Ping 579'}
+[0m[33muser 3/3:  1678296484 |block 1: block_411210b42b1f458f94091169529fe958| |stage 1: GridWorld| nicewebrl.utils - INFO - {'message': 'Ping 2997'}
+[0m[33muser 3/3:  1678296484 |block 1: block_411210b42b1f458f94091169529fe958| |stage 1: GridWorld| __mp_main__ - INFO - Stage finished: GridWorld
+[0m[33muser 3/3:  1678296484 |block 3: block_85751fc35ea74a7e888f7346c31c0d1e| |stage 3: Debrief| __mp_main__ - INFO - Metadata saved → ./data/user_meta_1678296484.json
+[0m[33muser 3/3:  1678296484 |block 3: block_85751fc35ea74a7e888f7346c31c0d1e| |stage 3: Debrief| nicegui - WARNING - http://localhost:8084/.well-known/appspecific/com.chrome.devtools.json not found
+[0m[34muser 4/4:  2362427041 |block 0: undefined| |stage 0: undefined| nicewebrl.experiment - INFO - Block order: ['block_9dcafedef0224784a6fcffea4ca55754', 'block_411210b42b1f458f94091169529fe958', 'block_85751fc35ea74a7e888f7346c31c0d1e']
+[0m[34muser 4/4:  2362427041 |block 0: undefined| |stage 0: undefined| __mp_main__ - INFO - New episode: mode=no-repeat dims=['shape', 'color', 'texture'] n_kinds={'shape': 4, 'color': 4, 'texture': 4} n_goals=8 rule=shape='star'
+[0m[34muser 4/4:  2362427041 |block 0: block_9dcafedef0224784a6fcffea4ca55754| |stage 0: Instructions| nicegui - WARNING - http://localhost:8084/.well-known/appspecific/com.chrome.devtools.json not found
+[0m[34muser 4/4:  2362427041 |block 0: block_9dcafedef0224784a6fcffea4ca55754| |stage 0: Instructions| nicewebrl.utils - INFO - {'message': 'Ping 2394'}
+[0m[34muser 4/4:  2362427041 |block 1: block_411210b42b1f458f94091169529fe958| |stage 1: GridWorld| __mp_main__ - INFO - Stage finished: GridWorld
+[0m[34muser 4/4:  2362427041 |block 3: block_85751fc35ea74a7e888f7346c31c0d1e| |stage 3: Debrief| __mp_main__ - INFO - Metadata saved → ./data/user_meta_2362427041.json
+[0m[34muser 4/4:  2362427041 |block 3: block_85751fc35ea74a7e888f7346c31c0d1e| |stage 3: Debrief| nicewebrl.utils - INFO - {'message': 'Ping 1459'}
+[0m[34muser 4/4:  2362427041 |block 3: block_85751fc35ea74a7e888f7346c31c0d1e| |stage 3: Debrief| nicewebrl.utils - INFO - {'message': 'Ping 4486'}
+[0m[34muser 4/4:  2362427041 |block 3: block_85751fc35ea74a7e888f7346c31c0d1e| |stage 3: Debrief| nicewebrl.utils - INFO - {'message': 'Ping 9977'}
+[0m[34muser 4/4:  2362427041 |block 3: block_85751fc35ea74a7e888f7346c31c0d1e| |stage 3: Debrief| nicewebrl.utils - INFO - {'message': 'Ping 5245'}
+[0m[34muser 4/4:  2362427041 |block 3: block_85751fc35ea74a7e888f7346c31c0d1e| |stage 3: Debrief| nicewebrl.utils - INFO - {'message': 'Ping 5785'}
+[0m[34muser 4/4:  2362427041 |block 3: block_85751fc35ea74a7e888f7346c31c0d1e| |stage 3: Debrief| nicewebrl.utils - INFO - {'message': 'Ping 8034'}
+[0m[34muser 4/4:  2362427041 |block 3: block_85751fc35ea74a7e888f7346c31c0d1e| |stage 3: Debrief| nicewebrl.utils - INFO - {'message': 'Ping 7770'}
+[0m[34muser 4/4:  2362427041 |block 3: block_85751fc35ea74a7e888f7346c31c0d1e| |stage 3: Debrief| nicewebrl.utils - INFO - {'message': 'Ping 4303'}
+[0m[34muser 4/4:  2362427041 |block 3: block_85751fc35ea74a7e888f7346c31c0d1e| |stage 3: Debrief| nicewebrl.utils - INFO - {'message': 'Ping 3808'}
+[0m[31muser 1/1:  2362427041 |block 3: undefined| |stage 3: undefined| nicewebrl.experiment - INFO - Block order: ['block_6d801e86f8fa4f6abc76c2732e542c29', 'block_e4436325c31c4515a88182aa0f12c5c6', 'block_4585e9979e5f45c0b6e8eb2bfc548ee7']
+[0m[31muser 1/1:  2362427041 |block 3: undefined| |stage 3: undefined| __mp_main__ - INFO - Metadata saved → ./data/user_meta_2362427041.json
+[0m[31muser 1/1:  2362427041 |block 3: undefined| |stage 3: undefined| nicewebrl.utils - INFO - {'message': 'Ping 3126'}
+[0m[31muser 1/1:  2362427041 |block 3: undefined| |stage 3: undefined| nicewebrl.experiment - INFO - Block order: ['block_76808d3121594967a628f82e77ae8d58', 'block_e845eb283a53483288259f393957d19b', 'block_49a6ac626ba1450caf29a58ab9eb23ac']
+[0m[31muser 1/1:  2362427041 |block 3: undefined| |stage 3: undefined| __mp_main__ - INFO - Metadata saved → ./data/user_meta_2362427041.json
+[0m[31muser 1/1:  2362427041 |block 3: undefined| |stage 3: undefined| nicewebrl.utils - INFO - {'message': 'Ping 8537'}
+[0m[31muser 1/1:  2362427041 |block 3: undefined| |stage 3: undefined| nicewebrl.experiment - INFO - Block order: ['block_b7f0d9e723eb4e26ac055246bd7cad38', 'block_57d6d14fd7164e7dac2012aa1b8eff93', 'block_7ae12196906747d79bf53851ab823525']
+[0m[31muser 1/1:  2362427041 |block 3: undefined| |stage 3: undefined| __mp_main__ - INFO - Metadata saved → ./data/user_meta_2362427041.json
+[0m[31muser 1/1:  2362427041 |block 3: undefined| |stage 3: undefined| nicewebrl.utils - INFO - {'message': 'Ping 4890'}
+[0m[31muser 1/1:  2362427041 |block 3: undefined| |stage 3: undefined| nicegui - WARNING - http://localhost:8084/.well-known/appspecific/com.chrome.devtools.json not found
+[0m[31muser 1/1:  2362427041 |block 3: undefined| |stage 3: undefined| nicewebrl.experiment - INFO - Block order: ['block_834db273a66a487fa6ce70e1d6db221f', 'block_0b6d1bb93a374ccbaf4472cca91ddf09', 'block_90637075b3544967add0f3ef86efeb32']
+[0m[31muser 1/1:  2362427041 |block 3: undefined| |stage 3: undefined| __mp_main__ - INFO - Metadata saved → ./data/user_meta_2362427041.json
+[0m[31muser 1/1:  2362427041 |block 3: undefined| |stage 3: undefined| nicegui - WARNING - http://localhost:8084/.well-known/appspecific/com.chrome.devtools.json not found
+[0m[31muser 1/1:  2362427041 |block 3: undefined| |stage 3: undefined| nicewebrl.utils - INFO - {'message': 'Ping 1136'}
+[0m[32muser 2/2:  223782511 |block 0: undefined| |stage 0: undefined| nicewebrl.experiment - INFO - Block order: ['block_834db273a66a487fa6ce70e1d6db221f', 'block_0b6d1bb93a374ccbaf4472cca91ddf09', 'block_90637075b3544967add0f3ef86efeb32']
+[0m[32muser 2/2:  223782511 |block 0: undefined| |stage 0: undefined| __mp_main__ - INFO - New episode: mode=bijection dims=['shape', 'color', 'texture'] n_kinds={'shape': 4, 'color': 4, 'texture': 4} n_goals=4 rule=color='green'
+[0m[32muser 2/2:  223782511 |block 0: block_834db273a66a487fa6ce70e1d6db221f| |stage 0: Instructions| nicegui - WARNING - http://localhost:8084/.well-known/appspecific/com.chrome.devtools.json not found
+[0m[32muser 2/2:  223782511 |block 0: block_834db273a66a487fa6ce70e1d6db221f| |stage 0: Instructions| nicewebrl.utils - INFO - {'message': 'Ping 2432'}
+[0m[32muser 2/2:  223782511 |block 1: block_0b6d1bb93a374ccbaf4472cca91ddf09| |stage 1: GridWorld| nicewebrl.utils - INFO - {'message': 'Ping 1069'}
+[0m[32muser 2/2:  223782511 |block 1: block_0b6d1bb93a374ccbaf4472cca91ddf09| |stage 1: GridWorld| __mp_main__ - INFO - Stage finished: GridWorld
+[0m[32muser 2/2:  223782511 |block 3: block_90637075b3544967add0f3ef86efeb32| |stage 3: Debrief| __mp_main__ - INFO - Metadata saved → ./data/user_meta_223782511.json
+[0m[33muser 3/3:  2433793864 |block 0: undefined| |stage 0: undefined| nicewebrl.experiment - INFO - Block order: ['block_834db273a66a487fa6ce70e1d6db221f', 'block_0b6d1bb93a374ccbaf4472cca91ddf09', 'block_90637075b3544967add0f3ef86efeb32']
+[0m[33muser 3/3:  2433793864 |block 0: undefined| |stage 0: undefined| __mp_main__ - INFO - New episode: mode=bijection dims=['shape', 'color', 'texture'] n_kinds={'shape': 4, 'color': 4, 'texture': 4} n_goals=4 rule=color='red'
+[0m[33muser 3/3:  2433793864 |block 0: block_834db273a66a487fa6ce70e1d6db221f| |stage 0: Instructions| nicegui - WARNING - http://localhost:8084/.well-known/appspecific/com.chrome.devtools.json not found
+[0m[33muser 3/3:  2433793864 |block 0: block_834db273a66a487fa6ce70e1d6db221f| |stage 0: Instructions| nicewebrl.utils - INFO - {'message': 'Ping 7067'}
+[0m[33muser 3/3:  2433793864 |block 1: block_0b6d1bb93a374ccbaf4472cca91ddf09| |stage 1: GridWorld| nicewebrl.utils - INFO - {'message': 'Ping 8275'}
+[0m[33muser 3/3:  2433793864 |block 1: block_0b6d1bb93a374ccbaf4472cca91ddf09| |stage 1: GridWorld| __mp_main__ - INFO - Stage finished: GridWorld
+[0m[33muser 3/3:  2433793864 |block 3: block_90637075b3544967add0f3ef86efeb32| |stage 3: Debrief| __mp_main__ - INFO - Metadata saved → ./data/user_meta_2433793864.json
+[0m[33muser 3/3:  2433793864 |block 3: block_90637075b3544967add0f3ef86efeb32| |stage 3: Debrief| nicewebrl.utils - INFO - {'message': 'Ping 1671'}
+[0m[31muser 1/1:  2433793864 |block 3: undefined| |stage 3: undefined| nicewebrl.experiment - INFO - Block order: ['block_cbae50cbaad2461d94ccf446c3acb25d', 'block_2873ed6bb2274178aef5c1a61cfc5807', 'block_425399a3debf4ea099449c12ac1b827b']
+[0m[31muser 1/1:  2433793864 |block 3: undefined| |stage 3: undefined| __mp_main__ - INFO - Metadata saved → ./data/user_meta_2433793864.json
+[0m[31muser 1/1:  2433793864 |block 3: undefined| |stage 3: undefined| nicewebrl.utils - INFO - {'message': 'Ping 6019'}
+[0m[31muser 1/1:  2433793864 |block 3: undefined| |stage 3: undefined| nicegui - WARNING - http://localhost:8084/.well-known/appspecific/com.chrome.devtools.json not found
+[0m[32muser 2/2:  3399235779 |block 0: undefined| |stage 0: undefined| nicewebrl.experiment - INFO - Block order: ['block_cbae50cbaad2461d94ccf446c3acb25d', 'block_2873ed6bb2274178aef5c1a61cfc5807', 'block_425399a3debf4ea099449c12ac1b827b']
+[0m[32muser 2/2:  3399235779 |block 0: undefined| |stage 0: undefined| __mp_main__ - INFO - New episode: mode=bijection dims=['shape', 'color', 'texture'] n_kinds={'shape': 5, 'color': 5, 'texture': 5} n_goals=5 rule=color='green'
+[0m[32muser 2/2:  3399235779 |block 0: block_cbae50cbaad2461d94ccf446c3acb25d| |stage 0: Instructions| nicegui - WARNING - http://localhost:8084/.well-known/appspecific/com.chrome.devtools.json not found
+[0m[32muser 2/2:  3399235779 |block 0: block_cbae50cbaad2461d94ccf446c3acb25d| |stage 0: Instructions| nicewebrl.utils - INFO - {'message': 'Ping 2289'}
+[0m[32muser 2/2:  3399235779 |block 1: block_2873ed6bb2274178aef5c1a61cfc5807| |stage 1: GridWorld| nicewebrl.utils - INFO - {'message': 'Ping 9708'}
+[0m[32muser 2/2:  3399235779 |block 1: block_2873ed6bb2274178aef5c1a61cfc5807| |stage 1: GridWorld| __mp_main__ - INFO - Stage finished: GridWorld
+[0m[32muser 2/2:  3399235779 |block 3: block_425399a3debf4ea099449c12ac1b827b| |stage 3: Debrief| __mp_main__ - INFO - Metadata saved → ./data/user_meta_3399235779.json
+[0m[32muser 2/2:  3399235779 |block 3: block_425399a3debf4ea099449c12ac1b827b| |stage 3: Debrief| nicewebrl.utils - INFO - {'message': 'Ping 1785'}
+[0m[32muser 2/2:  3399235779 |block 3: block_425399a3debf4ea099449c12ac1b827b| |stage 3: Debrief| nicegui - WARNING - http://localhost:8084/.well-known/appspecific/com.chrome.devtools.json not found
+[0m[33muser 3/3:  58132717 |block 0: undefined| |stage 0: undefined| nicewebrl.experiment - INFO - Block order: ['block_cbae50cbaad2461d94ccf446c3acb25d', 'block_2873ed6bb2274178aef5c1a61cfc5807', 'block_425399a3debf4ea099449c12ac1b827b']
+[0m[33muser 3/3:  58132717 |block 0: undefined| |stage 0: undefined| __mp_main__ - INFO - New episode: mode=bijection dims=['shape', 'color', 'texture'] n_kinds={'shape': 5, 'color': 5, 'texture': 5} n_goals=5 rule=shape='star'
+[0m[33muser 3/3:  58132717 |block 0: block_cbae50cbaad2461d94ccf446c3acb25d| |stage 0: Instructions| nicegui - WARNING - http://localhost:8084/.well-known/appspecific/com.chrome.devtools.json not found
+[0m[33muser 3/3:  58132717 |block 0: block_cbae50cbaad2461d94ccf446c3acb25d| |stage 0: Instructions| nicewebrl.utils - INFO - {'message': 'Ping 917'}
+[0m[33muser 3/3:  58132717 |block 1: block_2873ed6bb2274178aef5c1a61cfc5807| |stage 1: GridWorld| nicewebrl.utils - INFO - {'message': 'Ping 7632'}
+[0m[33muser 3/3:  58132717 |block 1: block_2873ed6bb2274178aef5c1a61cfc5807| |stage 1: GridWorld| __mp_main__ - INFO - Stage finished: GridWorld
+[0m[33muser 3/3:  58132717 |block 3: block_425399a3debf4ea099449c12ac1b827b| |stage 3: Debrief| __mp_main__ - INFO - Metadata saved → ./data/user_meta_58132717.json
+[0m[33muser 3/3:  58132717 |block 3: block_425399a3debf4ea099449c12ac1b827b| |stage 3: Debrief| nicewebrl.utils - INFO - {'message': 'Ping 2003'}
+[0m[33muser 3/3:  58132717 |block 3: block_425399a3debf4ea099449c12ac1b827b| |stage 3: Debrief| nicegui - WARNING - http://localhost:8084/.well-known/appspecific/com.chrome.devtools.json not found
+[0m[34muser 4/4:  2134724290 |block 0: undefined| |stage 0: undefined| nicewebrl.experiment - INFO - Block order: ['block_cbae50cbaad2461d94ccf446c3acb25d', 'block_2873ed6bb2274178aef5c1a61cfc5807', 'block_425399a3debf4ea099449c12ac1b827b']
+[0m[34muser 4/4:  2134724290 |block 0: undefined| |stage 0: undefined| __mp_main__ - INFO - New episode: mode=bijection dims=['shape', 'color', 'texture'] n_kinds={'shape': 5, 'color': 5, 'texture': 5} n_goals=5 rule=texture='striped'
+[0m[34muser 4/4:  2134724290 |block 0: block_cbae50cbaad2461d94ccf446c3acb25d| |stage 0: Instructions| nicegui - WARNING - http://localhost:8084/.well-known/appspecific/com.chrome.devtools.json not found
+[0m[34muser 4/4:  2134724290 |block 0: block_cbae50cbaad2461d94ccf446c3acb25d| |stage 0: Instructions| nicewebrl.utils - INFO - {'message': 'Ping 6211'}
+[0m[34muser 4/4:  2134724290 |block 1: block_2873ed6bb2274178aef5c1a61cfc5807| |stage 1: GridWorld| nicewebrl.utils - INFO - {'message': 'Ping 353'}
+[0m[34muser 4/4:  2134724290 |block 1: block_2873ed6bb2274178aef5c1a61cfc5807| |stage 1: GridWorld| __mp_main__ - INFO - Stage finished: GridWorld
+[0m[34muser 4/4:  2134724290 |block 3: block_425399a3debf4ea099449c12ac1b827b| |stage 3: Debrief| __mp_main__ - INFO - Metadata saved → ./data/user_meta_2134724290.json
+[0m[34muser 4/4:  2134724290 |block 3: block_425399a3debf4ea099449c12ac1b827b| |stage 3: Debrief| nicewebrl.utils - INFO - {'message': 'Ping 1860'}
+[0m[34muser 4/4:  2134724290 |block 3: block_425399a3debf4ea099449c12ac1b827b| |stage 3: Debrief| nicewebrl.utils - INFO - {'message': 'Ping 2342'}
+[0m[34muser 4/4:  2134724290 |block 3: block_425399a3debf4ea099449c12ac1b827b| |stage 3: Debrief| nicewebrl.utils - INFO - {'message': 'Ping 9801'}
+[0m[34muser 4/4:  2134724290 |block 3: block_425399a3debf4ea099449c12ac1b827b| |stage 3: Debrief| nicewebrl.utils - INFO - {'message': 'Ping 2423'}
+[0m[34muser 4/4:  2134724290 |block 3: block_425399a3debf4ea099449c12ac1b827b| |stage 3: Debrief| nicewebrl.utils - INFO - {'message': 'Ping 3460'}
+[0m[34muser 4/4:  2134724290 |block 3: block_425399a3debf4ea099449c12ac1b827b| |stage 3: Debrief| nicewebrl.utils - INFO - {'message': 'Ping 8598'}
+[0m[34muser 4/4:  2134724290 |block 3: block_425399a3debf4ea099449c12ac1b827b| |stage 3: Debrief| nicewebrl.utils - INFO - {'message': 'Ping 7374'}
+[0m[34muser 4/4:  2134724290 |block 3: block_425399a3debf4ea099449c12ac1b827b| |stage 3: Debrief| nicewebrl.utils - INFO - {'message': 'Ping 5648'}
+[0m[34muser 4/4:  2134724290 |block 3: block_425399a3debf4ea099449c12ac1b827b| |stage 3: Debrief| nicewebrl.utils - INFO - {'message': 'Ping 6791'}
+[0m[34muser 4/4:  2134724290 |block 3: block_425399a3debf4ea099449c12ac1b827b| |stage 3: Debrief| nicewebrl.utils - INFO - {'message': 'Ping 7975'}
+[0m[34muser 4/4:  2134724290 |block 3: block_425399a3debf4ea099449c12ac1b827b| |stage 3: Debrief| nicewebrl.utils - INFO - {'message': 'Ping 9973'}
+[0m[34muser 4/4:  2134724290 |block 3: block_425399a3debf4ea099449c12ac1b827b| |stage 3: Debrief| nicewebrl.utils - INFO - {'message': 'Ping 9908'}
+[0m[34muser 4/4:  2134724290 |block 3: block_425399a3debf4ea099449c12ac1b827b| |stage 3: Debrief| nicewebrl.utils - INFO - {'message': 'Ping 3658'}
+[0m[34muser 4/4:  2134724290 |block 3: block_425399a3debf4ea099449c12ac1b827b| |stage 3: Debrief| nicewebrl.utils - INFO - {'message': 'Ping 400'}
+[0m

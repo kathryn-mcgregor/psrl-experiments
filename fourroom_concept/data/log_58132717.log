@@ -1,0 +1,10 @@
+[33muser 3/3:  58132717 |block 0: undefined| |stage 0: undefined| nicewebrl.experiment - INFO - Block order: ['block_cbae50cbaad2461d94ccf446c3acb25d', 'block_2873ed6bb2274178aef5c1a61cfc5807', 'block_425399a3debf4ea099449c12ac1b827b']
+[0m[33muser 3/3:  58132717 |block 0: undefined| |stage 0: undefined| __mp_main__ - INFO - New episode: mode=bijection dims=['shape', 'color', 'texture'] n_kinds={'shape': 5, 'color': 5, 'texture': 5} n_goals=5 rule=shape='star'
+[0m[33muser 3/3:  58132717 |block 0: block_cbae50cbaad2461d94ccf446c3acb25d| |stage 0: Instructions| nicegui - WARNING - http://localhost:8084/.well-known/appspecific/com.chrome.devtools.json not found
+[0m[33muser 3/3:  58132717 |block 0: block_cbae50cbaad2461d94ccf446c3acb25d| |stage 0: Instructions| nicewebrl.utils - INFO - {'message': 'Ping 917'}
+[0m[33muser 3/3:  58132717 |block 1: block_2873ed6bb2274178aef5c1a61cfc5807| |stage 1: GridWorld| nicewebrl.utils - INFO - {'message': 'Ping 7632'}
+[0m[33muser 3/3:  58132717 |block 1: block_2873ed6bb2274178aef5c1a61cfc5807| |stage 1: GridWorld| __mp_main__ - INFO - Stage finished: GridWorld
+[0m[33muser 3/3:  58132717 |block 3: block_425399a3debf4ea099449c12ac1b827b| |stage 3: Debrief| __mp_main__ - INFO - Metadata saved → ./data/user_meta_58132717.json
+[0m[33muser 3/3:  58132717 |block 3: block_425399a3debf4ea099449c12ac1b827b| |stage 3: Debrief| nicewebrl.utils - INFO - {'message': 'Ping 2003'}
+[0m[33muser 3/3:  58132717 |block 3: block_425399a3debf4ea099449c12ac1b827b| |stage 3: Debrief| nicegui - WARNING - http://localhost:8084/.well-known/appspecific/com.chrome.devtools.json not found
+[0m

@@ -1,0 +1,12 @@
+[33muser 3/3:  2375774597 |block 0: undefined| |stage 0: undefined| nicewebrl.experiment - INFO - Block order: ['block_f538f6f5f751403c9138d0fa98966194', 'block_bfa58b3b16024a77b015e785fdcebf1b', 'block_bf8fc28394634db793204c0b6800a5f5']
+[0m[33muser 3/3:  2375774597 |block 0: undefined| |stage 0: undefined| __mp_main__ - INFO - New episode: rule=shape 'triangle'
+[0m[33muser 3/3:  2375774597 |block 0: block_f538f6f5f751403c9138d0fa98966194| |stage 0: Instructions| nicegui - WARNING - http://localhost:8084/.well-known/appspecific/com.chrome.devtools.json not found
+[0m[33muser 3/3:  2375774597 |block 0: block_f538f6f5f751403c9138d0fa98966194| |stage 0: Instructions| nicewebrl.utils - INFO - {'message': 'Ping 8460'}
+[0m[33muser 3/3:  2375774597 |block 1: block_bfa58b3b16024a77b015e785fdcebf1b| |stage 1: GridWorld| __mp_main__ - INFO - Stage finished: GridWorld
+[0m[33muser 3/3:  2375774597 |block 3: block_bf8fc28394634db793204c0b6800a5f5| |stage 3: Debrief| __mp_main__ - INFO - Metadata saved → ./data/user_meta_2375774597.json
+[0m[33muser 3/3:  2375774597 |block 3: block_bf8fc28394634db793204c0b6800a5f5| |stage 3: Debrief| nicewebrl.utils - INFO - {'message': 'Ping 3476'}
+[0m[31muser 1/1:  2375774597 |block 3: undefined| |stage 3: undefined| nicewebrl.experiment - INFO - Block order: ['block_92badc746321401696206b25edddc4bf', 'block_a9acbfb9a8ac4384b03d5c1198155c54', 'block_9f4980cec56d468d880c51b911aa2155']
+[0m[31muser 1/1:  2375774597 |block 3: undefined| |stage 3: undefined| __mp_main__ - INFO - Metadata saved → ./data/user_meta_2375774597.json
+[0m[31muser 1/1:  2375774597 |block 3: undefined| |stage 3: undefined| nicegui - WARNING - http://localhost:8084/.well-known/appspecific/com.chrome.devtools.json not found
+[0m[31muser 1/1:  2375774597 |block 3: undefined| |stage 3: undefined| nicewebrl.utils - INFO - {'message': 'Ping 3442'}
+[0m

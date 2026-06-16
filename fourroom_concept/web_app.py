@@ -2,9 +2,14 @@
 NiceGUI web app for the four-room concept-learning experiment.
 
 Run with:
-    python web_app.py   →  http://localhost:8084
+    python web_app.py                                      # random mode, all dims, 4 kinds, 4 goals
+    python web_app.py --mode bijection                     # bijection (requires n-kinds == n-goals)
+    python web_app.py --mode no-repeat                     # rewarding combos excluded from later mazes
+    python web_app.py --dims shape color --n-kinds 3 2       # 3 shapes, 2 colors
+    python web_app.py --dims color --n-kinds 2 --n-goals 2  # only 2 colors, 2 goals per maze
 """
 
+import argparse
 import asyncio
 import json
 import os
@@ -20,6 +25,53 @@ from nicewebrl.utils import wait_for_button_or_keypress
 
 import gridworld as gw
 from experiment_structure import experiment
+
+# Parse experiment parameters before NiceGUI takes over sys.argv
+_parser = argparse.ArgumentParser(add_help=False)
+_parser.add_argument(
+    "--mode",
+    choices=[gw.MODE_RANDOM, gw.MODE_BIJECTION, gw.MODE_NO_REPEAT],
+    default=gw.MODE_RANDOM,
+)
+_parser.add_argument(
+    "--dims",
+    nargs="+",
+    choices=list(gw.DIMENSIONS.keys()),
+    default=list(gw.DIMENSIONS.keys()),
+    metavar="DIM",
+    help=f"Dimensions goals vary on. Choices: {list(gw.DIMENSIONS.keys())}",
+)
+_parser.add_argument(
+    "--n-kinds",
+    nargs="+",
+    type=int,
+    dest="n_kinds",
+    metavar="N",
+    help="Number of values per active dimension, in the same order as --dims.",
+)
+_parser.add_argument(
+    "--n-goals",
+    type=int,
+    default=4,
+    dest="n_goals",
+    help="Number of goals per maze (max 4, one per room).",
+)
+_args, _ = _parser.parse_known_args()
+
+EXPERIMENT_MODE   = _args.mode
+EXPERIMENT_DIMS   = _args.dims
+EXPERIMENT_NGOALS = _args.n_goals
+
+# Build n_kinds dict; default to 4 per dim if not specified
+if _args.n_kinds is None:
+    EXPERIMENT_NKINDS = {d: 4 for d in EXPERIMENT_DIMS}
+else:
+    if len(_args.n_kinds) != len(EXPERIMENT_DIMS):
+        raise SystemExit(
+            f"--n-kinds must have one value per --dims entry. "
+            f"Got {len(_args.n_kinds)} value(s) for {len(EXPERIMENT_DIMS)} dim(s): {EXPERIMENT_DIMS}"
+        )
+    EXPERIMENT_NKINDS = dict(zip(EXPERIMENT_DIMS, _args.n_kinds))
 
 logger   = get_logger(__name__)
 DATA_DIR = "./data"
@@ -125,12 +177,28 @@ async def run_stage(stage, container):
 async def start_experiment(meta_container, stage_container):
     ui.on("key_pressed", lambda e: global_handle_key_press(e, stage_container))
 
+    # Discard stale state from old format (pre-refactor used goal_shapes/goal_colors)
+    existing = app.storage.user.get("gw_state")
+    if existing is not None:
+        first_maze = next((m for m in existing.get("mazes", []) if m is not None), None)
+        if first_maze is not None and "goals" not in first_maze:
+            logger.info("Discarding stale session state (old format)")
+            del app.storage.user["gw_state"]
+
     if "gw_state" not in app.storage.user:
         seed  = app.storage.user.get("seed")
-        state = gw.init_episode(seed=seed)
+        state = gw.init_episode(
+            seed=seed,
+            mode=EXPERIMENT_MODE,
+            dims=EXPERIMENT_DIMS,
+            n_kinds=EXPERIMENT_NKINDS,
+            n_goals=EXPERIMENT_NGOALS,
+        )
         app.storage.user["gw_state"] = state
         logger.info(
-            f"New episode: rule={state['rule_type']} '{state['rule_value']}'"
+            f"New episode: mode={EXPERIMENT_MODE} dims={EXPERIMENT_DIMS} "
+            f"n_kinds={EXPERIMENT_NKINDS} n_goals={EXPERIMENT_NGOALS} "
+            f"rule={state['rule_dim']}='{state['rule_value']}'"
         )
 
     while not experiment.finished():
@@ -145,21 +213,28 @@ async def start_experiment(meta_container, stage_container):
 async def finish_experiment(container):
     state = app.storage.user.get("gw_state", {})
     metadata = {
-        "finished":         True,
-        "seed":             app.storage.user.get("seed"),
-        "rule_type":        state.get("rule_type"),
-        "rule_value":       state.get("rule_value"),
-        "total_score":      state.get("total_score"),
-        "total_steps":      sum(m["step"] for m in state.get("mazes", [])),
-        "log":              state.get("log", []),
+        "finished":    True,
+        "seed":        app.storage.user.get("seed"),
+        "mode":        state.get("mode"),
+        "dims":        state.get("dims"),
+        "n_kinds":     state.get("n_kinds"),
+        "n_goals":     state.get("n_goals"),
+        "rule_dim":    state.get("rule_dim"),
+        "rule_value":  state.get("rule_value"),
+        "total_score": state.get("total_score"),
+        "total_steps": sum(
+            m["step"] for m in state.get("mazes", []) if m is not None
+        ),
+        "log":  state.get("log", []),
         "mazes": [
             {
                 "grid":           m["grid"],
                 "agent_pos":      m["agent_pos"],
                 "goal_positions": m["goal_positions"],
-                "goal_shapes":    m["goal_shapes"],
-                "goal_colors":    m["goal_colors"],
+                "goals":          m["goals"],
+                "fixed_values":   m.get("fixed_values", {}),
             }
+            if m is not None else None
             for m in state.get("mazes", [])
         ],
     }

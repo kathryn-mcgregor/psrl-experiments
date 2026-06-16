@@ -1,0 +1,10 @@
+[31muser 1/1:  3903748427 |block 0: undefined| |stage 0: undefined| nicewebrl.experiment - INFO - Block order: ['block_ced52f338e464062ab01c751b4a975f0', 'block_657fdffe3a834e8d8a83d7e15aba512b', 'block_a373d9564b1f4a1483567ab9ddc508bf']
+[0m[31muser 1/1:  3903748427 |block 0: undefined| |stage 0: undefined| __mp_main__ - INFO - New episode: rule=color 'red'
+[0m[31muser 1/1:  3903748427 |block 0: block_ced52f338e464062ab01c751b4a975f0| |stage 0: Instructions| nicewebrl.utils - INFO - {'message': 'Ping 3103'}
+[0m[31muser 1/1:  3903748427 |block 1: block_657fdffe3a834e8d8a83d7e15aba512b| |stage 1: GridWorld| nicewebrl.utils - INFO - {'message': 'Ping 6403'}
+[0m[31muser 1/1:  3903748427 |block 1: block_657fdffe3a834e8d8a83d7e15aba512b| |stage 1: GridWorld| __mp_main__ - INFO - Stage finished: GridWorld
+[0m[31muser 1/1:  3903748427 |block 3: block_a373d9564b1f4a1483567ab9ddc508bf| |stage 3: Debrief| __mp_main__ - INFO - Metadata saved → ./data/user_meta_3903748427.json
+[0m[31muser 1/1:  3903748427 |block 3: block_a373d9564b1f4a1483567ab9ddc508bf| |stage 3: Debrief| nicewebrl.utils - INFO - {'message': 'Ping 1720'}
+[0m[31muser 1/1:  3903748427 |block 3: block_a373d9564b1f4a1483567ab9ddc508bf| |stage 3: Debrief| nicewebrl.utils - INFO - {'message': 'Ping 6577'}
+[0m[31muser 1/1:  3903748427 |block 3: block_a373d9564b1f4a1483567ab9ddc508bf| |stage 3: Debrief| nicegui - WARNING - http://localhost:8084/.well-known/appspecific/com.chrome.devtools.json not found
+[0m

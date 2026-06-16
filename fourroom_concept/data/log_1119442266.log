@@ -1,0 +1,8 @@
+[31muser 1/1:  1119442266 |block 0: undefined| |stage 0: undefined| nicewebrl.experiment - INFO - Block order: ['block_24e9a68b18724ffdbd630dde02e016fa', 'block_19c4b0c7b6d240ee889569507380e4d8', 'block_61b3585a049f4b4ab9788fedb4655012']
+[0m[31muser 1/1:  1119442266 |block 0: undefined| |stage 0: undefined| __mp_main__ - INFO - New episode: rule=shape 'circle'
+[0m[31muser 1/1:  1119442266 |block 0: block_24e9a68b18724ffdbd630dde02e016fa| |stage 0: Instructions| nicewebrl.utils - INFO - {'message': 'Ping 8388'}
+[0m[31muser 1/1:  1119442266 |block 1: block_19c4b0c7b6d240ee889569507380e4d8| |stage 1: GridWorld| nicewebrl.utils - INFO - {'message': 'Ping 3231'}
+[0m[31muser 1/1:  1119442266 |block 1: undefined| |stage 1: undefined| nicewebrl.experiment - INFO - Block order: ['block_f538f6f5f751403c9138d0fa98966194', 'block_bfa58b3b16024a77b015e785fdcebf1b', 'block_bf8fc28394634db793204c0b6800a5f5']
+[0m[31muser 1/1:  1119442266 |block 1: block_bfa58b3b16024a77b015e785fdcebf1b| |stage 1: GridWorld| nicegui - WARNING - http://localhost:8084/.well-known/appspecific/com.chrome.devtools.json not found
+[0m[31muser 1/1:  1119442266 |block 1: block_bfa58b3b16024a77b015e785fdcebf1b| |stage 1: GridWorld| nicewebrl.utils - INFO - {'message': 'Ping 5562'}
+[0m

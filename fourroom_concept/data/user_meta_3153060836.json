@@ -1,0 +1,1324 @@
+{
+  "finished": true,
+  "seed": 3153060836,
+  "mode": "no-repeat",
+  "dims": [
+    "shape",
+    "color",
+    "texture"
+  ],
+  "n_kinds": {
+    "shape": 4,
+    "color": 4,
+    "texture": 4
+  },
+  "n_goals": 8,
+  "rule_dim": "shape",
+  "rule_value": "square",
+  "total_score": 2,
+  "total_steps": 100,
+  "log": [
+    {
+      "maze_idx": 0,
+      "goal_idx": 3,
+      "reward": 0,
+      "maze_step": 1,
+      "shape": "star",
+      "color": "blue",
+      "texture": "outline"
+    },
+    {
+      "maze_idx": 0,
+      "goal_idx": 6,
+      "reward": 0,
+      "maze_step": 4,
+      "shape": "triangle",
+      "color": "blue",
+      "texture": "dotted"
+    },
+    {
+      "maze_idx": 0,
+      "goal_idx": 1,
+      "reward": 0,
+      "maze_step": 15,
+      "shape": "circle",
+      "color": "green",
+      "texture": "striped"
+    },
+    {
+      "maze_idx": 0,
+      "goal_idx": 7,
+      "reward": 0,
+      "maze_step": 24,
+      "shape": "triangle",
+      "color": "yellow",
+      "texture": "dotted"
+    },
+    {
+      "maze_idx": 0,
+      "goal_idx": 0,
+      "reward": 0,
+      "maze_step": 28,
+      "shape": "star",
+      "color": "green",
+      "texture": "outline"
+    },
+    {
+      "maze_idx": 0,
+      "goal_idx": 5,
+      "reward": 0,
+      "maze_step": 36,
+      "shape": "circle",
+      "color": "yellow",
+      "texture": "dotted"
+    },
+    {
+      "maze_idx": 0,
+      "goal_idx": 2,
+      "reward": 0,
+      "maze_step": 37,
+      "shape": "star",
+      "color": "yellow",
+      "texture": "outline"
+    },
+    {
+      "maze_idx": 0,
+      "goal_idx": 4,
+      "reward": 0,
+      "maze_step": 42,
+      "shape": "triangle",
+      "color": "yellow",
+      "texture": "solid"
+    },
+    {
+      "maze_idx": 1,
+      "goal_idx": 1,
+      "reward": 0,
+      "maze_step": 2,
+      "shape": "triangle",
+      "color": "yellow",
+      "texture": "solid"
+    },
+    {
+      "maze_idx": 1,
+      "goal_idx": 0,
+      "reward": 0,
+      "maze_step": 13,
+      "shape": "triangle",
+      "color": "green",
+      "texture": "dotted"
+    },
+    {
+      "maze_idx": 1,
+      "goal_idx": 6,
+      "reward": 1,
+      "maze_step": 19,
+      "shape": "square",
+      "color": "red",
+      "texture": "dotted"
+    },
+    {
+      "maze_idx": 2,
+      "goal_idx": 4,
+      "reward": 1,
+      "maze_step": 5,
+      "shape": "square",
+      "color": "green",
+      "texture": "outline"
+    },
+    {
+      "maze_idx": 3,
+      "goal_idx": 7,
+      "reward": 0,
+      "maze_step": 2,
+      "shape": "circle",
+      "color": "red",
+      "texture": "solid"
+    },
+    {
+      "maze_idx": 3,
+      "goal_idx": 0,
+      "reward": 0,
+      "maze_step": 3,
+      "shape": "circle",
+      "color": "yellow",
+      "texture": "solid"
+    },
+    {
+      "maze_idx": 3,
+      "goal_idx": 4,
+      "reward": 0,
+      "maze_step": 6,
+      "shape": "circle",
+      "color": "green",
+      "texture": "solid"
+    },
+    {
+      "maze_idx": 3,
+      "goal_idx": 5,
+      "reward": 0,
+      "maze_step": 8,
+      "shape": "star",
+      "color": "green",
+      "texture": "solid"
+    },
+    {
+      "maze_idx": 3,
+      "goal_idx": 2,
+      "reward": 0,
+      "maze_step": 16,
+      "shape": "triangle",
+      "color": "blue",
+      "texture": "dotted"
+    },
+    {
+      "maze_idx": 3,
+      "goal_idx": 6,
+      "reward": 0,
+      "maze_step": 22,
+      "shape": "triangle",
+      "color": "blue",
+      "texture": "outline"
+    },
+    {
+      "maze_idx": 3,
+      "goal_idx": 3,
+      "reward": 0,
+      "maze_step": 28,
+      "shape": "circle",
+      "color": "yellow",
+      "texture": "dotted"
+    },
+    {
+      "maze_idx": 3,
+      "goal_idx": 1,
+      "reward": 0,
+      "maze_step": 34,
+      "shape": "star",
+      "color": "blue",
+      "texture": "dotted"
+    }
+  ],
+  "mazes": [
+    {
+      "grid": [
+        [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        [
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          1,
+          1,
+          0,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          0,
+          1,
+          1,
+          1
+        ],
+        [
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ]
+      ],
+      "agent_pos": [
+        10,
+        5
+      ],
+      "goal_positions": [
+        [
+          4,
+          1
+        ],
+        [
+          2,
+          10
+        ],
+        [
+          11,
+          1
+        ],
+        [
+          11,
+          7
+        ],
+        [
+          10,
+          5
+        ],
+        [
+          10,
+          1
+        ],
+        [
+          11,
+          10
+        ],
+        [
+          5,
+          4
+        ]
+      ],
+      "goals": [
+        {
+          "shape": "star",
+          "color": "green",
+          "texture": "outline"
+        },
+        {
+          "shape": "circle",
+          "color": "green",
+          "texture": "striped"
+        },
+        {
+          "shape": "star",
+          "color": "yellow",
+          "texture": "outline"
+        },
+        {
+          "shape": "star",
+          "color": "blue",
+          "texture": "outline"
+        },
+        {
+          "shape": "triangle",
+          "color": "yellow",
+          "texture": "solid"
+        },
+        {
+          "shape": "circle",
+          "color": "yellow",
+          "texture": "dotted"
+        },
+        {
+          "shape": "triangle",
+          "color": "blue",
+          "texture": "dotted"
+        },
+        {
+          "shape": "triangle",
+          "color": "yellow",
+          "texture": "dotted"
+        }
+      ],
+      "fixed_values": {}
+    },
+    {
+      "grid": [
+        [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        [
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          1,
+          1,
+          0,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          0,
+          1,
+          1,
+          1
+        ],
+        [
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ]
+      ],
+      "agent_pos": [
+        7,
+        2
+      ],
+      "goal_positions": [
+        [
+          1,
+          2
+        ],
+        [
+          3,
+          11
+        ],
+        [
+          10,
+          3
+        ],
+        [
+          9,
+          10
+        ],
+        [
+          11,
+          5
+        ],
+        [
+          7,
+          10
+        ],
+        [
+          7,
+          2
+        ],
+        [
+          11,
+          8
+        ]
+      ],
+      "goals": [
+        {
+          "shape": "triangle",
+          "color": "green",
+          "texture": "dotted"
+        },
+        {
+          "shape": "triangle",
+          "color": "yellow",
+          "texture": "solid"
+        },
+        {
+          "shape": "circle",
+          "color": "red",
+          "texture": "solid"
+        },
+        {
+          "shape": "square",
+          "color": "yellow",
+          "texture": "dotted"
+        },
+        {
+          "shape": "square",
+          "color": "green",
+          "texture": "striped"
+        },
+        {
+          "shape": "star",
+          "color": "yellow",
+          "texture": "dotted"
+        },
+        {
+          "shape": "square",
+          "color": "red",
+          "texture": "dotted"
+        },
+        {
+          "shape": "circle",
+          "color": "green",
+          "texture": "outline"
+        }
+      ],
+      "fixed_values": {}
+    },
+    {
+      "grid": [
+        [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        [
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          1,
+          1,
+          0,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          0,
+          1,
+          1,
+          1
+        ],
+        [
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ]
+      ],
+      "agent_pos": [
+        1,
+        7
+      ],
+      "goal_positions": [
+        [
+          3,
+          4
+        ],
+        [
+          1,
+          9
+        ],
+        [
+          9,
+          2
+        ],
+        [
+          7,
+          7
+        ],
+        [
+          1,
+          7
+        ],
+        [
+          11,
+          11
+        ],
+        [
+          10,
+          8
+        ],
+        [
+          11,
+          8
+        ]
+      ],
+      "goals": [
+        {
+          "shape": "triangle",
+          "color": "blue",
+          "texture": "outline"
+        },
+        {
+          "shape": "circle",
+          "color": "blue",
+          "texture": "striped"
+        },
+        {
+          "shape": "square",
+          "color": "blue",
+          "texture": "striped"
+        },
+        {
+          "shape": "star",
+          "color": "yellow",
+          "texture": "solid"
+        },
+        {
+          "shape": "square",
+          "color": "green",
+          "texture": "outline"
+        },
+        {
+          "shape": "triangle",
+          "color": "yellow",
+          "texture": "striped"
+        },
+        {
+          "shape": "square",
+          "color": "yellow",
+          "texture": "striped"
+        },
+        {
+          "shape": "circle",
+          "color": "blue",
+          "texture": "outline"
+        }
+      ],
+      "fixed_values": {}
+    },
+    {
+      "grid": [
+        [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        [
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          1,
+          1,
+          0,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          0,
+          1,
+          1,
+          1
+        ],
+        [
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ]
+      ],
+      "agent_pos": [
+        5,
+        7
+      ],
+      "goal_positions": [
+        [
+          2,
+          3
+        ],
+        [
+          5,
+          7
+        ],
+        [
+          8,
+          4
+        ],
+        [
+          9,
+          9
+        ],
+        [
+          4,
+          4
+        ],
+        [
+          5,
+          5
+        ],
+        [
+          7,
+          7
+        ],
+        [
+          1,
+          3
+        ]
+      ],
+      "goals": [
+        {
+          "shape": "circle",
+          "color": "yellow",
+          "texture": "solid"
+        },
+        {
+          "shape": "star",
+          "color": "blue",
+          "texture": "dotted"
+        },
+        {
+          "shape": "triangle",
+          "color": "blue",
+          "texture": "dotted"
+        },
+        {
+          "shape": "circle",
+          "color": "yellow",
+          "texture": "dotted"
+        },
+        {
+          "shape": "circle",
+          "color": "green",
+          "texture": "solid"
+        },
+        {
+          "shape": "star",
+          "color": "green",
+          "texture": "solid"
+        },
+        {
+          "shape": "triangle",
+          "color": "blue",
+          "texture": "outline"
+        },
+        {
+          "shape": "circle",
+          "color": "red",
+          "texture": "solid"
+        }
+      ],
+      "fixed_values": {}
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+[33muser 3/3:  1350455368 |block 0: undefined| |stage 0: undefined| nicewebrl.experiment - INFO - Block order: ['block_4501008a6af94d2da8e718a0d808864b', 'block_b635bfcf046049e89f5f388165e645ff', 'block_669116ba36f74310a63b3ca6b9258dee']
+[0m[33muser 3/3:  1350455368 |block 0: undefined| |stage 0: undefined| __mp_main__ - INFO - New episode: mode=bijection rule=shape 'star'
+[0m[33muser 3/3:  1350455368 |block 0: block_4501008a6af94d2da8e718a0d808864b| |stage 0: Instructions| nicegui - WARNING - http://localhost:8084/.well-known/appspecific/com.chrome.devtools.json not found
+[0m[33muser 3/3:  1350455368 |block 0: block_4501008a6af94d2da8e718a0d808864b| |stage 0: Instructions| nicewebrl.utils - INFO - {'message': 'Ping 3727'}
+[0m[33muser 3/3:  1350455368 |block 1: block_b635bfcf046049e89f5f388165e645ff| |stage 1: GridWorld| nicewebrl.utils - INFO - {'message': 'Ping 3066'}
+[0m[33muser 3/3:  1350455368 |block 1: block_b635bfcf046049e89f5f388165e645ff| |stage 1: GridWorld| nicewebrl.utils - INFO - {'message': 'Ping 2662'}
+[0m[33muser 3/3:  1350455368 |block 1: block_b635bfcf046049e89f5f388165e645ff| |stage 1: GridWorld| nicewebrl.utils - INFO - {'message': 'Ping 3803'}
+[0m[33muser 3/3:  1350455368 |block 1: block_b635bfcf046049e89f5f388165e645ff| |stage 1: GridWorld| nicewebrl.utils - INFO - {'message': 'Ping 1169'}
+[0m[33muser 3/3:  1350455368 |block 1: block_b635bfcf046049e89f5f388165e645ff| |stage 1: GridWorld| nicewebrl.utils - INFO - {'message': 'Ping 984'}
+[0m[33muser 3/3:  1350455368 |block 1: block_b635bfcf046049e89f5f388165e645ff| |stage 1: GridWorld| nicewebrl.utils - INFO - {'message': 'Ping 9210'}
+[0m[33muser 3/3:  1350455368 |block 1: block_b635bfcf046049e89f5f388165e645ff| |stage 1: GridWorld| nicewebrl.utils - INFO - {'message': 'Ping 5539'}
+[0m[33muser 3/3:  1350455368 |block 1: block_b635bfcf046049e89f5f388165e645ff| |stage 1: GridWorld| nicewebrl.utils - INFO - {'message': 'Ping 5652'}
+[0m[33muser 3/3:  1350455368 |block 1: block_b635bfcf046049e89f5f388165e645ff| |stage 1: GridWorld| nicewebrl.utils - INFO - {'message': 'Ping 7339'}
+[0m[33muser 3/3:  1350455368 |block 1: block_b635bfcf046049e89f5f388165e645ff| |stage 1: GridWorld| nicewebrl.utils - INFO - {'message': 'Ping 1951'}
+[0m[33muser 3/3:  1350455368 |block 1: block_b635bfcf046049e89f5f388165e645ff| |stage 1: GridWorld| nicewebrl.utils - INFO - {'message': 'Ping 8461'}
+[0m[31muser 1/1:  1350455368 |block 1: undefined| |stage 1: undefined| nicewebrl.experiment - INFO - Block order: ['block_c3c6fbb674244facb836169a0ad47bd5', 'block_9752a28545254442862c570a6e3efd84', 'block_5d66eb797ff04061b5cf892209d56e03']
+[0m[31muser 1/1:  1350455368 |block 1: block_9752a28545254442862c570a6e3efd84| |stage 1: GridWorld| nicegui - WARNING - http://localhost:8084/.well-known/appspecific/com.chrome.devtools.json not found
+[0m[31muser 1/1:  1350455368 |block 1: undefined| |stage 1: undefined| nicewebrl.experiment - INFO - Block order: ['block_107a7817578d466dbd993ffe29e57982', 'block_11afff4b3775458abb89dfdde692de66', 'block_47cab4a3024a43cab747c82dc392ef26']
+[0m[31muser 1/1:  1350455368 |block 1: block_11afff4b3775458abb89dfdde692de66| |stage 1: GridWorld| nicegui - WARNING - http://localhost:8084/.well-known/appspecific/com.chrome.devtools.json not found
+[0m[31muser 1/1:  1350455368 |block 1: block_11afff4b3775458abb89dfdde692de66| |stage 1: GridWorld| nicewebrl.utils - INFO - {'message': 'Ping 4941'}
+[0m[31muser 1/1:  1350455368 |block 1: undefined| |stage 1: undefined| nicewebrl.experiment - INFO - Block order: ['block_9eb8ad9ce9434220952f65e9d140c6ad', 'block_179221b874574727a65bdaf757ae42b7', 'block_900271e2e7124da5bc3b1717d86e564c']
+[0m[31muser 1/1:  1350455368 |block 1: block_179221b874574727a65bdaf757ae42b7| |stage 1: GridWorld| nicegui - WARNING - http://localhost:8084/.well-known/appspecific/com.chrome.devtools.json not found
+[0m[31muser 1/1:  1350455368 |block 1: block_179221b874574727a65bdaf757ae42b7| |stage 1: GridWorld| nicewebrl.utils - INFO - {'message': 'Ping 9475'}
+[0m[31muser 1/1:  1350455368 |block 1: undefined| |stage 1: undefined| nicewebrl.experiment - INFO - Block order: ['block_1adae4b2bea74517afea64316c74dcdb', 'block_ea8ddc5a79d34bf8968a013234eefd9c', 'block_2b8686727fdf41b19188271b8b02a2fb']
+[0m[31muser 1/1:  1350455368 |block 1: block_ea8ddc5a79d34bf8968a013234eefd9c| |stage 1: GridWorld| nicegui - WARNING - http://localhost:8084/.well-known/appspecific/com.chrome.devtools.json not found
+[0m[31muser 1/1:  1350455368 |block 1: block_ea8ddc5a79d34bf8968a013234eefd9c| |stage 1: GridWorld| nicewebrl.utils - INFO - {'message': 'Ping 1501'}
+[0m[31muser 1/1:  1350455368 |block 1: undefined| |stage 1: undefined| nicewebrl.experiment - INFO - Block order: ['block_09b610a33db24396b063cf5cc7b5bbe5', 'block_8f31c7520a61434ca66176bc419ea7aa', 'block_5588419dc54a48c0ac0a899b3261c3fe']
+[0m[31muser 1/1:  1350455368 |block 1: block_8f31c7520a61434ca66176bc419ea7aa| |stage 1: GridWorld| nicegui - WARNING - http://localhost:8084/.well-known/appspecific/com.chrome.devtools.json not found
+[0m[31muser 1/1:  1350455368 |block 1: block_8f31c7520a61434ca66176bc419ea7aa| |stage 1: GridWorld| nicewebrl.utils - INFO - {'message': 'Ping 9986'}
+[0m[31muser 1/1:  1350455368 |block 1: undefined| |stage 1: undefined| nicewebrl.experiment - INFO - Block order: ['block_246429d6f7ff46f29e50ff090dd74ec1', 'block_e8ccd0747bf8415da58f9992e80796c9', 'block_bd1b46fc5d754292818b230233e7c184']
+[0m[31muser 1/1:  1350455368 |block 1: block_e8ccd0747bf8415da58f9992e80796c9| |stage 1: GridWorld| nicegui - WARNING - http://localhost:8084/.well-known/appspecific/com.chrome.devtools.json not found
+[0m[31muser 1/1:  1350455368 |block 1: block_e8ccd0747bf8415da58f9992e80796c9| |stage 1: GridWorld| nicewebrl.utils - INFO - {'message': 'Ping 6139'}
+[0m[31muser 1/1:  1350455368 |block 1: undefined| |stage 1: undefined| nicewebrl.experiment - INFO - Block order: ['block_5616b2d9f3db46aab5f377bd394d28aa', 'block_3b02b703a89a40338fff04cf144b1626', 'block_8075d78302b844818bd4e6f906a6e379']
+[0m[31muser 1/1:  1350455368 |block 1: block_3b02b703a89a40338fff04cf144b1626| |stage 1: GridWorld| nicegui - WARNING - http://localhost:8084/.well-known/appspecific/com.chrome.devtools.json not found
+[0m[31muser 1/1:  1350455368 |block 1: block_3b02b703a89a40338fff04cf144b1626| |stage 1: GridWorld| nicewebrl.utils - INFO - {'message': 'Ping 8588'}
+[0m[31muser 1/1:  1350455368 |block 1: undefined| |stage 1: undefined| nicewebrl.experiment - INFO - Block order: ['block_889fd1d084c84f33b602d8c81ae33ff2', 'block_712af8df18164deab94a74db65eb1a48', 'block_cae7c363292a4db6b293fe1bcd244c85']
+[0m[31muser 1/1:  1350455368 |block 1: block_712af8df18164deab94a74db65eb1a48| |stage 1: GridWorld| nicegui - WARNING - http://localhost:8084/.well-known/appspecific/com.chrome.devtools.json not found
+[0m[31muser 1/1:  1350455368 |block 1: block_712af8df18164deab94a74db65eb1a48| |stage 1: GridWorld| nicewebrl.utils - INFO - {'message': 'Ping 5224'}
+[0m[31muser 1/1:  1350455368 |block 1: block_712af8df18164deab94a74db65eb1a48| |stage 1: GridWorld| nicewebrl.utils - INFO - {'message': 'Ping 2940'}
+[0m[31muser 1/1:  1350455368 |block 1: block_712af8df18164deab94a74db65eb1a48| |stage 1: GridWorld| nicewebrl.utils - INFO - {'message': 'Ping 7636'}
+[0m[31muser 1/1:  1350455368 |block 1: undefined| |stage 1: undefined| nicewebrl.experiment - INFO - Block order: ['block_95d384600beb4771b42f0d9f23c7dff5', 'block_e0ddb87432f3407face2b3358ef65df9', 'block_6836243e79104ffab8b27714fa41f013']
+[0m[31muser 1/1:  1350455368 |block 1: block_e0ddb87432f3407face2b3358ef65df9| |stage 1: GridWorld| nicegui - WARNING - http://localhost:8084/.well-known/appspecific/com.chrome.devtools.json not found
+[0m[31muser 1/1:  1350455368 |block 1: block_e0ddb87432f3407face2b3358ef65df9| |stage 1: GridWorld| nicewebrl.utils - INFO - {'message': 'Ping 7975'}
+[0m[31muser 1/1:  1350455368 |block 1: undefined| |stage 1: undefined| nicewebrl.experiment - INFO - Block order: ['block_5392a743d9e84e98bc2b0f914f89c54c', 'block_e9913ff9b75a436ca2d55747081388b7', 'block_7f46f03ef51146329291b12a7ff292b5']
+[0m[31muser 1/1:  1350455368 |block 1: block_e9913ff9b75a436ca2d55747081388b7| |stage 1: GridWorld| nicegui - WARNING - http://localhost:8084/.well-known/appspecific/com.chrome.devtools.json not found
+[0m[31muser 1/1:  1350455368 |block 1: block_e9913ff9b75a436ca2d55747081388b7| |stage 1: GridWorld| nicewebrl.utils - INFO - {'message': 'Ping 6369'}
+[0m[31muser 1/1:  1350455368 |block 1: undefined| |stage 1: undefined| nicewebrl.experiment - INFO - Block order: ['block_be4b46166ae84d25a123bbaa665af77e', 'block_8f2e194806244c3bacfdcf2b4c95ec58', 'block_a1c2393d595b428aa54d88d882c2983e']
+[0m[31muser 1/1:  1350455368 |block 1: block_8f2e194806244c3bacfdcf2b4c95ec58| |stage 1: GridWorld| nicegui - WARNING - http://localhost:8084/.well-known/appspecific/com.chrome.devtools.json not found
+[0m[31muser 1/1:  1350455368 |block 1: block_8f2e194806244c3bacfdcf2b4c95ec58| |stage 1: GridWorld| nicewebrl.utils - INFO - {'message': 'Ping 4145'}
+[0m

@@ -1,0 +1,13 @@
+[33muser 3/3:  2433793864 |block 0: undefined| |stage 0: undefined| nicewebrl.experiment - INFO - Block order: ['block_834db273a66a487fa6ce70e1d6db221f', 'block_0b6d1bb93a374ccbaf4472cca91ddf09', 'block_90637075b3544967add0f3ef86efeb32']
+[0m[33muser 3/3:  2433793864 |block 0: undefined| |stage 0: undefined| __mp_main__ - INFO - New episode: mode=bijection dims=['shape', 'color', 'texture'] n_kinds={'shape': 4, 'color': 4, 'texture': 4} n_goals=4 rule=color='red'
+[0m[33muser 3/3:  2433793864 |block 0: block_834db273a66a487fa6ce70e1d6db221f| |stage 0: Instructions| nicegui - WARNING - http://localhost:8084/.well-known/appspecific/com.chrome.devtools.json not found
+[0m[33muser 3/3:  2433793864 |block 0: block_834db273a66a487fa6ce70e1d6db221f| |stage 0: Instructions| nicewebrl.utils - INFO - {'message': 'Ping 7067'}
+[0m[33muser 3/3:  2433793864 |block 1: block_0b6d1bb93a374ccbaf4472cca91ddf09| |stage 1: GridWorld| nicewebrl.utils - INFO - {'message': 'Ping 8275'}
+[0m[33muser 3/3:  2433793864 |block 1: block_0b6d1bb93a374ccbaf4472cca91ddf09| |stage 1: GridWorld| __mp_main__ - INFO - Stage finished: GridWorld
+[0m[33muser 3/3:  2433793864 |block 3: block_90637075b3544967add0f3ef86efeb32| |stage 3: Debrief| __mp_main__ - INFO - Metadata saved → ./data/user_meta_2433793864.json
+[0m[33muser 3/3:  2433793864 |block 3: block_90637075b3544967add0f3ef86efeb32| |stage 3: Debrief| nicewebrl.utils - INFO - {'message': 'Ping 1671'}
+[0m[31muser 1/1:  2433793864 |block 3: undefined| |stage 3: undefined| nicewebrl.experiment - INFO - Block order: ['block_cbae50cbaad2461d94ccf446c3acb25d', 'block_2873ed6bb2274178aef5c1a61cfc5807', 'block_425399a3debf4ea099449c12ac1b827b']
+[0m[31muser 1/1:  2433793864 |block 3: undefined| |stage 3: undefined| __mp_main__ - INFO - Metadata saved → ./data/user_meta_2433793864.json
+[0m[31muser 1/1:  2433793864 |block 3: undefined| |stage 3: undefined| nicewebrl.utils - INFO - {'message': 'Ping 6019'}
+[0m[31muser 1/1:  2433793864 |block 3: undefined| |stage 3: undefined| nicegui - WARNING - http://localhost:8084/.well-known/appspecific/com.chrome.devtools.json not found
+[0m

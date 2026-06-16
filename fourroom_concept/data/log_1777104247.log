@@ -1,0 +1,9 @@
+[32muser 2/2:  1777104247 |block 0: undefined| |stage 0: undefined| nicewebrl.experiment - INFO - Block order: ['block_3b5fe47620ed43a18f16062c8f422c0b', 'block_e3bda88717644b62b6f1f0055dc03541', 'block_dcd863529ddf420da2f64c1a5a3eb3d1']
+[0m[32muser 2/2:  1777104247 |block 0: undefined| |stage 0: undefined| __mp_main__ - INFO - New episode: mode=no-repeat dims=['shape', 'color'] n_kinds={'shape': 4, 'color': 4} n_goals=4 rule=shape='triangle'
+[0m[32muser 2/2:  1777104247 |block 0: block_3b5fe47620ed43a18f16062c8f422c0b| |stage 0: Instructions| nicegui - WARNING - http://localhost:8084/.well-known/appspecific/com.chrome.devtools.json not found
+[0m[32muser 2/2:  1777104247 |block 0: block_3b5fe47620ed43a18f16062c8f422c0b| |stage 0: Instructions| nicewebrl.utils - INFO - {'message': 'Ping 7455'}
+[0m[32muser 2/2:  1777104247 |block 1: block_e3bda88717644b62b6f1f0055dc03541| |stage 1: GridWorld| nicewebrl.utils - INFO - {'message': 'Ping 2872'}
+[0m[32muser 2/2:  1777104247 |block 1: block_e3bda88717644b62b6f1f0055dc03541| |stage 1: GridWorld| __mp_main__ - INFO - Stage finished: GridWorld
+[0m[32muser 2/2:  1777104247 |block 3: block_dcd863529ddf420da2f64c1a5a3eb3d1| |stage 3: Debrief| __mp_main__ - INFO - Metadata saved → ./data/user_meta_1777104247.json
+[0m[32muser 2/2:  1777104247 |block 3: block_dcd863529ddf420da2f64c1a5a3eb3d1| |stage 3: Debrief| nicewebrl.utils - INFO - {'message': 'Ping 92'}
+[0m

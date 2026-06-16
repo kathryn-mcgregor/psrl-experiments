@@ -1,0 +1,14 @@
+[31muser 1/1:  2910511347 |block 0: undefined| |stage 0: undefined| nicewebrl.experiment - INFO - Block order: ['block_3d34e202d30a43efaed12c4b6a9c78f7', 'block_0bb2aa287e844b9c8cb345e46f002549', 'block_953c410a8dd3475c97aed5bfc6c8bdb1']
+[0m[31muser 1/1:  2910511347 |block 0: undefined| |stage 0: undefined| __mp_main__ - INFO - New episode: mode=no-repeat dims=['shape', 'color', 'texture'] n_kinds={'shape': 4, 'color': 4, 'texture': 4} n_goals=4 rule=texture='solid'
+[0m[31muser 1/1:  2910511347 |block 0: block_3d34e202d30a43efaed12c4b6a9c78f7| |stage 0: Instructions| nicegui - WARNING - http://localhost:8084/.well-known/appspecific/com.chrome.devtools.json not found
+[0m[31muser 1/1:  2910511347 |block 0: block_3d34e202d30a43efaed12c4b6a9c78f7| |stage 0: Instructions| nicewebrl.utils - INFO - {'message': 'Ping 6235'}
+[0m[31muser 1/1:  2910511347 |block 1: block_0bb2aa287e844b9c8cb345e46f002549| |stage 1: GridWorld| nicewebrl.utils - INFO - {'message': 'Ping 9160'}
+[0m[31muser 1/1:  2910511347 |block 1: block_0bb2aa287e844b9c8cb345e46f002549| |stage 1: GridWorld| nicewebrl.utils - INFO - {'message': 'Ping 3007'}
+[0m[31muser 1/1:  2910511347 |block 1: block_0bb2aa287e844b9c8cb345e46f002549| |stage 1: GridWorld| nicewebrl.utils - INFO - {'message': 'Ping 6697'}
+[0m[31muser 1/1:  2910511347 |block 1: block_0bb2aa287e844b9c8cb345e46f002549| |stage 1: GridWorld| __mp_main__ - INFO - Stage finished: GridWorld
+[0m[31muser 1/1:  2910511347 |block 3: block_953c410a8dd3475c97aed5bfc6c8bdb1| |stage 3: Debrief| __mp_main__ - INFO - Metadata saved → ./data/user_meta_2910511347.json
+[0m[31muser 1/1:  2910511347 |block 3: undefined| |stage 3: undefined| nicewebrl.experiment - INFO - Block order: ['block_e13f1040c64e40ce822e490d8426f388', 'block_38b84cd4c9e147e7a39586b8e1724345', 'block_3689142b105d49ca9020ebd0baab0100']
+[0m[31muser 1/1:  2910511347 |block 3: undefined| |stage 3: undefined| __mp_main__ - INFO - Metadata saved → ./data/user_meta_2910511347.json
+[0m[31muser 1/1:  2910511347 |block 3: undefined| |stage 3: undefined| nicewebrl.utils - INFO - {'message': 'Ping 7659'}
+[0m[31muser 1/1:  2910511347 |block 3: undefined| |stage 3: undefined| nicegui - WARNING - http://localhost:8084/.well-known/appspecific/com.chrome.devtools.json not found
+[0m

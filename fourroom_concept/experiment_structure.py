@@ -3,7 +3,7 @@ Experiment stages for the four-room concept-learning task.
 
 Stages:
   1. Instructions
-  2. GridWorld  (4 mazes, handled within a single stage)
+  2. GridWorld  (N_MAZES mazes, handled within a single stage)
   3. Debrief    (reveals the hidden rule)
 """
 
@@ -24,9 +24,60 @@ import rendering
 
 logger = get_logger(__name__)
 
-# Unicode symbols used in the log panel
-SHAPE_SYMBOL = {"circle": "●", "square": "■", "triangle": "▲"}
-LOG_COLOR    = {"blue": "#3b82f6", "red": "#ef4444", "yellow": "#ca8a04"}
+# Display helpers — extend these when adding new shapes/colors
+SHAPE_SYMBOL = {
+    "circle":   "●",
+    "square":   "■",
+    "triangle": "▲",
+    "star":     "★",
+    "pentagon": "⬠",
+    "hexagon":  "⬡",
+    "diamond":  "◆",
+}
+DIM_COLOR = {
+    "color": {
+        "blue":   "#3b82f6",
+        "red":    "#ef4444",
+        "yellow": "#ca8a04",
+        "green":  "#16a34a",
+        "purple": "#9333ea",
+        "orange": "#ea580c",
+        "pink":   "#db2777",
+    },
+    "shape": {
+        "circle":   "#6b7280",
+        "square":   "#6b7280",
+        "triangle": "#6b7280",
+        "star":     "#6b7280",
+        "pentagon": "#6b7280",
+        "hexagon":  "#6b7280",
+        "diamond":  "#6b7280",
+    },
+    "texture": {
+        "solid":   "#6b7280",
+        "striped": "#6b7280",
+        "dotted":  "#6b7280",
+        "outline": "#6b7280",
+        "chevron": "#6b7280",
+    },
+}
+
+
+def _goal_label(goal: dict, dims: list[str]) -> str:
+    """Short human-readable label for a goal, e.g. 'blue circle'."""
+    return " ".join(str(goal.get(d, "?")) for d in dims)
+
+
+def _goal_symbol(goal: dict) -> str:
+    shape = goal.get("shape")
+    return SHAPE_SYMBOL.get(shape, "?") if shape else "●"
+
+
+def _goal_hex_color(goal: dict) -> str:
+    color = goal.get("color")
+    if color:
+        return DIM_COLOR.get("color", {}).get(color, "#374151")
+    return "#374151"
 
 
 # ---------------------------------------------------------------------------
@@ -59,19 +110,20 @@ async def _log_step(action: str, prev: dict, new: dict, info: dict):
 
 
 # ---------------------------------------------------------------------------
-# Log panel HTML  (persists across all 4 mazes)
+# Log panel HTML  (persists across all mazes)
 # ---------------------------------------------------------------------------
 
 def _log_html(state: dict) -> str:
-    log          = state.get("log", [])
-    total_score  = state.get("total_score", 0)
-    current_idx  = state.get("current_maze_idx", 0)
+    log         = state.get("log", [])
+    total_score = state.get("total_score", 0)
+    current_idx = state.get("current_maze_idx", 0)
+    dims        = state.get("dims", list(gw.DIMENSIONS.keys()))
 
     sections = ""
     for maze_idx in range(gw.N_MAZES):
-        maze     = state["mazes"][maze_idx]
-        entries  = [e for e in log if e["maze_idx"] == maze_idx]
-        is_done  = maze.get("done", False)
+        maze      = state["mazes"][maze_idx]
+        entries   = [e for e in log if e["maze_idx"] == maze_idx]
+        is_done   = maze.get("done", False) if maze is not None else False
         is_active = maze_idx == current_idx
 
         if maze_idx < current_idx or is_done:
@@ -90,8 +142,9 @@ def _log_html(state: dict) -> str:
         if entries:
             rows = ""
             for e in entries:
-                symbol    = SHAPE_SYMBOL.get(e["shape"], "?")
-                hex_color = LOG_COLOR.get(e["color"], "#000")
+                symbol    = _goal_symbol(e)
+                hex_color = _goal_hex_color(e)
+                label     = _goal_label(e, dims)
                 r_str     = "+1" if e["reward"] else "0"
                 r_color   = "#16a34a" if e["reward"] else "#9ca3af"
                 rows += (
@@ -100,7 +153,7 @@ def _log_html(state: dict) -> str:
                     f'<span style="color:{hex_color}; font-size:15px;">{symbol}</span>'
                     f'</td>'
                     f'<td style="padding:2px 4px; font-size:11px; color:#374151;">'
-                    f'{e["color"]} {e["shape"]}</td>'
+                    f'{label}</td>'
                     f'<td style="padding:2px 5px; font-weight:bold; color:{r_color};">'
                     f'{r_str}</td>'
                     f'<td style="padding:2px 4px; font-size:10px; color:#9ca3af;">'
@@ -140,33 +193,47 @@ def _log_html(state: dict) -> str:
 # Stage 1 — Instructions
 # ---------------------------------------------------------------------------
 
+def _instructions_table(dims: list[str], n_kinds: dict[str, int]) -> str:
+    """Build a markdown table showing the active dimension values."""
+    headers   = " | ".join(d.capitalize() for d in dims)
+    separator = " | ".join("---" for _ in dims)
+    max_rows  = max(n_kinds[d] for d in dims)
+    rows = []
+    for i in range(max_rows):
+        cells = []
+        for d in dims:
+            vals = gw.DIMENSIONS[d][:n_kinds[d]]
+            if i < len(vals):
+                v   = vals[i]
+                sym = SHAPE_SYMBOL.get(v, "")
+                cells.append(f"{sym} {v}".strip() if sym else v)
+            else:
+                cells.append("")
+        rows.append(" | ".join(cells))
+    return f"| {headers} |\n|{separator}|\n" + "\n".join(f"| {r} |" for r in rows)
+
+
 async def instruction_display_fn(stage, container):
     nicewebrl.clear_element(container)
+    state   = _get_state()
+    dims    = state.get("dims", list(gw.DIMENSIONS.keys()))
+    n_kinds = state.get("n_kinds", 4)
+    n_goals = state.get("n_goals", 4)
+    table   = _instructions_table(dims, n_kinds)
+
     with container.style("align-items: center; max-width: 680px;"):
         ui.markdown("## Shape & Color Navigation Task")
         ui.markdown(
-            f"""
-You will navigate through **{gw.N_MAZES} mazes** in sequence.
-
-Each maze contains **{gw.N_GOALS} candidate goals**, each a different
-combination of shape and color:
-
-| Shapes | Colors |
-|--------|--------|
-| ● Circle | 🔵 Blue |
-| ■ Square | 🔴 Red |
-| ▲ Triangle | 🟡 Yellow |
-
-There is a **hidden rule** — either all of one shape or all of one color
-is worth a reward of **+1**. All other goals are worth **0**.
-
-Navigate to goals to discover the rule. Your results are logged on
-the right and **carry over between mazes**.
-
-**Controls:** arrow keys or the on-screen buttons.
-
-Press **Start** when you are ready.
-"""
+            f"You will navigate through **{gw.N_MAZES} mazes** in sequence.\n\n"
+            f"Each maze contains **{n_goals} candidate goals**. "
+            f"Goals vary in: **{', '.join(dims)}**.\n\n"
+            f"{table}\n\n"
+            "There is a **hidden rule** that makes some goals worth a reward of **+1**. "
+            "All other goals are worth **0**.\n\n"
+            "Navigate to goals to discover the rule. Your results are logged on "
+            "the right and **carry over between mazes**.\n\n"
+            "**Controls:** arrow keys or the on-screen buttons.\n\n"
+            "Press **Start** when you are ready."
         )
 
 
@@ -178,7 +245,7 @@ instruction_stage = Stage(
 
 
 # ---------------------------------------------------------------------------
-# Stage 2 — GridWorld  (all 4 mazes handled here)
+# Stage 2 — GridWorld  (all mazes handled here)
 # ---------------------------------------------------------------------------
 
 async def gridworld_display_fn(stage, container):
@@ -233,11 +300,7 @@ async def gridworld_display_fn(stage, container):
                     ).props("dense")
                     ui.label("")
 
-            # ---- Log panel + Continue button -------------------------------
-            with ui.column().style("align-items:stretch;"):
-                log_html = ui.html(_log_html(state))
-
-                # "Continue" button — shown below the log when maze unlocks
+                # "Continue" button — shown only between mazes
                 next_btn = (
                     ui.button(
                         "Continue to Maze 2 →",
@@ -246,8 +309,11 @@ async def gridworld_display_fn(stage, container):
                         )
                     )
                     .props("color=primary")
-                    .style("display:none; margin-top:10px; width:100%;")
+                    .style("display:none; margin-top:10px;")
                 )
+
+            # ---- Log panel -------------------------------------------------
+            log_html = ui.html(_log_html(state))
 
         await stage.set_user_data(
             grid_html=grid_html,
@@ -282,21 +348,10 @@ async def _apply_action(action, stage, grid_html, log_html, maze_label, next_btn
     if info["visited_goal"] is not None:
         log_html.content = _log_html(new_state)
 
-    # Show Continue button as soon as a rewarding goal is found.
-    # Fall back to showing it when all 4 goals are visited (in case no goal
-    # in this maze matches the rule).
     should_show_btn = info["reward"] == 1 or maze["done"]
     if should_show_btn and not stage.get_user_data("btn_shown", False):
         await stage.set_user_data(btn_shown=True)
         await ui.run_javascript("window.gridworld_active = false;")
-
-        # Gray out the maze
-        current_svg = rendering.render_svg(maze)
-        grid_html.content = (
-            f'<div style="filter:grayscale(1) opacity(0.4); pointer-events:none;">'
-            f'{current_svg}</div>'
-        )
-
         next_maze_idx = new_state["current_maze_idx"] + 1
         label = (
             "Complete experiment →"
@@ -314,7 +369,6 @@ async def _do_advance_maze(stage, grid_html, log_html, maze_label, next_btn):
     _set_state(new_state)
 
     if new_state["done"]:
-        # All mazes complete — finish stage
         await stage.set_user_data(finished=True)
         local_cb = stage.get_user_data("local_handle_key_press")
         if local_cb is not None:
@@ -324,12 +378,11 @@ async def _do_advance_maze(stage, grid_html, log_html, maze_label, next_btn):
     new_maze_idx = new_state["current_maze_idx"]
     new_maze     = new_state["mazes"][new_maze_idx]
 
-    grid_html.content = rendering.render_svg(new_maze)   # ungrayed fresh maze
+    grid_html.content = rendering.render_svg(new_maze)
     log_html.content  = _log_html(new_state)
     maze_label.text   = f"Maze {new_maze_idx + 1} of {gw.N_MAZES}"
     next_btn.style("display:none;")
 
-    # Reset the per-maze button flag for the new maze
     await stage.set_user_data(btn_shown=False)
     await ui.run_javascript("window.gridworld_active = true;")
 
@@ -362,23 +415,24 @@ gridworld_stage._key_handler = gridworld_handle_key_press
 async def debrief_display_fn(stage, container):
     nicewebrl.clear_element(container)
     state      = app.storage.user.get("gw_state", {})
-    rule_type  = state.get("rule_type", "?")
+    rule_dim   = state.get("rule_dim", "?")
     rule_value = state.get("rule_value", "?")
     total      = state.get("total_score", 0)
     log        = state.get("log", [])
-    n_steps    = sum(m["step"] for m in state.get("mazes", []))
+    n_steps    = sum(m["step"] for m in state.get("mazes", []) if m is not None)
 
-    symbol = SHAPE_SYMBOL.get(rule_value, "")
-    color_hex = LOG_COLOR.get(rule_value, "#000")
+    symbol    = SHAPE_SYMBOL.get(rule_value, "")
+    color_hex = DIM_COLOR.get(rule_dim, {}).get(rule_value, "#000")
     rule_display = (
         f'<span style="color:{color_hex}; font-size:1.2em;">{symbol} {rule_value}</span>'
-        if rule_type == "shape"
+        if symbol
         else f'<span style="color:{color_hex}; font-size:1.2em;">{rule_value}</span>'
     )
 
     with container.style("align-items: center;"):
-        # Faded final maze in background
-        last_maze = state["mazes"][-1]
+        last_maze = next((m for m in reversed(state["mazes"]) if m is not None), None)
+        if last_maze is None:
+            last_maze = state["mazes"][state.get("current_maze_idx", 0)]
         ui.html(
             f'<div style="filter:grayscale(1) opacity(0.3); pointer-events:none;">'
             f'{rendering.render_svg(last_maze)}</div>'
@@ -389,7 +443,7 @@ async def debrief_display_fn(stage, container):
         ):
             ui.markdown("## All mazes complete — thank you!")
             ui.html(
-                f'<p>The hidden rule was: all <strong>{rule_type}s</strong> '
+                f'<p>The hidden rule was: all <strong>{rule_dim}s</strong> '
                 f'matching {rule_display}.</p>'
                 f'<p><strong>Score: {total}</strong> across {len(log)} goals tested '
                 f'in {n_steps} total steps.</p>'

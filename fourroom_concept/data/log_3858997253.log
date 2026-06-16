@@ -1,0 +1,53 @@
+[31muser 1/1:  3858997253 |block 0: undefined| |stage 0: undefined| nicewebrl.experiment - INFO - Block order: ['block_3b5fe47620ed43a18f16062c8f422c0b', 'block_e3bda88717644b62b6f1f0055dc03541', 'block_dcd863529ddf420da2f64c1a5a3eb3d1']
+[0m[31muser 1/1:  3858997253 |block 0: undefined| |stage 0: undefined| __mp_main__ - INFO - New episode: mode=no-repeat dims=['shape', 'color'] n_kinds={'shape': 4, 'color': 4} n_goals=4 rule=shape='star'
+[0m[31muser 1/1:  3858997253 |block 0: block_3b5fe47620ed43a18f16062c8f422c0b| |stage 0: Instructions| nicegui - WARNING - http://localhost:8084/.well-known/appspecific/com.chrome.devtools.json not found
+[0m[31muser 1/1:  3858997253 |block 0: block_3b5fe47620ed43a18f16062c8f422c0b| |stage 0: Instructions| nicewebrl.utils - INFO - {'message': 'Ping 1917'}
+[0m[31muser 1/2:  3858997253 |block 0: block_3b5fe47620ed43a18f16062c8f422c0b| |stage 0: Instructions| nicewebrl.utils - ERROR - 0. Task was cancelled. Cleaning up and retrying...
+[0m[31muser 1/2:  3858997253 |block 0: block_3b5fe47620ed43a18f16062c8f422c0b| |stage 0: Instructions| nicewebrl.utils - ERROR - Error: ''
+[0m[31muser 1/2:  3858997253 |block 0: block_3b5fe47620ed43a18f16062c8f422c0b| |stage 0: Instructions| nicegui - WARNING - Client has been deleted but is still being used. This is most likely a bug in your application code. See https://github.com/zauberzeug/nicegui/issues/3028 for more information.
+Stack (most recent call last):
+  File "<string>", line 1, in <module>
+  File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/multiprocessing/spawn.py", line 122, in spawn_main
+    exitcode = _main(fd, parent_sentinel)
+  File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/multiprocessing/spawn.py", line 135, in _main
+    return self._bootstrap(parent_sentinel)
+  File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/multiprocessing/process.py", line 314, in _bootstrap
+    self.run()
+  File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/uvicorn/_subprocess.py", line 80, in subprocess_started
+    target(sockets=sockets)
+  File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/nicegui/server.py", line 45, in run
+    super().run(sockets=sockets)
+  File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/uvicorn/server.py", line 75, in run
+    return asyncio_run(self.serve(sockets=sockets), loop_factory=self.config.get_loop_factory())
+  File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/uvicorn/_compat.py", line 30, in asyncio_run
+    return runner.run(main)
+  File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/asyncio/runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+  File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/nicegui/page.py", line 177, in wait_for_result
+    return await result
+  File "/Users/km6297/Library/Mobile Documents/com~apple~CloudDocs/Desktop/projects/psrl/psrl-experiments/fourroom_concept/web_app.py", line 292, in index
+    await start_experiment(meta_container, stage_container)
+  File "/Users/km6297/Library/Mobile Documents/com~apple~CloudDocs/Desktop/projects/psrl/psrl-experiments/fourroom_concept/web_app.py", line 206, in start_experiment
+    await run_stage(stage, stage_container)
+  File "/Users/km6297/Library/Mobile Documents/com~apple~CloudDocs/Desktop/projects/psrl/psrl-experiments/fourroom_concept/web_app.py", line 167, in run_stage
+    await wait_for_button_or_keypress(button)
+  File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/nicewebrl/utils.py", line 128, in wait_for_button_or_keypress
+    keyboard.delete()
+  File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/nicegui/element.py", line 547, in delete
+    parent_slot.parent.remove(self)
+  File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/nicegui/element.py", line 537, in remove
+    self.client.remove_elements(element.descendants(include_self=True))
+  File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/nicegui/client.py", line 403, in remove_elements
+    self.outbox.enqueue_delete(element)
+  File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/nicegui/outbox.py", line 71, in enqueue_delete
+    self.client.check_existence()
+  File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/nicegui/client.py", line 444, in check_existence
+    helpers.warn_once('Client has been deleted but is still being used. '
+  File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/nicegui/helpers/warnings.py", line 9, in warn_once
+    log.warning(message, stack_info=stack_info)
+[0m[31muser 1/2:  3858997253 |block 0: block_3b5fe47620ed43a18f16062c8f422c0b| |stage 0: Instructions| nicewebrl.utils - ERROR - 0. Error deleting keyboard: 'list.remove(x): x not in list'
+[0m[31muser 1/2:  3858997253 |block 0: block_3b5fe47620ed43a18f16062c8f422c0b| |stage 0: Instructions| nicewebrl.utils - ERROR - 0. Task was cancelled. Cleaning up and retrying...
+[0m[31muser 1/2:  3858997253 |block 0: block_3b5fe47620ed43a18f16062c8f422c0b| |stage 0: Instructions| nicewebrl.utils - ERROR - Error: ''
+[0m

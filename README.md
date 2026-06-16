@@ -11,7 +11,7 @@ Each runs as a local web server and records participant data to the `data/` fold
 |---|---|---|
 | `fourroom` | 8082 | Navigate a 4-room maze to find a hidden goal among 15 candidates |
 | `fourroom_fruits` | 8083 | Collect apples and bananas — one type is worth more points |
-| `fourroom_concept` | 8084 | Discover a hidden rule (shape or color) across 4 mazes |
+| `fourroom_concept` | 8084 | Discover a hidden rule across 4 mazes using configurable goal dimensions |
 
 ---
 
@@ -104,11 +104,91 @@ python visualize.py
 - Live scoreboard shows accumulated points next to the maze
 
 ### `fourroom_concept` — Rule discovery
-- 4 mazes per participant, 4 candidate goals per maze (one per room)
-- Goals vary in shape (●▲■) and color (blue/red/yellow)
-- A hidden rule — either a shape or a color — gives reward +1
+- 4 mazes per participant; number of goals per maze is configurable (default 4)
+- Goals vary along configurable dimensions: shape, color, and/or texture
+- A hidden rule — one value on one dimension — gives reward +1; all others give 0
 - Continue button appears once a rewarding goal is found; maze grays out
 - Log panel persists across all 4 mazes
+- Goal placement, dimension kinds, and sampling mode are all controlled via command-line flags (see below)
+
+---
+
+## `fourroom_concept` flags
+
+All flags are optional. Defaults produce a random-mode experiment with shape and color dimensions, 4 kinds each, and 4 goals per maze.
+
+### `--mode`
+
+Controls how goal combinations are selected across mazes.
+
+| Value | Behaviour |
+|---|---|
+| `random` (default) | Goals are sampled freely from all available combinations |
+| `bijection` | Each value in each active dimension appears exactly once per maze (no repeats within a maze). Requires `n-goals ≤ n-kinds` for every dimension |
+| `no-repeat` | Combinations that gave a reward in a previous maze are excluded from all later mazes. Guarantees at least one rewarding goal per maze |
+
+```bash
+python web_app.py --mode bijection
+python web_app.py --mode no-repeat
+```
+
+---
+
+### `--dims`
+
+Which dimensions goals vary on. Any subset of `shape`, `color`, `texture`. Dimensions not listed are fixed to a single randomly-chosen value for each maze (visible to the participant but not part of the rule).
+
+| Dimension | Available kinds |
+|---|---|
+| `shape` | circle, square, triangle, star, pentagon, hexagon, diamond |
+| `color` | blue, red, yellow, green, purple, orange, pink |
+| `texture` | solid, striped, dotted, outline, chevron |
+
+```bash
+python web_app.py --dims shape color          # default
+python web_app.py --dims shape color texture  # all three dimensions
+python web_app.py --dims color                # color only; shape and texture are fixed
+```
+
+---
+
+### `--n-kinds`
+
+How many values to use from each active dimension, given in the same order as `--dims`. Determines which prefix of each dimension's list is available — e.g. `--n-kinds 3` on `shape` uses circle, square, triangle.
+
+Must provide one number per dimension listed in `--dims`.
+
+```bash
+python web_app.py --dims shape color --n-kinds 4 4       # 4 shapes, 4 colors (default)
+python web_app.py --dims shape color --n-kinds 3 2       # 3 shapes, 2 colors
+python web_app.py --dims shape color texture --n-kinds 4 4 3  # 4 shapes, 4 colors, 3 textures
+```
+
+---
+
+### `--n-goals`
+
+Number of candidate goals placed in each maze. Defaults to 4 (one per room). Can exceed 4 — the first 4 goals are placed one per room, and any additional goals are placed randomly in remaining free cells.
+
+```bash
+python web_app.py --n-goals 4   # default
+python web_app.py --n-goals 8
+```
+
+---
+
+### Combined examples
+
+```bash
+# Bijection with 3 shapes and 3 colors, 3 goals per maze
+python web_app.py --mode bijection --dims shape color --n-kinds 3 3 --n-goals 3
+
+# No-repeat with all three dimensions, 4 of each kind, 8 goals per maze
+python web_app.py --mode no-repeat --dims shape color texture --n-kinds 4 4 4 --n-goals 8
+
+# Color only, random mode, 2 colors, 2 goals
+python web_app.py --dims color --n-kinds 2 --n-goals 2
+```
 
 ---
 
@@ -123,6 +203,6 @@ Make sure you activated the conda environment: `conda activate psrl-experiments`
 **`ModuleNotFoundError: No module named 'gridworld'`**
 Run `web_app.py` from inside the experiment directory, not from the repo root:
 ```bash
-cd fourroom   # not: python fourroom/web_app.py
+cd fourroom_concept   # not: python fourroom_concept/web_app.py
 python web_app.py
 ```
