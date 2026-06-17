@@ -1,0 +1,1 @@
+web: python web_app.py --mode bijection --dims shape color texture --n-kinds 5 5 5 --n-goals 5
