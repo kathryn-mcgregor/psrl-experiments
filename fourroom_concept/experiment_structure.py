@@ -10,17 +10,16 @@ Stages:
 import asyncio
 from datetime import datetime, timezone
 
-import aiofiles
 from nicegui import app, ui
 
 import nicewebrl
 from nicewebrl import Stage, get_logger
 from nicewebrl.stages import Block
 from nicewebrl.experiment import SimpleExperiment
-from nicewebrl.utils import write_msgpack_record, user_data_file
 
 import gridworld as gw
 import rendering
+import db
 
 logger = get_logger(__name__)
 
@@ -93,20 +92,20 @@ def _set_state(state: dict):
 
 
 async def _log_step(action: str, prev: dict, new: dict, info: dict):
-    record = {
-        "timestamp":    datetime.now(timezone.utc).isoformat(),
-        "maze_idx":     new["current_maze_idx"],
-        "maze_step":    new["mazes"][new["current_maze_idx"]]["step"],
-        "action":       action,
-        "prev_pos":     prev["mazes"][prev["current_maze_idx"]]["agent_pos"],
-        "new_pos":      new["mazes"][new["current_maze_idx"]]["agent_pos"],
-        "moved":        info["moved"],
-        "visited_goal": info["visited_goal"],
-        "left_goal":    info["left_goal"],
-        "reward":       info["reward"],
-    }
-    async with aiofiles.open(user_data_file(), "ab") as f:
-        await write_msgpack_record(f, record)
+    maze_idx = new["current_maze_idx"]
+    await db.insert_step(
+        seed         = app.storage.user.get("seed"),
+        timestamp    = datetime.now(timezone.utc).isoformat(),
+        maze_idx     = maze_idx,
+        maze_step    = new["mazes"][maze_idx]["step"],
+        action       = action,
+        prev_pos     = str(prev["mazes"][prev["current_maze_idx"]]["agent_pos"]),
+        new_pos      = str(new["mazes"][maze_idx]["agent_pos"]),
+        moved        = info["moved"],
+        visited_goal = info["visited_goal"],
+        left_goal    = info["left_goal"],
+        reward       = info["reward"],
+    )
 
 
 # ---------------------------------------------------------------------------

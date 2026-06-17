@@ -9,3 +9,4 @@ dependencies:
       - "nicewebrl @ git+https://github.com/KempnerInstitute/nicewebrl.git"
       - matplotlib
       - python-dotenv
+      - asyncpg

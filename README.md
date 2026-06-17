@@ -1,7 +1,7 @@
 # PSRL Web Experiments
 
 Three browser-based navigation experiments built with [NiceWebRL](https://github.com/KempnerInstitute/nicewebrl).
-Each runs as a local web server and records participant data to the `data/` folder.
+Each runs as a local web server or on Heroku and records participant data to a database.
 
 ---
 
@@ -60,24 +60,43 @@ To run multiple experiments simultaneously, open a separate terminal for each.
 
 ## Data
 
-Participant data is saved to `data/` inside each experiment folder:
+`fourroom_concept` stores participant data in a database with two tables:
+
+| Table | Contents |
+|---|---|
+| `steps` | One row per action (maze, step number, action, position, reward, timestamp) |
+| `sessions` | One row per completed participant (rule, score, maze layouts, full goal-visit log) |
+
+**Locally** the database is a SQLite file at `fourroom_concept/data/db.sqlite`, created automatically on first run.
+
+**On Heroku** the database is a hosted Postgres instance. The app reads the `DATABASE_URL` environment variable provided automatically by Heroku Postgres and connects to it instead.
+
+### Exporting data
+
+Run `export_data.py` from inside the `fourroom_concept` directory to pull data out of the database:
+
+```bash
+cd fourroom_concept
+
+# Export from local SQLite
+python export_data.py
+
+# Export from Heroku Postgres
+DATABASE_URL=$(heroku config:get DATABASE_URL -a your-app-name) python export_data.py
+
+# Export a single participant
+python export_data.py --seed <seed>
+```
+
+Output is written to `fourroom_concept/export/`:
 
 | File | Contents |
 |---|---|
-| `data/user_data_<seed>.msgpack` | One record per step (action, position, reward, timestamp) |
-| `data/user_meta_<seed>.json` | Summary (maze layout, score, rule, etc.) |
+| `sessions.csv` | One row per completed participant |
+| `steps.csv` | One row per action taken |
+| `session_<seed>.json` | Full session data including maze layouts and goal-visit log |
 
-Data files are excluded from git via `.gitignore`.
-
-### Reading data
-
-```bash
-# Print a step-by-step trace for one participant
-cd fourroom
-python read_data.py data/user_data_<seed>.msgpack
-```
-
-### Visualising paths
+### Visualising paths (`fourroom` and `fourroom_fruits`)
 
 ```bash
 # Single participant (interactive)
@@ -188,6 +207,92 @@ python web_app.py --mode no-repeat --dims shape color texture --n-kinds 4 4 4 --
 
 # Color only, random mode, 2 colors, 2 goals
 python web_app.py --dims color --n-kinds 2 --n-goals 2
+```
+
+---
+
+## Deploying on Heroku
+
+Heroku hosts the experiment on a public URL so participants can access it from anywhere. These steps cover `fourroom_concept`; the same process applies to `fourroom` and `fourroom_fruits`.
+
+### Prerequisites
+
+- A [Heroku account](https://heroku.com) and the [Heroku CLI](https://devcenter.heroku.com/articles/heroku-cli) installed
+- The repo pushed to GitHub (see Setup above)
+
+### 1. Create a Heroku app
+
+```bash
+heroku login
+heroku create your-app-name
+```
+
+### 2. Add the Heroku Postgres add-on
+
+```bash
+heroku addons:create heroku-postgresql:essential-0 -a your-app-name
+```
+
+This automatically sets the `DATABASE_URL` environment variable on your app. The `essential-0` plan (~$5/month) supports up to 10 million rows.
+
+### 3. Add a `Procfile`
+
+Create a file named `Procfile` in the `fourroom_concept` directory (no extension):
+
+```
+web: python web_app.py
+```
+
+To pass flags (e.g. mode), include them in the Procfile:
+
+```
+web: python web_app.py --mode no-repeat --dims shape color --n-kinds 4 4 --n-goals 4
+```
+
+### 4. Add a `requirements.txt`
+
+Heroku uses `requirements.txt` instead of `environment.yml`. Create one in `fourroom_concept`:
+
+```bash
+cd fourroom_concept
+pip freeze > requirements.txt
+```
+
+### 5. Deploy
+
+Heroku deploys from git. Push the `fourroom_concept` directory as a subtree:
+
+```bash
+git subtree push --prefix fourroom_concept heroku main
+```
+
+### 6. Set a storage secret
+
+NiceGUI requires a storage secret for session cookies. Set it as a Heroku config var:
+
+```bash
+heroku config:set NICEGUI_STORAGE_SECRET=some-long-random-string -a your-app-name
+```
+
+Then update `web_app.py` to read it from the environment:
+
+```python
+storage_secret = os.environ.get("NICEGUI_STORAGE_SECRET", "fourroom_concept_42")
+ui.run(storage_secret=storage_secret, ...)
+```
+
+### 7. Open the app
+
+```bash
+heroku open -a your-app-name
+```
+
+Participants visit `https://your-app-name.herokuapp.com`.
+
+### Viewing logs
+
+```bash
+heroku logs --tail -a your-app-name
 ```
 
 ---

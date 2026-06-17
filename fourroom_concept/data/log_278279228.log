@@ -1,0 +1,8 @@
+[33muser 3/3:  278279228 |block 0: undefined| |stage 0: undefined| nicewebrl.experiment - INFO - Block order: ['block_6b23bc88949742348683fd7f7fe4bf10', 'block_94560a165e334d7bbe1848c48fba7133', 'block_1fd60257088341759d6756f551728fbd']
+[0m[33muser 3/3:  278279228 |block 0: undefined| |stage 0: undefined| __mp_main__ - INFO - New episode: mode=bijection dims=['shape', 'color', 'texture'] n_kinds={'shape': 5, 'color': 5, 'texture': 5} n_goals=5 rule=texture='outline'
+[0m[33muser 3/3:  278279228 |block 0: block_6b23bc88949742348683fd7f7fe4bf10| |stage 0: Instructions| nicegui - WARNING - http://localhost:8084/.well-known/appspecific/com.chrome.devtools.json not found
+[0m[33muser 3/3:  278279228 |block 0: block_6b23bc88949742348683fd7f7fe4bf10| |stage 0: Instructions| nicewebrl.utils - INFO - {'message': 'Ping 9491'}
+[0m[33muser 3/3:  278279228 |block 1: block_94560a165e334d7bbe1848c48fba7133| |stage 1: GridWorld| nicewebrl.utils - INFO - {'message': 'Ping 174'}
+[0m[33muser 3/3:  278279228 |block 1: block_94560a165e334d7bbe1848c48fba7133| |stage 1: GridWorld| __mp_main__ - INFO - Stage finished: GridWorld
+[0m[33muser 3/3:  278279228 |block 3: block_1fd60257088341759d6756f551728fbd| |stage 3: Debrief| __mp_main__ - INFO - Session saved to database → seed=278279228
+[0m

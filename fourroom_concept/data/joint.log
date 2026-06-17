@@ -1143,4 +1143,708 @@ ValueError: n_goals=8 exceeds number of rooms (4)
 [0m[34muser 4/4:  2134724290 |block 3: block_425399a3debf4ea099449c12ac1b827b| |stage 3: Debrief| nicewebrl.utils - INFO - {'message': 'Ping 9908'}
 [0m[34muser 4/4:  2134724290 |block 3: block_425399a3debf4ea099449c12ac1b827b| |stage 3: Debrief| nicewebrl.utils - INFO - {'message': 'Ping 3658'}
 [0m[34muser 4/4:  2134724290 |block 3: block_425399a3debf4ea099449c12ac1b827b| |stage 3: Debrief| nicewebrl.utils - INFO - {'message': 'Ping 400'}
+[0m[31muser 1/1:  2134724290 |block 3: undefined| |stage 3: undefined| nicewebrl.experiment - INFO - Block order: ['block_0a9f964dc2fb40b49cf20ba34038b631', 'block_313f99e3e98543be949b41138abfa935', 'block_2233fab35f944314aa37513d333d08a7']
+[0m[31muser 1/1:  2134724290 |block 3: undefined| |stage 3: undefined| nicegui - ERROR - No TortoiseContext is currently active. Use 'async with TortoiseContext() as ctx:' to create one, or call Tortoise.init() for global state.
+  + Exception Group Traceback (most recent call last):
+  |   File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/starlette/_utils.py", line 85, in create_collapsing_task_group
+  |     async with anyio.create_task_group() as tg:
+  |   File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/anyio/_backends/_asyncio.py", line 799, in __aexit__
+  |     raise BaseExceptionGroup(
+  | ExceptionGroup: unhandled errors in a TaskGroup (1 sub-exception)
+  +-+---------------- 1 ----------------
+    | Traceback (most recent call last):
+    |   File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/starlette/middleware/errors.py", line 164, in __call__
+    |     await self.app(scope, receive, _send)
+    |   File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/starlette/middleware/sessions.py", line 88, in __call__
+    |     await self.app(scope, receive, send_wrapper)
+    |   File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/starlette/middleware/base.py", line 193, in __call__
+    |     response = await self.dispatch_func(request, call_next)
+    |                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    |   File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/nicegui/storage.py", line 39, in dispatch
+    |     response = await call_next(request)
+    |                ^^^^^^^^^^^^^^^^^^^^^^^^
+    |   File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/starlette/middleware/base.py", line 168, in call_next
+    |     raise app_exc from app_exc.__cause__ or app_exc.__context__
+    |   File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/starlette/middleware/base.py", line 144, in coro
+    |     await self.app(scope, receive_or_disconnect, send_no_error)
+    |   File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/starlette/middleware/base.py", line 193, in __call__
+    |     response = await self.dispatch_func(request, call_next)
+    |                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    |   File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/nicegui/middlewares.py", line 23, in dispatch
+    |     response = await call_next(request)
+    |                ^^^^^^^^^^^^^^^^^^^^^^^^
+    |   File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/starlette/middleware/base.py", line 168, in call_next
+    |     raise app_exc from app_exc.__cause__ or app_exc.__context__
+    |   File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/starlette/middleware/base.py", line 144, in coro
+    |     await self.app(scope, receive_or_disconnect, send_no_error)
+    |   File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/starlette/middleware/base.py", line 193, in __call__
+    |     response = await self.dispatch_func(request, call_next)
+    |                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    |   File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/nicegui/middlewares.py", line 13, in dispatch
+    |     response = await call_next(request)
+    |                ^^^^^^^^^^^^^^^^^^^^^^^^
+    |   File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/starlette/middleware/base.py", line 168, in call_next
+    |     raise app_exc from app_exc.__cause__ or app_exc.__context__
+    |   File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/starlette/middleware/base.py", line 144, in coro
+    |     await self.app(scope, receive_or_disconnect, send_no_error)
+    |   File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/starlette/middleware/gzip.py", line 29, in __call__
+    |     await responder(scope, receive, send)
+    |   File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/starlette/middleware/gzip.py", line 130, in __call__
+    |     await super().__call__(scope, receive, send)
+    |   File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/starlette/middleware/gzip.py", line 46, in __call__
+    |     await self.app(scope, receive, self.send_with_compression)
+    |   File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/starlette/middleware/exceptions.py", line 63, in __call__
+    |     await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+    |   File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    |     raise exc
+    |   File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    |     await app(scope, receive, sender)
+    |   File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/fastapi/middleware/asyncexitstack.py", line 18, in __call__
+    |     await self.app(scope, receive, send)
+    |   File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/starlette/routing.py", line 660, in __call__
+    |     await self.middleware_stack(scope, receive, send)
+    |   File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/starlette/routing.py", line 680, in app
+    |     await route.handle(scope, receive, send)
+    |   File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/starlette/routing.py", line 276, in handle
+    |     await self.app(scope, receive, send)
+    |   File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/fastapi/routing.py", line 134, in app
+    |     await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+    |   File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    |     raise exc
+    |   File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    |     await app(scope, receive, sender)
+    |   File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/fastapi/routing.py", line 120, in app
+    |     response = await f(request)
+    |                ^^^^^^^^^^^^^^^^
+    |   File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/fastapi/routing.py", line 674, in app
+    |     raw_response = await run_endpoint_function(
+    |                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    |   File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/fastapi/routing.py", line 328, in run_endpoint_function
+    |     return await dependant.call(**values)
+    |            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    |   File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/nicegui/page.py", line 199, in decorated
+    |     result = task.result()
+    |              ^^^^^^^^^^^^^
+    |   File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/nicegui/page.py", line 180, in wait_for_result
+    |     return create_500_error_page(e, request)
+    |            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    |   File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/nicegui/page.py", line 140, in create_500_error_page
+    |     raise e
+    |   File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/nicegui/page.py", line 177, in wait_for_result
+    |     return await result
+    |            ^^^^^^^^^^^^
+    |   File "/Users/km6297/Library/Mobile Documents/com~apple~CloudDocs/Desktop/projects/psrl/psrl-experiments/fourroom_concept/web_app.py", line 300, in index
+    |     await start_experiment(meta_container, stage_container)
+    |   File "/Users/km6297/Library/Mobile Documents/com~apple~CloudDocs/Desktop/projects/psrl/psrl-experiments/fourroom_concept/web_app.py", line 217, in start_experiment
+    |     await finish_experiment(meta_container)
+    |   File "/Users/km6297/Library/Mobile Documents/com~apple~CloudDocs/Desktop/projects/psrl/psrl-experiments/fourroom_concept/web_app.py", line 236, in finish_experiment
+    |     await Session.update_or_create(
+    |   File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/tortoise/models.py", line 1355, in update_or_create
+    |     db = using_db or cls._choose_db(True)
+    |                      ^^^^^^^^^^^^^^^^^^^^
+    |   File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/tortoise/models.py", line 1266, in _choose_db
+    |     return db or cls._meta.db
+    |                  ^^^^^^^^^^^^
+    |   File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/tortoise/models.py", line 296, in db
+    |     return get_connection(self.default_connection)
+    |            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    |   File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/tortoise/connection.py", line 327, in get_connection
+    |     return require_context().connections.get(alias)
+    |            ^^^^^^^^^^^^^^^^^
+    |   File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/tortoise/context.py", line 111, in require_context
+    |     raise RuntimeError(
+    | RuntimeError: No TortoiseContext is currently active. Use 'async with TortoiseContext() as ctx:' to create one, or call Tortoise.init() for global state.
+    +------------------------------------
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/starlette/middleware/errors.py", line 164, in __call__
+    await self.app(scope, receive, _send)
+  File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/starlette/middleware/sessions.py", line 88, in __call__
+    await self.app(scope, receive, send_wrapper)
+  File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/starlette/middleware/base.py", line 193, in __call__
+    response = await self.dispatch_func(request, call_next)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/nicegui/storage.py", line 39, in dispatch
+    response = await call_next(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/starlette/middleware/base.py", line 168, in call_next
+    raise app_exc from app_exc.__cause__ or app_exc.__context__
+  File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/starlette/middleware/base.py", line 144, in coro
+    await self.app(scope, receive_or_disconnect, send_no_error)
+  File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/starlette/middleware/base.py", line 193, in __call__
+    response = await self.dispatch_func(request, call_next)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/nicegui/middlewares.py", line 23, in dispatch
+    response = await call_next(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/starlette/middleware/base.py", line 168, in call_next
+    raise app_exc from app_exc.__cause__ or app_exc.__context__
+  File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/starlette/middleware/base.py", line 144, in coro
+    await self.app(scope, receive_or_disconnect, send_no_error)
+  File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/starlette/middleware/base.py", line 193, in __call__
+    response = await self.dispatch_func(request, call_next)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/nicegui/middlewares.py", line 13, in dispatch
+    response = await call_next(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/starlette/middleware/base.py", line 168, in call_next
+    raise app_exc from app_exc.__cause__ or app_exc.__context__
+  File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/starlette/middleware/base.py", line 144, in coro
+    await self.app(scope, receive_or_disconnect, send_no_error)
+  File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/starlette/middleware/gzip.py", line 29, in __call__
+    await responder(scope, receive, send)
+  File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/starlette/middleware/gzip.py", line 130, in __call__
+    await super().__call__(scope, receive, send)
+  File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/starlette/middleware/gzip.py", line 46, in __call__
+    await self.app(scope, receive, self.send_with_compression)
+  File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/starlette/middleware/exceptions.py", line 63, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/fastapi/middleware/asyncexitstack.py", line 18, in __call__
+    await self.app(scope, receive, send)
+  File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/starlette/routing.py", line 660, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/starlette/routing.py", line 680, in app
+    await route.handle(scope, receive, send)
+  File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/starlette/routing.py", line 276, in handle
+    await self.app(scope, receive, send)
+  File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/fastapi/routing.py", line 134, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/fastapi/routing.py", line 120, in app
+    response = await f(request)
+               ^^^^^^^^^^^^^^^^
+  File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/fastapi/routing.py", line 674, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/fastapi/routing.py", line 328, in run_endpoint_function
+    return await dependant.call(**values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/nicegui/page.py", line 199, in decorated
+    result = task.result()
+             ^^^^^^^^^^^^^
+  File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/nicegui/page.py", line 180, in wait_for_result
+    return create_500_error_page(e, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/nicegui/page.py", line 140, in create_500_error_page
+    raise e
+  File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/nicegui/page.py", line 177, in wait_for_result
+    return await result
+           ^^^^^^^^^^^^
+  File "/Users/km6297/Library/Mobile Documents/com~apple~CloudDocs/Desktop/projects/psrl/psrl-experiments/fourroom_concept/web_app.py", line 300, in index
+    await start_experiment(meta_container, stage_container)
+  File "/Users/km6297/Library/Mobile Documents/com~apple~CloudDocs/Desktop/projects/psrl/psrl-experiments/fourroom_concept/web_app.py", line 217, in start_experiment
+    await finish_experiment(meta_container)
+  File "/Users/km6297/Library/Mobile Documents/com~apple~CloudDocs/Desktop/projects/psrl/psrl-experiments/fourroom_concept/web_app.py", line 236, in finish_experiment
+    await Session.update_or_create(
+  File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/tortoise/models.py", line 1355, in update_or_create
+    db = using_db or cls._choose_db(True)
+                     ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/tortoise/models.py", line 1266, in _choose_db
+    return db or cls._meta.db
+                 ^^^^^^^^^^^^
+  File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/tortoise/models.py", line 296, in db
+    return get_connection(self.default_connection)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/tortoise/connection.py", line 327, in get_connection
+    return require_context().connections.get(alias)
+           ^^^^^^^^^^^^^^^^^
+  File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/tortoise/context.py", line 111, in require_context
+    raise RuntimeError(
+RuntimeError: No TortoiseContext is currently active. Use 'async with TortoiseContext() as ctx:' to create one, or call Tortoise.init() for global state.
+[0m[31muser 1/1:  2134724290 |block 3: undefined| |stage 3: undefined| nicegui - WARNING - http://localhost:8084/.well-known/appspecific/com.chrome.devtools.json not found
+[0m[32muser 2/2:  1003998922 |block 0: undefined| |stage 0: undefined| nicewebrl.experiment - INFO - Block order: ['block_0a9f964dc2fb40b49cf20ba34038b631', 'block_313f99e3e98543be949b41138abfa935', 'block_2233fab35f944314aa37513d333d08a7']
+[0m[32muser 2/2:  1003998922 |block 0: undefined| |stage 0: undefined| __mp_main__ - INFO - New episode: mode=bijection dims=['shape', 'color', 'texture'] n_kinds={'shape': 5, 'color': 5, 'texture': 5} n_goals=4 rule=shape='circle'
+[0m[32muser 2/2:  1003998922 |block 0: block_0a9f964dc2fb40b49cf20ba34038b631| |stage 0: Instructions| nicegui - WARNING - http://localhost:8084/.well-known/appspecific/com.chrome.devtools.json not found
+[0m[32muser 2/2:  1003998922 |block 0: block_0a9f964dc2fb40b49cf20ba34038b631| |stage 0: Instructions| nicewebrl.utils - INFO - {'message': 'Ping 6993'}
+[0m[32muser 2/2:  1003998922 |block 1: block_313f99e3e98543be949b41138abfa935| |stage 1: GridWorld| nicegui - ERROR - No TortoiseContext is currently active. Use 'async with TortoiseContext() as ctx:' to create one, or call Tortoise.init() for global state.
+Traceback (most recent call last):
+  File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/nicegui/events.py", line 480, in _await_and_handle_in_context
+    await awaitable
+  File "/Users/km6297/Library/Mobile Documents/com~apple~CloudDocs/Desktop/projects/psrl/psrl-experiments/fourroom_concept/web_app.py", line 133, in global_handle_key_press
+    await handler(stage, e, container)
+  File "/Users/km6297/Library/Mobile Documents/com~apple~CloudDocs/Desktop/projects/psrl/psrl-experiments/fourroom_concept/experiment_structure.py", line 399, in gridworld_handle_key_press
+    await _apply_action(action, stage, grid_html, log_html, maze_label, next_btn)
+  File "/Users/km6297/Library/Mobile Documents/com~apple~CloudDocs/Desktop/projects/psrl/psrl-experiments/fourroom_concept/experiment_structure.py", line 342, in _apply_action
+    await _log_step(action, prev_state, new_state, info)
+  File "/Users/km6297/Library/Mobile Documents/com~apple~CloudDocs/Desktop/projects/psrl/psrl-experiments/fourroom_concept/experiment_structure.py", line 96, in _log_step
+    await Step.create(
+  File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/tortoise/models.py", line 1386, in create
+    db = using_db or cls._choose_db(True)
+                     ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/tortoise/models.py", line 1266, in _choose_db
+    return db or cls._meta.db
+                 ^^^^^^^^^^^^
+  File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/tortoise/models.py", line 296, in db
+    return get_connection(self.default_connection)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/tortoise/connection.py", line 327, in get_connection
+    return require_context().connections.get(alias)
+           ^^^^^^^^^^^^^^^^^
+  File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/tortoise/context.py", line 111, in require_context
+    raise RuntimeError(
+RuntimeError: No TortoiseContext is currently active. Use 'async with TortoiseContext() as ctx:' to create one, or call Tortoise.init() for global state.
+[0m[32muser 2/2:  1003998922 |block 1: block_313f99e3e98543be949b41138abfa935| |stage 1: GridWorld| nicegui - ERROR - No TortoiseContext is currently active. Use 'async with TortoiseContext() as ctx:' to create one, or call Tortoise.init() for global state.
+Traceback (most recent call last):
+  File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/nicegui/events.py", line 480, in _await_and_handle_in_context
+    await awaitable
+  File "/Users/km6297/Library/Mobile Documents/com~apple~CloudDocs/Desktop/projects/psrl/psrl-experiments/fourroom_concept/web_app.py", line 133, in global_handle_key_press
+    await handler(stage, e, container)
+  File "/Users/km6297/Library/Mobile Documents/com~apple~CloudDocs/Desktop/projects/psrl/psrl-experiments/fourroom_concept/experiment_structure.py", line 399, in gridworld_handle_key_press
+    await _apply_action(action, stage, grid_html, log_html, maze_label, next_btn)
+  File "/Users/km6297/Library/Mobile Documents/com~apple~CloudDocs/Desktop/projects/psrl/psrl-experiments/fourroom_concept/experiment_structure.py", line 342, in _apply_action
+    await _log_step(action, prev_state, new_state, info)
+  File "/Users/km6297/Library/Mobile Documents/com~apple~CloudDocs/Desktop/projects/psrl/psrl-experiments/fourroom_concept/experiment_structure.py", line 96, in _log_step
+    await Step.create(
+  File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/tortoise/models.py", line 1386, in create
+    db = using_db or cls._choose_db(True)
+                     ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/tortoise/models.py", line 1266, in _choose_db
+    return db or cls._meta.db
+                 ^^^^^^^^^^^^
+  File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/tortoise/models.py", line 296, in db
+    return get_connection(self.default_connection)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/tortoise/connection.py", line 327, in get_connection
+    return require_context().connections.get(alias)
+           ^^^^^^^^^^^^^^^^^
+  File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/tortoise/context.py", line 111, in require_context
+    raise RuntimeError(
+RuntimeError: No TortoiseContext is currently active. Use 'async with TortoiseContext() as ctx:' to create one, or call Tortoise.init() for global state.
+[0m[32muser 2/2:  1003998922 |block 1: block_313f99e3e98543be949b41138abfa935| |stage 1: GridWorld| nicegui - ERROR - No TortoiseContext is currently active. Use 'async with TortoiseContext() as ctx:' to create one, or call Tortoise.init() for global state.
+Traceback (most recent call last):
+  File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/nicegui/events.py", line 480, in _await_and_handle_in_context
+    await awaitable
+  File "/Users/km6297/Library/Mobile Documents/com~apple~CloudDocs/Desktop/projects/psrl/psrl-experiments/fourroom_concept/web_app.py", line 133, in global_handle_key_press
+    await handler(stage, e, container)
+  File "/Users/km6297/Library/Mobile Documents/com~apple~CloudDocs/Desktop/projects/psrl/psrl-experiments/fourroom_concept/experiment_structure.py", line 399, in gridworld_handle_key_press
+    await _apply_action(action, stage, grid_html, log_html, maze_label, next_btn)
+  File "/Users/km6297/Library/Mobile Documents/com~apple~CloudDocs/Desktop/projects/psrl/psrl-experiments/fourroom_concept/experiment_structure.py", line 342, in _apply_action
+    await _log_step(action, prev_state, new_state, info)
+  File "/Users/km6297/Library/Mobile Documents/com~apple~CloudDocs/Desktop/projects/psrl/psrl-experiments/fourroom_concept/experiment_structure.py", line 96, in _log_step
+    await Step.create(
+  File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/tortoise/models.py", line 1386, in create
+    db = using_db or cls._choose_db(True)
+                     ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/tortoise/models.py", line 1266, in _choose_db
+    return db or cls._meta.db
+                 ^^^^^^^^^^^^
+  File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/tortoise/models.py", line 296, in db
+    return get_connection(self.default_connection)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/tortoise/connection.py", line 327, in get_connection
+    return require_context().connections.get(alias)
+           ^^^^^^^^^^^^^^^^^
+  File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/tortoise/context.py", line 111, in require_context
+    raise RuntimeError(
+RuntimeError: No TortoiseContext is currently active. Use 'async with TortoiseContext() as ctx:' to create one, or call Tortoise.init() for global state.
+[0m[32muser 2/2:  1003998922 |block 1: block_313f99e3e98543be949b41138abfa935| |stage 1: GridWorld| nicegui - ERROR - No TortoiseContext is currently active. Use 'async with TortoiseContext() as ctx:' to create one, or call Tortoise.init() for global state.
+Traceback (most recent call last):
+  File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/nicegui/events.py", line 480, in _await_and_handle_in_context
+    await awaitable
+  File "/Users/km6297/Library/Mobile Documents/com~apple~CloudDocs/Desktop/projects/psrl/psrl-experiments/fourroom_concept/web_app.py", line 133, in global_handle_key_press
+    await handler(stage, e, container)
+  File "/Users/km6297/Library/Mobile Documents/com~apple~CloudDocs/Desktop/projects/psrl/psrl-experiments/fourroom_concept/experiment_structure.py", line 399, in gridworld_handle_key_press
+    await _apply_action(action, stage, grid_html, log_html, maze_label, next_btn)
+  File "/Users/km6297/Library/Mobile Documents/com~apple~CloudDocs/Desktop/projects/psrl/psrl-experiments/fourroom_concept/experiment_structure.py", line 342, in _apply_action
+    await _log_step(action, prev_state, new_state, info)
+  File "/Users/km6297/Library/Mobile Documents/com~apple~CloudDocs/Desktop/projects/psrl/psrl-experiments/fourroom_concept/experiment_structure.py", line 96, in _log_step
+    await Step.create(
+  File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/tortoise/models.py", line 1386, in create
+    db = using_db or cls._choose_db(True)
+                     ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/tortoise/models.py", line 1266, in _choose_db
+    return db or cls._meta.db
+                 ^^^^^^^^^^^^
+  File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/tortoise/models.py", line 296, in db
+    return get_connection(self.default_connection)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/tortoise/connection.py", line 327, in get_connection
+    return require_context().connections.get(alias)
+           ^^^^^^^^^^^^^^^^^
+  File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/tortoise/context.py", line 111, in require_context
+    raise RuntimeError(
+RuntimeError: No TortoiseContext is currently active. Use 'async with TortoiseContext() as ctx:' to create one, or call Tortoise.init() for global state.
+[0m[32muser 2/2:  1003998922 |block 1: block_313f99e3e98543be949b41138abfa935| |stage 1: GridWorld| nicegui - ERROR - No TortoiseContext is currently active. Use 'async with TortoiseContext() as ctx:' to create one, or call Tortoise.init() for global state.
+Traceback (most recent call last):
+  File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/nicegui/events.py", line 480, in _await_and_handle_in_context
+    await awaitable
+  File "/Users/km6297/Library/Mobile Documents/com~apple~CloudDocs/Desktop/projects/psrl/psrl-experiments/fourroom_concept/web_app.py", line 133, in global_handle_key_press
+    await handler(stage, e, container)
+  File "/Users/km6297/Library/Mobile Documents/com~apple~CloudDocs/Desktop/projects/psrl/psrl-experiments/fourroom_concept/experiment_structure.py", line 399, in gridworld_handle_key_press
+    await _apply_action(action, stage, grid_html, log_html, maze_label, next_btn)
+  File "/Users/km6297/Library/Mobile Documents/com~apple~CloudDocs/Desktop/projects/psrl/psrl-experiments/fourroom_concept/experiment_structure.py", line 342, in _apply_action
+    await _log_step(action, prev_state, new_state, info)
+  File "/Users/km6297/Library/Mobile Documents/com~apple~CloudDocs/Desktop/projects/psrl/psrl-experiments/fourroom_concept/experiment_structure.py", line 96, in _log_step
+    await Step.create(
+  File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/tortoise/models.py", line 1386, in create
+    db = using_db or cls._choose_db(True)
+                     ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/tortoise/models.py", line 1266, in _choose_db
+    return db or cls._meta.db
+                 ^^^^^^^^^^^^
+  File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/tortoise/models.py", line 296, in db
+    return get_connection(self.default_connection)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/tortoise/connection.py", line 327, in get_connection
+    return require_context().connections.get(alias)
+           ^^^^^^^^^^^^^^^^^
+  File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/tortoise/context.py", line 111, in require_context
+    raise RuntimeError(
+RuntimeError: No TortoiseContext is currently active. Use 'async with TortoiseContext() as ctx:' to create one, or call Tortoise.init() for global state.
+[0m[32muser 2/2:  1003998922 |block 1: block_313f99e3e98543be949b41138abfa935| |stage 1: GridWorld| nicegui - ERROR - No TortoiseContext is currently active. Use 'async with TortoiseContext() as ctx:' to create one, or call Tortoise.init() for global state.
+Traceback (most recent call last):
+  File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/nicegui/events.py", line 480, in _await_and_handle_in_context
+    await awaitable
+  File "/Users/km6297/Library/Mobile Documents/com~apple~CloudDocs/Desktop/projects/psrl/psrl-experiments/fourroom_concept/web_app.py", line 133, in global_handle_key_press
+    await handler(stage, e, container)
+  File "/Users/km6297/Library/Mobile Documents/com~apple~CloudDocs/Desktop/projects/psrl/psrl-experiments/fourroom_concept/experiment_structure.py", line 399, in gridworld_handle_key_press
+    await _apply_action(action, stage, grid_html, log_html, maze_label, next_btn)
+  File "/Users/km6297/Library/Mobile Documents/com~apple~CloudDocs/Desktop/projects/psrl/psrl-experiments/fourroom_concept/experiment_structure.py", line 342, in _apply_action
+    await _log_step(action, prev_state, new_state, info)
+  File "/Users/km6297/Library/Mobile Documents/com~apple~CloudDocs/Desktop/projects/psrl/psrl-experiments/fourroom_concept/experiment_structure.py", line 96, in _log_step
+    await Step.create(
+  File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/tortoise/models.py", line 1386, in create
+    db = using_db or cls._choose_db(True)
+                     ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/tortoise/models.py", line 1266, in _choose_db
+    return db or cls._meta.db
+                 ^^^^^^^^^^^^
+  File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/tortoise/models.py", line 296, in db
+    return get_connection(self.default_connection)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/tortoise/connection.py", line 327, in get_connection
+    return require_context().connections.get(alias)
+           ^^^^^^^^^^^^^^^^^
+  File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/tortoise/context.py", line 111, in require_context
+    raise RuntimeError(
+RuntimeError: No TortoiseContext is currently active. Use 'async with TortoiseContext() as ctx:' to create one, or call Tortoise.init() for global state.
+[0m[32muser 2/2:  1003998922 |block 1: block_313f99e3e98543be949b41138abfa935| |stage 1: GridWorld| nicegui - ERROR - No TortoiseContext is currently active. Use 'async with TortoiseContext() as ctx:' to create one, or call Tortoise.init() for global state.
+Traceback (most recent call last):
+  File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/nicegui/events.py", line 480, in _await_and_handle_in_context
+    await awaitable
+  File "/Users/km6297/Library/Mobile Documents/com~apple~CloudDocs/Desktop/projects/psrl/psrl-experiments/fourroom_concept/experiment_structure.py", line 330, in _handle_btn
+    await _apply_action(action, stage, grid_html, log_html, maze_label, next_btn)
+  File "/Users/km6297/Library/Mobile Documents/com~apple~CloudDocs/Desktop/projects/psrl/psrl-experiments/fourroom_concept/experiment_structure.py", line 342, in _apply_action
+    await _log_step(action, prev_state, new_state, info)
+  File "/Users/km6297/Library/Mobile Documents/com~apple~CloudDocs/Desktop/projects/psrl/psrl-experiments/fourroom_concept/experiment_structure.py", line 96, in _log_step
+    await Step.create(
+  File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/tortoise/models.py", line 1386, in create
+    db = using_db or cls._choose_db(True)
+                     ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/tortoise/models.py", line 1266, in _choose_db
+    return db or cls._meta.db
+                 ^^^^^^^^^^^^
+  File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/tortoise/models.py", line 296, in db
+    return get_connection(self.default_connection)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/tortoise/connection.py", line 327, in get_connection
+    return require_context().connections.get(alias)
+           ^^^^^^^^^^^^^^^^^
+  File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/tortoise/context.py", line 111, in require_context
+    raise RuntimeError(
+RuntimeError: No TortoiseContext is currently active. Use 'async with TortoiseContext() as ctx:' to create one, or call Tortoise.init() for global state.
+[0m[32muser 2/2:  1003998922 |block 1: block_313f99e3e98543be949b41138abfa935| |stage 1: GridWorld| nicegui - ERROR - No TortoiseContext is currently active. Use 'async with TortoiseContext() as ctx:' to create one, or call Tortoise.init() for global state.
+Traceback (most recent call last):
+  File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/nicegui/events.py", line 480, in _await_and_handle_in_context
+    await awaitable
+  File "/Users/km6297/Library/Mobile Documents/com~apple~CloudDocs/Desktop/projects/psrl/psrl-experiments/fourroom_concept/experiment_structure.py", line 330, in _handle_btn
+    await _apply_action(action, stage, grid_html, log_html, maze_label, next_btn)
+  File "/Users/km6297/Library/Mobile Documents/com~apple~CloudDocs/Desktop/projects/psrl/psrl-experiments/fourroom_concept/experiment_structure.py", line 342, in _apply_action
+    await _log_step(action, prev_state, new_state, info)
+  File "/Users/km6297/Library/Mobile Documents/com~apple~CloudDocs/Desktop/projects/psrl/psrl-experiments/fourroom_concept/experiment_structure.py", line 96, in _log_step
+    await Step.create(
+  File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/tortoise/models.py", line 1386, in create
+    db = using_db or cls._choose_db(True)
+                     ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/tortoise/models.py", line 1266, in _choose_db
+    return db or cls._meta.db
+                 ^^^^^^^^^^^^
+  File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/tortoise/models.py", line 296, in db
+    return get_connection(self.default_connection)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/tortoise/connection.py", line 327, in get_connection
+    return require_context().connections.get(alias)
+           ^^^^^^^^^^^^^^^^^
+  File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/tortoise/context.py", line 111, in require_context
+    raise RuntimeError(
+RuntimeError: No TortoiseContext is currently active. Use 'async with TortoiseContext() as ctx:' to create one, or call Tortoise.init() for global state.
+[0m[32muser 2/2:  1003998922 |block 1: block_313f99e3e98543be949b41138abfa935| |stage 1: GridWorld| nicegui - ERROR - No TortoiseContext is currently active. Use 'async with TortoiseContext() as ctx:' to create one, or call Tortoise.init() for global state.
+Traceback (most recent call last):
+  File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/nicegui/events.py", line 480, in _await_and_handle_in_context
+    await awaitable
+  File "/Users/km6297/Library/Mobile Documents/com~apple~CloudDocs/Desktop/projects/psrl/psrl-experiments/fourroom_concept/experiment_structure.py", line 330, in _handle_btn
+    await _apply_action(action, stage, grid_html, log_html, maze_label, next_btn)
+  File "/Users/km6297/Library/Mobile Documents/com~apple~CloudDocs/Desktop/projects/psrl/psrl-experiments/fourroom_concept/experiment_structure.py", line 342, in _apply_action
+    await _log_step(action, prev_state, new_state, info)
+  File "/Users/km6297/Library/Mobile Documents/com~apple~CloudDocs/Desktop/projects/psrl/psrl-experiments/fourroom_concept/experiment_structure.py", line 96, in _log_step
+    await Step.create(
+  File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/tortoise/models.py", line 1386, in create
+    db = using_db or cls._choose_db(True)
+                     ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/tortoise/models.py", line 1266, in _choose_db
+    return db or cls._meta.db
+                 ^^^^^^^^^^^^
+  File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/tortoise/models.py", line 296, in db
+    return get_connection(self.default_connection)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/tortoise/connection.py", line 327, in get_connection
+    return require_context().connections.get(alias)
+           ^^^^^^^^^^^^^^^^^
+  File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/tortoise/context.py", line 111, in require_context
+    raise RuntimeError(
+RuntimeError: No TortoiseContext is currently active. Use 'async with TortoiseContext() as ctx:' to create one, or call Tortoise.init() for global state.
+[0m[32muser 2/2:  1003998922 |block 1: block_313f99e3e98543be949b41138abfa935| |stage 1: GridWorld| nicegui - ERROR - No TortoiseContext is currently active. Use 'async with TortoiseContext() as ctx:' to create one, or call Tortoise.init() for global state.
+Traceback (most recent call last):
+  File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/nicegui/events.py", line 480, in _await_and_handle_in_context
+    await awaitable
+  File "/Users/km6297/Library/Mobile Documents/com~apple~CloudDocs/Desktop/projects/psrl/psrl-experiments/fourroom_concept/experiment_structure.py", line 330, in _handle_btn
+    await _apply_action(action, stage, grid_html, log_html, maze_label, next_btn)
+  File "/Users/km6297/Library/Mobile Documents/com~apple~CloudDocs/Desktop/projects/psrl/psrl-experiments/fourroom_concept/experiment_structure.py", line 342, in _apply_action
+    await _log_step(action, prev_state, new_state, info)
+  File "/Users/km6297/Library/Mobile Documents/com~apple~CloudDocs/Desktop/projects/psrl/psrl-experiments/fourroom_concept/experiment_structure.py", line 96, in _log_step
+    await Step.create(
+  File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/tortoise/models.py", line 1386, in create
+    db = using_db or cls._choose_db(True)
+                     ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/tortoise/models.py", line 1266, in _choose_db
+    return db or cls._meta.db
+                 ^^^^^^^^^^^^
+  File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/tortoise/models.py", line 296, in db
+    return get_connection(self.default_connection)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/tortoise/connection.py", line 327, in get_connection
+    return require_context().connections.get(alias)
+           ^^^^^^^^^^^^^^^^^
+  File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/tortoise/context.py", line 111, in require_context
+    raise RuntimeError(
+RuntimeError: No TortoiseContext is currently active. Use 'async with TortoiseContext() as ctx:' to create one, or call Tortoise.init() for global state.
+[0m[32muser 2/2:  1003998922 |block 1: block_313f99e3e98543be949b41138abfa935| |stage 1: GridWorld| nicegui - ERROR - No TortoiseContext is currently active. Use 'async with TortoiseContext() as ctx:' to create one, or call Tortoise.init() for global state.
+Traceback (most recent call last):
+  File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/nicegui/events.py", line 480, in _await_and_handle_in_context
+    await awaitable
+  File "/Users/km6297/Library/Mobile Documents/com~apple~CloudDocs/Desktop/projects/psrl/psrl-experiments/fourroom_concept/experiment_structure.py", line 330, in _handle_btn
+    await _apply_action(action, stage, grid_html, log_html, maze_label, next_btn)
+  File "/Users/km6297/Library/Mobile Documents/com~apple~CloudDocs/Desktop/projects/psrl/psrl-experiments/fourroom_concept/experiment_structure.py", line 342, in _apply_action
+    await _log_step(action, prev_state, new_state, info)
+  File "/Users/km6297/Library/Mobile Documents/com~apple~CloudDocs/Desktop/projects/psrl/psrl-experiments/fourroom_concept/experiment_structure.py", line 96, in _log_step
+    await Step.create(
+  File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/tortoise/models.py", line 1386, in create
+    db = using_db or cls._choose_db(True)
+                     ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/tortoise/models.py", line 1266, in _choose_db
+    return db or cls._meta.db
+                 ^^^^^^^^^^^^
+  File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/tortoise/models.py", line 296, in db
+    return get_connection(self.default_connection)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/tortoise/connection.py", line 327, in get_connection
+    return require_context().connections.get(alias)
+           ^^^^^^^^^^^^^^^^^
+  File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/tortoise/context.py", line 111, in require_context
+    raise RuntimeError(
+RuntimeError: No TortoiseContext is currently active. Use 'async with TortoiseContext() as ctx:' to create one, or call Tortoise.init() for global state.
+[0m[32muser 2/2:  1003998922 |block 1: block_313f99e3e98543be949b41138abfa935| |stage 1: GridWorld| nicewebrl.utils - INFO - {'message': 'Ping 4192'}
+[0m[32muser 2/2:  1003998922 |block 1: block_313f99e3e98543be949b41138abfa935| |stage 1: GridWorld| nicewebrl.utils - INFO - {'message': 'Ping 4820'}
+[0m[32muser 2/2:  1003998922 |block 1: block_313f99e3e98543be949b41138abfa935| |stage 1: GridWorld| nicewebrl.utils - INFO - {'message': 'Ping 729'}
+[0m[31muser 1/1:  1003998922 |block 1: undefined| |stage 1: undefined| nicewebrl.experiment - INFO - Block order: ['block_cc61d323e09446d78dea24b867637d1e', 'block_265f6a2259af4cc1bf764dad160f4e2c', 'block_102afe7c2268409abc4a38c8baedaff3']
+[0m[31muser 1/1:  1003998922 |block 1: block_265f6a2259af4cc1bf764dad160f4e2c| |stage 1: GridWorld| nicegui - WARNING - http://localhost:8084/.well-known/appspecific/com.chrome.devtools.json not found
+[0m[31muser 1/1:  1003998922 |block 1: block_265f6a2259af4cc1bf764dad160f4e2c| |stage 1: GridWorld| nicewebrl.utils - INFO - {'message': 'Ping 5519'}
+[0m[31muser 1/1:  1003998922 |block 1: block_265f6a2259af4cc1bf764dad160f4e2c| |stage 1: GridWorld| nicewebrl.utils - INFO - {'message': 'Ping 2322'}
+[0m[31muser 1/1:  1003998922 |block 1: undefined| |stage 1: undefined| nicewebrl.experiment - INFO - Block order: ['block_d4e29814c25a4eb796831c319dfa15e5', 'block_b980caee8c294d60920b1ca6f8566945', 'block_7f7929f1bdba49ba861818c06e0b2c55']
+[0m[31muser 1/1:  1003998922 |block 1: block_b980caee8c294d60920b1ca6f8566945| |stage 1: GridWorld| nicegui - WARNING - http://localhost:8084/.well-known/appspecific/com.chrome.devtools.json not found
+[0m[31muser 1/1:  1003998922 |block 1: block_b980caee8c294d60920b1ca6f8566945| |stage 1: GridWorld| nicewebrl.utils - INFO - {'message': 'Ping 7251'}
+[0m[31muser 1/1:  1003998922 |block 1: undefined| |stage 1: undefined| nicewebrl.experiment - INFO - Block order: ['block_2d2be1411f20468e823ff6c60b2a2228', 'block_24a532b246184c80a67f9bf024d67cbf', 'block_9e1b7adfee8243ce9808ba05b3e4fbb3']
+[0m[31muser 1/1:  1003998922 |block 1: block_24a532b246184c80a67f9bf024d67cbf| |stage 1: GridWorld| nicegui - WARNING - http://localhost:8084/.well-known/appspecific/com.chrome.devtools.json not found
+[0m[31muser 1/1:  1003998922 |block 1: block_24a532b246184c80a67f9bf024d67cbf| |stage 1: GridWorld| nicewebrl.utils - INFO - {'message': 'Ping 4738'}
+[0m[31muser 1/1:  1714282266 |block 0: undefined| |stage 0: undefined| nicewebrl.experiment - INFO - Block order: ['block_18a00fea2fd64ba5b0b2bdbc9ae0583e', 'block_c26dd79828124efdaef7ce293f232796', 'block_7185e296138e4e7fa944bcda1ca6eda6']
+[0m[31muser 1/1:  1714282266 |block 0: undefined| |stage 0: undefined| __mp_main__ - INFO - New episode: mode=bijection dims=['shape', 'color', 'texture'] n_kinds={'shape': 5, 'color': 5, 'texture': 5} n_goals=4 rule=texture='chevron'
+[0m[31muser 1/1:  1714282266 |block 0: block_18a00fea2fd64ba5b0b2bdbc9ae0583e| |stage 0: Instructions| nicegui - WARNING - http://localhost:8084/.well-known/appspecific/com.chrome.devtools.json not found
+[0m[31muser 1/1:  1714282266 |block 0: block_18a00fea2fd64ba5b0b2bdbc9ae0583e| |stage 0: Instructions| nicewebrl.utils - INFO - {'message': 'Ping 6441'}
+[0m[31muser 1/1:  1714282266 |block 1: block_c26dd79828124efdaef7ce293f232796| |stage 1: GridWorld| nicegui - ERROR - No TortoiseContext is currently active. Use 'async with TortoiseContext() as ctx:' to create one, or call Tortoise.init() for global state.
+Traceback (most recent call last):
+  File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/nicegui/events.py", line 480, in _await_and_handle_in_context
+    await awaitable
+  File "/Users/km6297/Library/Mobile Documents/com~apple~CloudDocs/Desktop/projects/psrl/psrl-experiments/fourroom_concept/web_app.py", line 137, in global_handle_key_press
+    await handler(stage, e, container)
+  File "/Users/km6297/Library/Mobile Documents/com~apple~CloudDocs/Desktop/projects/psrl/psrl-experiments/fourroom_concept/experiment_structure.py", line 399, in gridworld_handle_key_press
+    await _apply_action(action, stage, grid_html, log_html, maze_label, next_btn)
+  File "/Users/km6297/Library/Mobile Documents/com~apple~CloudDocs/Desktop/projects/psrl/psrl-experiments/fourroom_concept/experiment_structure.py", line 342, in _apply_action
+    await _log_step(action, prev_state, new_state, info)
+  File "/Users/km6297/Library/Mobile Documents/com~apple~CloudDocs/Desktop/projects/psrl/psrl-experiments/fourroom_concept/experiment_structure.py", line 96, in _log_step
+    await Step.create(
+  File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/tortoise/models.py", line 1386, in create
+    db = using_db or cls._choose_db(True)
+                     ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/tortoise/models.py", line 1266, in _choose_db
+    return db or cls._meta.db
+                 ^^^^^^^^^^^^
+  File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/tortoise/models.py", line 296, in db
+    return get_connection(self.default_connection)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/tortoise/connection.py", line 327, in get_connection
+    return require_context().connections.get(alias)
+           ^^^^^^^^^^^^^^^^^
+  File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/tortoise/context.py", line 111, in require_context
+    raise RuntimeError(
+RuntimeError: No TortoiseContext is currently active. Use 'async with TortoiseContext() as ctx:' to create one, or call Tortoise.init() for global state.
+[0m[31muser 1/1:  1714282266 |block 1: block_c26dd79828124efdaef7ce293f232796| |stage 1: GridWorld| nicegui - ERROR - No TortoiseContext is currently active. Use 'async with TortoiseContext() as ctx:' to create one, or call Tortoise.init() for global state.
+Traceback (most recent call last):
+  File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/nicegui/events.py", line 480, in _await_and_handle_in_context
+    await awaitable
+  File "/Users/km6297/Library/Mobile Documents/com~apple~CloudDocs/Desktop/projects/psrl/psrl-experiments/fourroom_concept/web_app.py", line 137, in global_handle_key_press
+    await handler(stage, e, container)
+  File "/Users/km6297/Library/Mobile Documents/com~apple~CloudDocs/Desktop/projects/psrl/psrl-experiments/fourroom_concept/experiment_structure.py", line 399, in gridworld_handle_key_press
+    await _apply_action(action, stage, grid_html, log_html, maze_label, next_btn)
+  File "/Users/km6297/Library/Mobile Documents/com~apple~CloudDocs/Desktop/projects/psrl/psrl-experiments/fourroom_concept/experiment_structure.py", line 342, in _apply_action
+    await _log_step(action, prev_state, new_state, info)
+  File "/Users/km6297/Library/Mobile Documents/com~apple~CloudDocs/Desktop/projects/psrl/psrl-experiments/fourroom_concept/experiment_structure.py", line 96, in _log_step
+    await Step.create(
+  File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/tortoise/models.py", line 1386, in create
+    db = using_db or cls._choose_db(True)
+                     ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/tortoise/models.py", line 1266, in _choose_db
+    return db or cls._meta.db
+                 ^^^^^^^^^^^^
+  File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/tortoise/models.py", line 296, in db
+    return get_connection(self.default_connection)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/tortoise/connection.py", line 327, in get_connection
+    return require_context().connections.get(alias)
+           ^^^^^^^^^^^^^^^^^
+  File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/tortoise/context.py", line 111, in require_context
+    raise RuntimeError(
+RuntimeError: No TortoiseContext is currently active. Use 'async with TortoiseContext() as ctx:' to create one, or call Tortoise.init() for global state.
+[0m[31muser 1/1:  1714282266 |block 1: block_c26dd79828124efdaef7ce293f232796| |stage 1: GridWorld| nicegui - ERROR - No TortoiseContext is currently active. Use 'async with TortoiseContext() as ctx:' to create one, or call Tortoise.init() for global state.
+Traceback (most recent call last):
+  File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/nicegui/events.py", line 480, in _await_and_handle_in_context
+    await awaitable
+  File "/Users/km6297/Library/Mobile Documents/com~apple~CloudDocs/Desktop/projects/psrl/psrl-experiments/fourroom_concept/web_app.py", line 137, in global_handle_key_press
+    await handler(stage, e, container)
+  File "/Users/km6297/Library/Mobile Documents/com~apple~CloudDocs/Desktop/projects/psrl/psrl-experiments/fourroom_concept/experiment_structure.py", line 399, in gridworld_handle_key_press
+    await _apply_action(action, stage, grid_html, log_html, maze_label, next_btn)
+  File "/Users/km6297/Library/Mobile Documents/com~apple~CloudDocs/Desktop/projects/psrl/psrl-experiments/fourroom_concept/experiment_structure.py", line 342, in _apply_action
+    await _log_step(action, prev_state, new_state, info)
+  File "/Users/km6297/Library/Mobile Documents/com~apple~CloudDocs/Desktop/projects/psrl/psrl-experiments/fourroom_concept/experiment_structure.py", line 96, in _log_step
+    await Step.create(
+  File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/tortoise/models.py", line 1386, in create
+    db = using_db or cls._choose_db(True)
+                     ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/tortoise/models.py", line 1266, in _choose_db
+    return db or cls._meta.db
+                 ^^^^^^^^^^^^
+  File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/tortoise/models.py", line 296, in db
+    return get_connection(self.default_connection)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/tortoise/connection.py", line 327, in get_connection
+    return require_context().connections.get(alias)
+           ^^^^^^^^^^^^^^^^^
+  File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/tortoise/context.py", line 111, in require_context
+    raise RuntimeError(
+RuntimeError: No TortoiseContext is currently active. Use 'async with TortoiseContext() as ctx:' to create one, or call Tortoise.init() for global state.
+[0m[31muser 1/1:  1714282266 |block 1: block_c26dd79828124efdaef7ce293f232796| |stage 1: GridWorld| nicegui - ERROR - No TortoiseContext is currently active. Use 'async with TortoiseContext() as ctx:' to create one, or call Tortoise.init() for global state.
+Traceback (most recent call last):
+  File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/nicegui/events.py", line 480, in _await_and_handle_in_context
+    await awaitable
+  File "/Users/km6297/Library/Mobile Documents/com~apple~CloudDocs/Desktop/projects/psrl/psrl-experiments/fourroom_concept/web_app.py", line 137, in global_handle_key_press
+    await handler(stage, e, container)
+  File "/Users/km6297/Library/Mobile Documents/com~apple~CloudDocs/Desktop/projects/psrl/psrl-experiments/fourroom_concept/experiment_structure.py", line 399, in gridworld_handle_key_press
+    await _apply_action(action, stage, grid_html, log_html, maze_label, next_btn)
+  File "/Users/km6297/Library/Mobile Documents/com~apple~CloudDocs/Desktop/projects/psrl/psrl-experiments/fourroom_concept/experiment_structure.py", line 342, in _apply_action
+    await _log_step(action, prev_state, new_state, info)
+  File "/Users/km6297/Library/Mobile Documents/com~apple~CloudDocs/Desktop/projects/psrl/psrl-experiments/fourroom_concept/experiment_structure.py", line 96, in _log_step
+    await Step.create(
+  File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/tortoise/models.py", line 1386, in create
+    db = using_db or cls._choose_db(True)
+                     ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/tortoise/models.py", line 1266, in _choose_db
+    return db or cls._meta.db
+                 ^^^^^^^^^^^^
+  File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/tortoise/models.py", line 296, in db
+    return get_connection(self.default_connection)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/tortoise/connection.py", line 327, in get_connection
+    return require_context().connections.get(alias)
+           ^^^^^^^^^^^^^^^^^
+  File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/tortoise/context.py", line 111, in require_context
+    raise RuntimeError(
+RuntimeError: No TortoiseContext is currently active. Use 'async with TortoiseContext() as ctx:' to create one, or call Tortoise.init() for global state.
+[0m[31muser 1/1:  1714282266 |block 1: block_c26dd79828124efdaef7ce293f232796| |stage 1: GridWorld| nicegui - ERROR - No TortoiseContext is currently active. Use 'async with TortoiseContext() as ctx:' to create one, or call Tortoise.init() for global state.
+Traceback (most recent call last):
+  File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/nicegui/events.py", line 480, in _await_and_handle_in_context
+    await awaitable
+  File "/Users/km6297/Library/Mobile Documents/com~apple~CloudDocs/Desktop/projects/psrl/psrl-experiments/fourroom_concept/web_app.py", line 137, in global_handle_key_press
+    await handler(stage, e, container)
+  File "/Users/km6297/Library/Mobile Documents/com~apple~CloudDocs/Desktop/projects/psrl/psrl-experiments/fourroom_concept/experiment_structure.py", line 399, in gridworld_handle_key_press
+    await _apply_action(action, stage, grid_html, log_html, maze_label, next_btn)
+  File "/Users/km6297/Library/Mobile Documents/com~apple~CloudDocs/Desktop/projects/psrl/psrl-experiments/fourroom_concept/experiment_structure.py", line 342, in _apply_action
+    await _log_step(action, prev_state, new_state, info)
+  File "/Users/km6297/Library/Mobile Documents/com~apple~CloudDocs/Desktop/projects/psrl/psrl-experiments/fourroom_concept/experiment_structure.py", line 96, in _log_step
+    await Step.create(
+  File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/tortoise/models.py", line 1386, in create
+    db = using_db or cls._choose_db(True)
+                     ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/tortoise/models.py", line 1266, in _choose_db
+    return db or cls._meta.db
+                 ^^^^^^^^^^^^
+  File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/tortoise/models.py", line 296, in db
+    return get_connection(self.default_connection)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/tortoise/connection.py", line 327, in get_connection
+    return require_context().connections.get(alias)
+           ^^^^^^^^^^^^^^^^^
+  File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/tortoise/context.py", line 111, in require_context
+    raise RuntimeError(
+RuntimeError: No TortoiseContext is currently active. Use 'async with TortoiseContext() as ctx:' to create one, or call Tortoise.init() for global state.
+[0m[31muser 1/1:  1714282266 |block 1: block_c26dd79828124efdaef7ce293f232796| |stage 1: GridWorld| nicewebrl.utils - INFO - {'message': 'Ping 1969'}
+[0m[31muser 1/1:  1714282266 |block 1: block_c26dd79828124efdaef7ce293f232796| |stage 1: GridWorld| nicewebrl.utils - INFO - {'message': 'Ping 7980'}
+[0m[31muser 1/1:  1714282266 |block 1: block_c26dd79828124efdaef7ce293f232796| |stage 1: GridWorld| nicewebrl.utils - INFO - {'message': 'Ping 2838'}
+[0m[31muser 1/1:  1639043530 |block 0: undefined| |stage 0: undefined| nicewebrl.experiment - INFO - Block order: ['block_bafd530f6ca24e688c06e43b4a3093d3', 'block_3a84d22b876944e99f07a93a62e904a6', 'block_ebece0f9b1ad42d7b3b5ebeb1c4452a2']
+[0m[31muser 1/1:  1639043530 |block 0: undefined| |stage 0: undefined| __mp_main__ - INFO - New episode: mode=bijection dims=['shape', 'color', 'texture'] n_kinds={'shape': 5, 'color': 5, 'texture': 5} n_goals=4 rule=shape='triangle'
+[0m[31muser 1/1:  1639043530 |block 0: block_bafd530f6ca24e688c06e43b4a3093d3| |stage 0: Instructions| nicegui - WARNING - http://localhost:8084/.well-known/appspecific/com.chrome.devtools.json not found
+[0m[31muser 1/1:  1639043530 |block 0: block_bafd530f6ca24e688c06e43b4a3093d3| |stage 0: Instructions| nicewebrl.utils - INFO - {'message': 'Ping 3266'}
+[0m[31muser 1/1:  1639043530 |block 1: block_3a84d22b876944e99f07a93a62e904a6| |stage 1: GridWorld| nicewebrl.utils - INFO - {'message': 'Ping 1083'}
+[0m[31muser 1/1:  1639043530 |block 1: block_3a84d22b876944e99f07a93a62e904a6| |stage 1: GridWorld| __mp_main__ - INFO - Stage finished: GridWorld
+[0m[31muser 1/1:  1639043530 |block 3: block_ebece0f9b1ad42d7b3b5ebeb1c4452a2| |stage 3: Debrief| __mp_main__ - INFO - Session saved to database → seed=1639043530
+[0m[32muser 2/2:  921534825 |block 0: undefined| |stage 0: undefined| nicewebrl.experiment - INFO - Block order: ['block_bafd530f6ca24e688c06e43b4a3093d3', 'block_3a84d22b876944e99f07a93a62e904a6', 'block_ebece0f9b1ad42d7b3b5ebeb1c4452a2']
+[0m[32muser 2/2:  921534825 |block 0: undefined| |stage 0: undefined| __mp_main__ - INFO - New episode: mode=bijection dims=['shape', 'color', 'texture'] n_kinds={'shape': 5, 'color': 5, 'texture': 5} n_goals=4 rule=color='green'
+[0m[32muser 2/2:  921534825 |block 0: block_bafd530f6ca24e688c06e43b4a3093d3| |stage 0: Instructions| nicegui - WARNING - http://localhost:8084/.well-known/appspecific/com.chrome.devtools.json not found
+[0m[32muser 2/2:  921534825 |block 0: block_bafd530f6ca24e688c06e43b4a3093d3| |stage 0: Instructions| nicewebrl.utils - INFO - {'message': 'Ping 2835'}
+[0m[32muser 2/2:  921534825 |block 1: block_3a84d22b876944e99f07a93a62e904a6| |stage 1: GridWorld| nicewebrl.utils - INFO - {'message': 'Ping 4570'}
+[0m[32muser 2/2:  921534825 |block 1: block_3a84d22b876944e99f07a93a62e904a6| |stage 1: GridWorld| __mp_main__ - INFO - Stage finished: GridWorld
+[0m[32muser 2/2:  921534825 |block 3: block_ebece0f9b1ad42d7b3b5ebeb1c4452a2| |stage 3: Debrief| __mp_main__ - INFO - Session saved to database → seed=921534825
+[0m[32muser 2/2:  921534825 |block 3: block_ebece0f9b1ad42d7b3b5ebeb1c4452a2| |stage 3: Debrief| nicewebrl.utils - INFO - {'message': 'Ping 5835'}
+[0m[33muser 3/3:  1184165655 |block 0: undefined| |stage 0: undefined| nicewebrl.experiment - INFO - Block order: ['block_bafd530f6ca24e688c06e43b4a3093d3', 'block_3a84d22b876944e99f07a93a62e904a6', 'block_ebece0f9b1ad42d7b3b5ebeb1c4452a2']
+[0m[33muser 3/3:  1184165655 |block 0: undefined| |stage 0: undefined| __mp_main__ - INFO - New episode: mode=bijection dims=['shape', 'color', 'texture'] n_kinds={'shape': 5, 'color': 5, 'texture': 5} n_goals=4 rule=shape='star'
+[0m[33muser 3/3:  1184165655 |block 0: block_bafd530f6ca24e688c06e43b4a3093d3| |stage 0: Instructions| nicegui - WARNING - http://localhost:8084/.well-known/appspecific/com.chrome.devtools.json not found
+[0m[33muser 3/3:  1184165655 |block 0: block_bafd530f6ca24e688c06e43b4a3093d3| |stage 0: Instructions| nicewebrl.utils - INFO - {'message': 'Ping 4859'}
+[0m[33muser 3/3:  1184165655 |block 1: block_3a84d22b876944e99f07a93a62e904a6| |stage 1: GridWorld| nicewebrl.utils - INFO - {'message': 'Ping 9933'}
+[0m[33muser 3/3:  1184165655 |block 1: block_3a84d22b876944e99f07a93a62e904a6| |stage 1: GridWorld| __mp_main__ - INFO - Stage finished: GridWorld
+[0m[33muser 3/3:  1184165655 |block 3: block_ebece0f9b1ad42d7b3b5ebeb1c4452a2| |stage 3: Debrief| __mp_main__ - INFO - Session saved to database → seed=1184165655
+[0m[31muser 1/1:  1184165655 |block 3: undefined| |stage 3: undefined| nicewebrl.experiment - INFO - Block order: ['block_6b23bc88949742348683fd7f7fe4bf10', 'block_94560a165e334d7bbe1848c48fba7133', 'block_1fd60257088341759d6756f551728fbd']
+[0m[31muser 1/1:  1184165655 |block 3: undefined| |stage 3: undefined| __mp_main__ - INFO - Session saved to database → seed=1184165655
+[0m[31muser 1/1:  1184165655 |block 3: undefined| |stage 3: undefined| nicegui - WARNING - http://localhost:8084/.well-known/appspecific/com.chrome.devtools.json not found
+[0m[31muser 1/1:  1184165655 |block 3: undefined| |stage 3: undefined| nicewebrl.utils - INFO - {'message': 'Ping 3258'}
+[0m[32muser 2/2:  4063228347 |block 0: undefined| |stage 0: undefined| nicewebrl.experiment - INFO - Block order: ['block_6b23bc88949742348683fd7f7fe4bf10', 'block_94560a165e334d7bbe1848c48fba7133', 'block_1fd60257088341759d6756f551728fbd']
+[0m[32muser 2/2:  4063228347 |block 0: undefined| |stage 0: undefined| __mp_main__ - INFO - New episode: mode=bijection dims=['shape', 'color', 'texture'] n_kinds={'shape': 5, 'color': 5, 'texture': 5} n_goals=5 rule=color='blue'
+[0m[32muser 2/2:  4063228347 |block 0: block_6b23bc88949742348683fd7f7fe4bf10| |stage 0: Instructions| nicegui - WARNING - http://localhost:8084/.well-known/appspecific/com.chrome.devtools.json not found
+[0m[32muser 2/2:  4063228347 |block 0: block_6b23bc88949742348683fd7f7fe4bf10| |stage 0: Instructions| nicewebrl.utils - INFO - {'message': 'Ping 8489'}
+[0m[32muser 2/2:  4063228347 |block 1: block_94560a165e334d7bbe1848c48fba7133| |stage 1: GridWorld| nicewebrl.utils - INFO - {'message': 'Ping 5515'}
+[0m[32muser 2/2:  4063228347 |block 1: block_94560a165e334d7bbe1848c48fba7133| |stage 1: GridWorld| __mp_main__ - INFO - Stage finished: GridWorld
+[0m[32muser 2/2:  4063228347 |block 3: block_1fd60257088341759d6756f551728fbd| |stage 3: Debrief| __mp_main__ - INFO - Session saved to database → seed=4063228347
+[0m[33muser 3/3:  278279228 |block 0: undefined| |stage 0: undefined| nicewebrl.experiment - INFO - Block order: ['block_6b23bc88949742348683fd7f7fe4bf10', 'block_94560a165e334d7bbe1848c48fba7133', 'block_1fd60257088341759d6756f551728fbd']
+[0m[33muser 3/3:  278279228 |block 0: undefined| |stage 0: undefined| __mp_main__ - INFO - New episode: mode=bijection dims=['shape', 'color', 'texture'] n_kinds={'shape': 5, 'color': 5, 'texture': 5} n_goals=5 rule=texture='outline'
+[0m[33muser 3/3:  278279228 |block 0: block_6b23bc88949742348683fd7f7fe4bf10| |stage 0: Instructions| nicegui - WARNING - http://localhost:8084/.well-known/appspecific/com.chrome.devtools.json not found
+[0m[33muser 3/3:  278279228 |block 0: block_6b23bc88949742348683fd7f7fe4bf10| |stage 0: Instructions| nicewebrl.utils - INFO - {'message': 'Ping 9491'}
+[0m[33muser 3/3:  278279228 |block 1: block_94560a165e334d7bbe1848c48fba7133| |stage 1: GridWorld| nicewebrl.utils - INFO - {'message': 'Ping 174'}
+[0m[33muser 3/3:  278279228 |block 1: block_94560a165e334d7bbe1848c48fba7133| |stage 1: GridWorld| __mp_main__ - INFO - Stage finished: GridWorld
+[0m[33muser 3/3:  278279228 |block 3: block_1fd60257088341759d6756f551728fbd| |stage 3: Debrief| __mp_main__ - INFO - Session saved to database → seed=278279228
 [0m

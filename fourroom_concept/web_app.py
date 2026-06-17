@@ -14,6 +14,7 @@ import asyncio
 import json
 import os
 from asyncio import Lock
+from datetime import datetime, timezone
 
 from fastapi import Request
 from nicegui import app, ui
@@ -24,6 +25,7 @@ from nicewebrl.logging import setup_logging, get_logger
 from nicewebrl.utils import wait_for_button_or_keypress
 
 import gridworld as gw
+import db
 from experiment_structure import experiment
 
 # Parse experiment parameters before NiceGUI takes over sys.argv
@@ -92,11 +94,17 @@ def get_user_lock():
 # ---------------------------------------------------------------------------
 
 async def init_db():
+    db_url = os.environ.get("DATABASE_URL", f"sqlite://{DATA_DIR}/{DB_FILE}")
+    if db_url.startswith("postgres://"):
+        db_url = db_url.replace("postgres://", "postgresql://", 1)
+    # Tortoise for nicewebrl's own models
     await Tortoise.init(
-        db_url=f"sqlite://{DATA_DIR}/{DB_FILE}",
+        db_url=db_url,
         modules={"models": ["nicewebrl.stages"]},
     )
     await Tortoise.generate_schemas()
+    # Our custom tables via direct SQL (avoids Tortoise context issues)
+    await db.init_tables()
 
 
 async def close_db():
@@ -212,36 +220,35 @@ async def start_experiment(meta_container, stage_container):
 
 async def finish_experiment(container):
     state = app.storage.user.get("gw_state", {})
-    metadata = {
-        "finished":    True,
-        "seed":        app.storage.user.get("seed"),
-        "mode":        state.get("mode"),
-        "dims":        state.get("dims"),
-        "n_kinds":     state.get("n_kinds"),
-        "n_goals":     state.get("n_goals"),
-        "rule_dim":    state.get("rule_dim"),
-        "rule_value":  state.get("rule_value"),
-        "total_score": state.get("total_score"),
-        "total_steps": sum(
-            m["step"] for m in state.get("mazes", []) if m is not None
-        ),
-        "log":  state.get("log", []),
-        "mazes": [
-            {
-                "grid":           m["grid"],
-                "agent_pos":      m["agent_pos"],
-                "goal_positions": m["goal_positions"],
-                "goals":          m["goals"],
-                "fixed_values":   m.get("fixed_values", {}),
-            }
-            if m is not None else None
-            for m in state.get("mazes", [])
-        ],
-    }
-    meta_path = os.path.join(DATA_DIR, f"user_meta_{app.storage.user['seed']}.json")
-    with open(meta_path, "w") as f:
-        json.dump(metadata, f, indent=2)
-    logger.info(f"Metadata saved → {meta_path}")
+    seed  = app.storage.user.get("seed")
+
+    mazes_data = [
+        {
+            "grid":           m["grid"],
+            "agent_pos":      m["agent_pos"],
+            "goal_positions": m["goal_positions"],
+            "goals":          m["goals"],
+            "fixed_values":   m.get("fixed_values", {}),
+        }
+        if m is not None else None
+        for m in state.get("mazes", [])
+    ]
+
+    await db.upsert_session(
+        seed         = seed,
+        completed_at = datetime.now(timezone.utc).isoformat(),
+        mode         = state.get("mode"),
+        dims         = state.get("dims"),
+        n_kinds      = state.get("n_kinds"),
+        n_goals      = state.get("n_goals"),
+        rule_dim     = state.get("rule_dim"),
+        rule_value   = state.get("rule_value"),
+        total_score  = state.get("total_score"),
+        total_steps  = sum(m["step"] for m in state.get("mazes", []) if m is not None),
+        log          = state.get("log", []),
+        mazes        = mazes_data,
+    )
+    logger.info(f"Session saved to database → seed={seed}")
 
 
 # ---------------------------------------------------------------------------

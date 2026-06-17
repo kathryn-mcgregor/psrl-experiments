@@ -138,8 +138,17 @@ def _generate_goal_attrs(
     excluded = excluded or set()
 
     if mode == MODE_BIJECTION:
-        # Sample n_goals values from each dim without replacement, then zip
-        per_dim = [rng.sample(DIMENSIONS[d][:n_kinds[d]], n_goals) for d in dims]
+        per_dim = []
+        for d in dims:
+            pool = DIMENSIONS[d][:n_kinds[d]]
+            if d == rule_dim and rule_value in pool:
+                # Force rule_value to be included, fill remaining slots from the rest
+                others = [v for v in pool if v != rule_value]
+                sample = [rule_value] + rng.sample(others, n_goals - 1)
+                rng.shuffle(sample)
+            else:
+                sample = rng.sample(pool, n_goals)
+            per_dim.append(sample)
         active_attrs = [
             {dims[i]: per_dim[i][j] for i in range(len(dims))}
             for j in range(n_goals)
@@ -264,7 +273,11 @@ def init_episode(
         )
         mazes = [first_maze] + [None] * (N_MAZES - 1)
     else:
-        mazes = [_make_maze(rng, n_goals, dims, n_kinds, mode) for _ in range(N_MAZES)]
+        mazes = [
+            _make_maze(rng, n_goals, dims, n_kinds, mode,
+                       rule_dim=rule_dim, rule_value=rule_value)
+            for _ in range(N_MAZES)
+        ]
 
     return {
         "mode":             mode,
