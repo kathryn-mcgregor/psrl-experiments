@@ -41,6 +41,7 @@ async def export(seed: str | None = None):
         writer.writerow([
             "seed", "completed_at", "mode", "dims", "n_kinds", "n_goals",
             "rule_dim", "rule_value", "total_score", "total_steps",
+            "prolific_pid", "study_id", "session_id",
         ])
         for s in sessions:
             writer.writerow([
@@ -54,6 +55,9 @@ async def export(seed: str | None = None):
                 s["rule_value"],
                 s["total_score"],
                 s["total_steps"],
+                s.get("prolific_pid"),
+                s.get("study_id"),
+                s.get("session_id"),
             ])
     print(f"Exported {len(sessions)} session(s) → {EXPORT_DIR}/sessions.csv")
 

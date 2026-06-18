@@ -1,0 +1,12 @@
+[32muser 2/2:  1256621632 |block 0: undefined| |stage 0: undefined| nicewebrl.experiment - INFO - Block order: ['block_58e3bb2e3a974eb8b5663a2bf1c36686', 'block_fa3c6153dc074619b30084311c9b0b7d', 'block_1c594f6774c14fbaa790327f726220dc', 'block_7fd85b96c87e40e88f6656054fae588e']
+[0m[32muser 2/2:  1256621632 |block 0: undefined| |stage 0: undefined| nicegui - WARNING - http://localhost:8084/.well-known/appspecific/com.chrome.devtools.json not found
+[0m[32muser 2/2:  1256621632 |block 0: undefined| |stage 0: undefined| nicewebrl.utils - INFO - {'message': 'Ping 9776'}
+[0m[32muser 2/2:  1256621632 |block 0: undefined| |stage 0: undefined| nicewebrl.utils - INFO - {'message': 'Ping 6854'}
+[0m[32muser 2/2:  1256621632 |block 0: undefined| |stage 0: undefined| nicewebrl.utils - INFO - {'message': 'Ping 8795'}
+[0m[31muser 1/1:  1256621632 |block 0: undefined| |stage 0: undefined| nicewebrl.experiment - INFO - Block order: ['block_cc2d6ed7f0db4a8987b45fc8696a941a', 'block_71e203eef01d475d931c43e7aeab4c95', 'block_01b14da555e44a56b21c8379c21c45bb', 'block_651c2b55d79c4827922beccfc3d94d5e']
+[0m[31muser 1/1:  1256621632 |block 0: undefined| |stage 0: undefined| __main__ - INFO - New episode: mode=bijection dims=['shape', 'color', 'texture'] n_kinds={'shape': 5, 'color': 5, 'texture': 5} n_goals=5 rule=texture='chevron'
+[0m[31muser 1/1:  1256621632 |block 0: block_cc2d6ed7f0db4a8987b45fc8696a941a| |stage 0: Consent| nicegui - WARNING - Response for / not ready after 3.0 seconds
+[0m[31muser 1/1:  1256621632 |block 0: block_cc2d6ed7f0db4a8987b45fc8696a941a| |stage 0: Consent| nicegui - WARNING - http://localhost:8084/.well-known/appspecific/com.chrome.devtools.json not found
+[0m[31muser 1/1:  1256621632 |block 0: undefined| |stage 0: undefined| nicewebrl.experiment - INFO - Block order: ['block_cc2d6ed7f0db4a8987b45fc8696a941a', 'block_71e203eef01d475d931c43e7aeab4c95', 'block_01b14da555e44a56b21c8379c21c45bb', 'block_651c2b55d79c4827922beccfc3d94d5e']
+[0m[31muser 1/1:  1256621632 |block 0: block_cc2d6ed7f0db4a8987b45fc8696a941a| |stage 0: Consent| nicegui - WARNING - Response for / not ready after 3.0 seconds
+[0m

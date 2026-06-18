@@ -1,5 +1,5 @@
 nicewebrl @ git+https://github.com/KempnerInstitute/nicewebrl.git
-matplotlib
+tortoise-orm[asyncpg]
 python-dotenv
 asyncpg
 aiosqlite

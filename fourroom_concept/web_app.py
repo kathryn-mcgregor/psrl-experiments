@@ -26,7 +26,7 @@ from nicewebrl.utils import wait_for_button_or_keypress
 
 import gridworld as gw
 import db
-from experiment_structure import experiment
+from experiment_structure import experiment, declined_stage
 
 # Parse experiment parameters before NiceGUI takes over sys.argv
 _parser = argparse.ArgumentParser(add_help=False)
@@ -95,8 +95,11 @@ def get_user_lock():
 
 async def init_db():
     db_url = os.environ.get("DATABASE_URL", f"sqlite://{DATA_DIR}/{DB_FILE}")
+    # Tortoise with asyncpg requires "asyncpg://" scheme
     if db_url.startswith("postgres://"):
-        db_url = db_url.replace("postgres://", "postgresql://", 1)
+        db_url = db_url.replace("postgres://", "asyncpg://", 1)
+    elif db_url.startswith("postgresql://"):
+        db_url = db_url.replace("postgresql://", "asyncpg://", 1)
     # Tortoise for nicewebrl's own models
     await Tortoise.init(
         db_url=db_url,
@@ -213,6 +216,10 @@ async def start_experiment(meta_container, stage_container):
         stage = await experiment.get_stage()
         await run_stage(stage, stage_container)
         await stage.finish_saving_user_data()
+        # If participant declined consent, skip to declined screen and stop
+        if stage.name == "Consent" and stage.get_user_data("declined", False):
+            await run_stage(declined_stage, stage_container)
+            return
         await experiment.advance()
 
     await finish_experiment(meta_container)
@@ -247,6 +254,9 @@ async def finish_experiment(container):
         total_steps  = sum(m["step"] for m in state.get("mazes", []) if m is not None),
         log          = state.get("log", []),
         mazes        = mazes_data,
+        prolific_pid = app.storage.user.get("prolific_pid"),
+        study_id     = app.storage.user.get("study_id"),
+        session_id   = app.storage.user.get("session_id"),
     )
     logger.info(f"Session saved to database → seed={seed}")
 
@@ -258,6 +268,9 @@ async def finish_experiment(container):
 @ui.page("/")
 async def index(request: Request):
     nicewebrl.initialize_user(request=request)
+    app.storage.user["prolific_pid"] = request.query_params.get("prolific_pid")
+    app.storage.user["study_id"]     = request.query_params.get("study_id")
+    app.storage.user["session_id"]   = request.query_params.get("session_id")
     await experiment.initialize()
 
     basic_js = nicewebrl.basic_javascript_file()
@@ -302,7 +315,8 @@ async def index(request: Request):
 ui.run(
     storage_secret="fourroom_concept_42",
     show=False,
-    reload=True,
+    reload=False,
+    workers=1,
     title="Concept Navigation",
-    port=8084,
+    port=int(os.environ.get("PORT", 8084)),
 )

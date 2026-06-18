@@ -1,0 +1,359 @@
+Error in write_user: user storage for 09a31494-8403-44fe-ae07-13d2214c92a1 should be created before accessing it
+Traceback (most recent call last):
+  File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/nicewebrl/utils.py", line 111, in wait_for_button_or_keypress
+    done, pending = await asyncio.wait(tasks, return_when=asyncio.FIRST_COMPLETED)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/asyncio/tasks.py", line 428, in wait
+    return await _wait(fs, timeout, return_when, loop)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/asyncio/tasks.py", line 535, in _wait
+    await waiter
+asyncio.exceptions.CancelledError
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/nicewebrl/logging.py", line 146, in write_user
+    user_id = app.storage.user.get(self.user_key, None)
+              ^^^^^^^^^^^^^^^^
+  File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/nicegui/storage.py", line 137, in user
+    assert session_id in self._users, f'user storage for {session_id} should be created before accessing it'
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: user storage for 09a31494-8403-44fe-ae07-13d2214c92a1 should be created before accessing it
+
+Error in write_user: user storage for 09a31494-8403-44fe-ae07-13d2214c92a1 should be created before accessing it
+Traceback (most recent call last):
+  File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/nicewebrl/utils.py", line 111, in wait_for_button_or_keypress
+    done, pending = await asyncio.wait(tasks, return_when=asyncio.FIRST_COMPLETED)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/asyncio/tasks.py", line 428, in wait
+    return await _wait(fs, timeout, return_when, loop)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/asyncio/tasks.py", line 535, in _wait
+    await waiter
+asyncio.exceptions.CancelledError
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/nicewebrl/logging.py", line 146, in write_user
+    user_id = app.storage.user.get(self.user_key, None)
+              ^^^^^^^^^^^^^^^^
+  File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/nicegui/storage.py", line 137, in user
+    assert session_id in self._users, f'user storage for {session_id} should be created before accessing it'
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: user storage for 09a31494-8403-44fe-ae07-13d2214c92a1 should be created before accessing it
+
+Error in write_user: user storage for 09a31494-8403-44fe-ae07-13d2214c92a1 should be created before accessing it
+Traceback (most recent call last):
+  File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/nicewebrl/logging.py", line 146, in write_user
+    user_id = app.storage.user.get(self.user_key, None)
+              ^^^^^^^^^^^^^^^^
+  File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/nicegui/storage.py", line 137, in user
+    assert session_id in self._users, f'user storage for {session_id} should be created before accessing it'
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: user storage for 09a31494-8403-44fe-ae07-13d2214c92a1 should be created before accessing it
+
+Error in write_user: user storage for 09a31494-8403-44fe-ae07-13d2214c92a1 should be created before accessing it
+Traceback (most recent call last):
+  File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/nicewebrl/utils.py", line 128, in wait_for_button_or_keypress
+    keyboard.delete()
+  File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/nicegui/element.py", line 547, in delete
+    parent_slot.parent.remove(self)
+  File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/nicegui/element.py", line 540, in remove
+    parent_slot.children.remove(element)
+ValueError: list.remove(x): x not in list
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/nicewebrl/logging.py", line 146, in write_user
+    user_id = app.storage.user.get(self.user_key, None)
+              ^^^^^^^^^^^^^^^^
+  File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/nicegui/storage.py", line 137, in user
+    assert session_id in self._users, f'user storage for {session_id} should be created before accessing it'
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: user storage for 09a31494-8403-44fe-ae07-13d2214c92a1 should be created before accessing it
+
+Error in write_user: user storage for 09a31494-8403-44fe-ae07-13d2214c92a1 should be created before accessing it
+Traceback (most recent call last):
+  File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/nicewebrl/utils.py", line 111, in wait_for_button_or_keypress
+    done, pending = await asyncio.wait(tasks, return_when=asyncio.FIRST_COMPLETED)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/asyncio/tasks.py", line 428, in wait
+    return await _wait(fs, timeout, return_when, loop)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/asyncio/tasks.py", line 535, in _wait
+    await waiter
+asyncio.exceptions.CancelledError
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/nicewebrl/logging.py", line 146, in write_user
+    user_id = app.storage.user.get(self.user_key, None)
+              ^^^^^^^^^^^^^^^^
+  File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/nicegui/storage.py", line 137, in user
+    assert session_id in self._users, f'user storage for {session_id} should be created before accessing it'
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: user storage for 09a31494-8403-44fe-ae07-13d2214c92a1 should be created before accessing it
+
+Error in write_user: user storage for 09a31494-8403-44fe-ae07-13d2214c92a1 should be created before accessing it
+Traceback (most recent call last):
+  File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/nicewebrl/utils.py", line 111, in wait_for_button_or_keypress
+    done, pending = await asyncio.wait(tasks, return_when=asyncio.FIRST_COMPLETED)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/asyncio/tasks.py", line 428, in wait
+    return await _wait(fs, timeout, return_when, loop)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/asyncio/tasks.py", line 535, in _wait
+    await waiter
+asyncio.exceptions.CancelledError
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/nicewebrl/logging.py", line 146, in write_user
+    user_id = app.storage.user.get(self.user_key, None)
+              ^^^^^^^^^^^^^^^^
+  File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/nicegui/storage.py", line 137, in user
+    assert session_id in self._users, f'user storage for {session_id} should be created before accessing it'
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: user storage for 09a31494-8403-44fe-ae07-13d2214c92a1 should be created before accessing it
+
+Error in write_user: user storage for 931f3081-0a78-4718-a746-dcc97d7671bd should be created before accessing it
+Traceback (most recent call last):
+  File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/nicewebrl/utils.py", line 111, in wait_for_button_or_keypress
+    done, pending = await asyncio.wait(tasks, return_when=asyncio.FIRST_COMPLETED)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/asyncio/tasks.py", line 428, in wait
+    return await _wait(fs, timeout, return_when, loop)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/asyncio/tasks.py", line 535, in _wait
+    await waiter
+asyncio.exceptions.CancelledError
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/nicewebrl/logging.py", line 146, in write_user
+    user_id = app.storage.user.get(self.user_key, None)
+              ^^^^^^^^^^^^^^^^
+  File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/nicegui/storage.py", line 137, in user
+    assert session_id in self._users, f'user storage for {session_id} should be created before accessing it'
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: user storage for 931f3081-0a78-4718-a746-dcc97d7671bd should be created before accessing it
+
+Error in write_user: user storage for 931f3081-0a78-4718-a746-dcc97d7671bd should be created before accessing it
+Traceback (most recent call last):
+  File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/nicewebrl/utils.py", line 111, in wait_for_button_or_keypress
+    done, pending = await asyncio.wait(tasks, return_when=asyncio.FIRST_COMPLETED)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/asyncio/tasks.py", line 428, in wait
+    return await _wait(fs, timeout, return_when, loop)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/asyncio/tasks.py", line 535, in _wait
+    await waiter
+asyncio.exceptions.CancelledError
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/nicewebrl/logging.py", line 146, in write_user
+    user_id = app.storage.user.get(self.user_key, None)
+              ^^^^^^^^^^^^^^^^
+  File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/nicegui/storage.py", line 137, in user
+    assert session_id in self._users, f'user storage for {session_id} should be created before accessing it'
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: user storage for 931f3081-0a78-4718-a746-dcc97d7671bd should be created before accessing it
+
+Error in write_user: user storage for 931f3081-0a78-4718-a746-dcc97d7671bd should be created before accessing it
+Traceback (most recent call last):
+  File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/nicewebrl/logging.py", line 146, in write_user
+    user_id = app.storage.user.get(self.user_key, None)
+              ^^^^^^^^^^^^^^^^
+  File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/nicegui/storage.py", line 137, in user
+    assert session_id in self._users, f'user storage for {session_id} should be created before accessing it'
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: user storage for 931f3081-0a78-4718-a746-dcc97d7671bd should be created before accessing it
+
+Error in write_user: user storage for 931f3081-0a78-4718-a746-dcc97d7671bd should be created before accessing it
+Traceback (most recent call last):
+  File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/nicewebrl/utils.py", line 128, in wait_for_button_or_keypress
+    keyboard.delete()
+  File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/nicegui/element.py", line 547, in delete
+    parent_slot.parent.remove(self)
+  File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/nicegui/element.py", line 540, in remove
+    parent_slot.children.remove(element)
+ValueError: list.remove(x): x not in list
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/nicewebrl/logging.py", line 146, in write_user
+    user_id = app.storage.user.get(self.user_key, None)
+              ^^^^^^^^^^^^^^^^
+  File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/nicegui/storage.py", line 137, in user
+    assert session_id in self._users, f'user storage for {session_id} should be created before accessing it'
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: user storage for 931f3081-0a78-4718-a746-dcc97d7671bd should be created before accessing it
+
+Error in write_user: user storage for e42f14e3-da62-4699-8079-a322b40445fb should be created before accessing it
+Traceback (most recent call last):
+  File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/nicewebrl/utils.py", line 111, in wait_for_button_or_keypress
+    done, pending = await asyncio.wait(tasks, return_when=asyncio.FIRST_COMPLETED)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/asyncio/tasks.py", line 428, in wait
+    return await _wait(fs, timeout, return_when, loop)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/asyncio/tasks.py", line 535, in _wait
+    await waiter
+asyncio.exceptions.CancelledError
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/nicewebrl/logging.py", line 146, in write_user
+    user_id = app.storage.user.get(self.user_key, None)
+              ^^^^^^^^^^^^^^^^
+  File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/nicegui/storage.py", line 137, in user
+    assert session_id in self._users, f'user storage for {session_id} should be created before accessing it'
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: user storage for e42f14e3-da62-4699-8079-a322b40445fb should be created before accessing it
+
+Error in write_user: user storage for e42f14e3-da62-4699-8079-a322b40445fb should be created before accessing it
+Traceback (most recent call last):
+  File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/nicewebrl/utils.py", line 111, in wait_for_button_or_keypress
+    done, pending = await asyncio.wait(tasks, return_when=asyncio.FIRST_COMPLETED)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/asyncio/tasks.py", line 428, in wait
+    return await _wait(fs, timeout, return_when, loop)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/asyncio/tasks.py", line 535, in _wait
+    await waiter
+asyncio.exceptions.CancelledError
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/nicewebrl/logging.py", line 146, in write_user
+    user_id = app.storage.user.get(self.user_key, None)
+              ^^^^^^^^^^^^^^^^
+  File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/nicegui/storage.py", line 137, in user
+    assert session_id in self._users, f'user storage for {session_id} should be created before accessing it'
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: user storage for e42f14e3-da62-4699-8079-a322b40445fb should be created before accessing it
+
+Error in write_user: user storage for e42f14e3-da62-4699-8079-a322b40445fb should be created before accessing it
+Traceback (most recent call last):
+  File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/nicewebrl/utils.py", line 128, in wait_for_button_or_keypress
+    keyboard.delete()
+  File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/nicegui/element.py", line 547, in delete
+    parent_slot.parent.remove(self)
+  File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/nicegui/element.py", line 540, in remove
+    parent_slot.children.remove(element)
+ValueError: list.remove(x): x not in list
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/nicewebrl/logging.py", line 146, in write_user
+    user_id = app.storage.user.get(self.user_key, None)
+              ^^^^^^^^^^^^^^^^
+  File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/nicegui/storage.py", line 137, in user
+    assert session_id in self._users, f'user storage for {session_id} should be created before accessing it'
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: user storage for e42f14e3-da62-4699-8079-a322b40445fb should be created before accessing it
+
+Error in write_user: user storage for 931f3081-0a78-4718-a746-dcc97d7671bd should be created before accessing it
+Traceback (most recent call last):
+  File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/nicewebrl/utils.py", line 111, in wait_for_button_or_keypress
+    done, pending = await asyncio.wait(tasks, return_when=asyncio.FIRST_COMPLETED)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/asyncio/tasks.py", line 428, in wait
+    return await _wait(fs, timeout, return_when, loop)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/asyncio/tasks.py", line 535, in _wait
+    await waiter
+asyncio.exceptions.CancelledError
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/nicewebrl/logging.py", line 146, in write_user
+    user_id = app.storage.user.get(self.user_key, None)
+              ^^^^^^^^^^^^^^^^
+  File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/nicegui/storage.py", line 137, in user
+    assert session_id in self._users, f'user storage for {session_id} should be created before accessing it'
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: user storage for 931f3081-0a78-4718-a746-dcc97d7671bd should be created before accessing it
+
+Error in write_user: user storage for 931f3081-0a78-4718-a746-dcc97d7671bd should be created before accessing it
+Traceback (most recent call last):
+  File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/nicewebrl/utils.py", line 111, in wait_for_button_or_keypress
+    done, pending = await asyncio.wait(tasks, return_when=asyncio.FIRST_COMPLETED)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/asyncio/tasks.py", line 428, in wait
+    return await _wait(fs, timeout, return_when, loop)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/asyncio/tasks.py", line 535, in _wait
+    await waiter
+asyncio.exceptions.CancelledError
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/nicewebrl/logging.py", line 146, in write_user
+    user_id = app.storage.user.get(self.user_key, None)
+              ^^^^^^^^^^^^^^^^
+  File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/nicegui/storage.py", line 137, in user
+    assert session_id in self._users, f'user storage for {session_id} should be created before accessing it'
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: user storage for 931f3081-0a78-4718-a746-dcc97d7671bd should be created before accessing it
+
+Error in write_user: user storage for e42f14e3-da62-4699-8079-a322b40445fb should be created before accessing it
+Traceback (most recent call last):
+  File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/nicewebrl/utils.py", line 111, in wait_for_button_or_keypress
+    done, pending = await asyncio.wait(tasks, return_when=asyncio.FIRST_COMPLETED)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/asyncio/tasks.py", line 428, in wait
+    return await _wait(fs, timeout, return_when, loop)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/asyncio/tasks.py", line 535, in _wait
+    await waiter
+asyncio.exceptions.CancelledError
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/nicewebrl/logging.py", line 146, in write_user
+    user_id = app.storage.user.get(self.user_key, None)
+              ^^^^^^^^^^^^^^^^
+  File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/nicegui/storage.py", line 137, in user
+    assert session_id in self._users, f'user storage for {session_id} should be created before accessing it'
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: user storage for e42f14e3-da62-4699-8079-a322b40445fb should be created before accessing it
+
+Error in write_user: user storage for e42f14e3-da62-4699-8079-a322b40445fb should be created before accessing it
+Traceback (most recent call last):
+  File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/nicewebrl/utils.py", line 111, in wait_for_button_or_keypress
+    done, pending = await asyncio.wait(tasks, return_when=asyncio.FIRST_COMPLETED)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/asyncio/tasks.py", line 428, in wait
+    return await _wait(fs, timeout, return_when, loop)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/asyncio/tasks.py", line 535, in _wait
+    await waiter
+asyncio.exceptions.CancelledError
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/nicewebrl/logging.py", line 146, in write_user
+    user_id = app.storage.user.get(self.user_key, None)
+              ^^^^^^^^^^^^^^^^
+  File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/nicegui/storage.py", line 137, in user
+    assert session_id in self._users, f'user storage for {session_id} should be created before accessing it'
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: user storage for e42f14e3-da62-4699-8079-a322b40445fb should be created before accessing it
+

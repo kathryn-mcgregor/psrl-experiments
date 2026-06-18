@@ -1,0 +1,66 @@
+[31muser 1/1:  493808053 |block 0: undefined| |stage 0: undefined| nicewebrl.experiment - INFO - Block order: ['block_ea33b73d81a54ff5bd34a0ff0c65025e', 'block_7ae9fc0340494aad8e2b1c0c471ee078', 'block_4eea848d3e294058aaadfddf5a8b8493', 'block_bb347c6abc274182a0ab8fcb417b4a50', 'block_dd546bc341c145e2bcd9e96ee2aef99a']
+[0m[31muser 1/1:  493808053 |block 0: undefined| |stage 0: undefined| __main__ - INFO - New episode: mode=bijection dims=['shape', 'color', 'texture'] n_kinds={'shape': 5, 'color': 5, 'texture': 5} n_goals=5 rule=shape='triangle'
+[0m[31muser 1/1:  493808053 |block 0: block_ea33b73d81a54ff5bd34a0ff0c65025e| |stage 0: Welcome| nicewebrl.utils - INFO - {'message': 'Ping 5818'}
+[0m[31muser 1/1:  493808053 |block 1: block_7ae9fc0340494aad8e2b1c0c471ee078| |stage 1: Consent| __main__ - INFO - Stage finished: Consent
+[0m[31muser 1/1:  493808053 |block 3: block_bb347c6abc274182a0ab8fcb417b4a50| |stage 3: GridWorld| nicewebrl.utils - INFO - {'message': 'Ping 2521'}
+[0m[31muser 1/1:  493808053 |block 3: block_bb347c6abc274182a0ab8fcb417b4a50| |stage 3: GridWorld| __main__ - INFO - Stage finished: GridWorld
+[0m[31muser 1/1:  493808053 |block 5: block_dd546bc341c145e2bcd9e96ee2aef99a| |stage 5: Debrief| __main__ - INFO - Session saved to database → seed=493808053
+[0m[31muser 1/1:  493808053 |block 5: block_dd546bc341c145e2bcd9e96ee2aef99a| |stage 5: Debrief| nicewebrl.utils - INFO - {'message': 'Ping 4758'}
+[0m[31muser 1/1:  493808053 |block 5: block_dd546bc341c145e2bcd9e96ee2aef99a| |stage 5: Debrief| nicewebrl.utils - INFO - {'message': 'Ping 2594'}
+[0m[31muser 1/1:  493808053 |block 5: block_dd546bc341c145e2bcd9e96ee2aef99a| |stage 5: Debrief| nicewebrl.utils - INFO - {'message': 'Ping 5755'}
+[0m[31muser 1/1:  493808053 |block 5: block_dd546bc341c145e2bcd9e96ee2aef99a| |stage 5: Debrief| nicewebrl.utils - INFO - {'message': 'Ping 9173'}
+[0m[31muser 1/1:  493808053 |block 5: block_dd546bc341c145e2bcd9e96ee2aef99a| |stage 5: Debrief| nicewebrl.utils - INFO - {'message': 'Ping 4199'}
+[0m[31muser 1/1:  493808053 |block 5: block_dd546bc341c145e2bcd9e96ee2aef99a| |stage 5: Debrief| nicewebrl.utils - INFO - {'message': 'Ping 1801'}
+[0m[31muser 1/1:  493808053 |block 5: block_dd546bc341c145e2bcd9e96ee2aef99a| |stage 5: Debrief| nicewebrl.utils - INFO - {'message': 'Ping 7774'}
+[0m[31muser 1/1:  493808053 |block 5: block_dd546bc341c145e2bcd9e96ee2aef99a| |stage 5: Debrief| nicewebrl.utils - INFO - {'message': 'Ping 1234'}
+[0m[31muser 1/1:  493808053 |block 5: block_dd546bc341c145e2bcd9e96ee2aef99a| |stage 5: Debrief| nicewebrl.utils - INFO - {'message': 'Ping 9595'}
+[0m[31muser 1/1:  493808053 |block 5: block_dd546bc341c145e2bcd9e96ee2aef99a| |stage 5: Debrief| nicewebrl.utils - INFO - {'message': 'Ping 1982'}
+[0m[31muser 1/1:  493808053 |block 5: block_dd546bc341c145e2bcd9e96ee2aef99a| |stage 5: Debrief| nicewebrl.utils - INFO - {'message': 'Ping 2237'}
+[0m[31muser 1/1:  493808053 |block 5: block_dd546bc341c145e2bcd9e96ee2aef99a| |stage 5: Debrief| nicewebrl.utils - INFO - {'message': 'Ping 1032'}
+[0m[31muser 1/1:  493808053 |block 5: block_dd546bc341c145e2bcd9e96ee2aef99a| |stage 5: Debrief| nicewebrl.utils - INFO - {'message': 'Ping 6836'}
+[0m[31muser 1/1:  493808053 |block 5: block_dd546bc341c145e2bcd9e96ee2aef99a| |stage 5: Debrief| nicewebrl.utils - INFO - {'message': 'Ping 9802'}
+[0m[31muser 1/1:  493808053 |block 5: block_dd546bc341c145e2bcd9e96ee2aef99a| |stage 5: Debrief| nicewebrl.utils - INFO - {'message': 'Ping 1316'}
+[0m[31muser 1/1:  493808053 |block 5: block_dd546bc341c145e2bcd9e96ee2aef99a| |stage 5: Debrief| nicewebrl.utils - INFO - {'message': 'Ping 4580'}
+[0m[31muser 1/1:  493808053 |block 5: block_dd546bc341c145e2bcd9e96ee2aef99a| |stage 5: Debrief| nicewebrl.utils - INFO - {'message': 'Ping 5366'}
+[0m[31muser 1/1:  493808053 |block 5: block_dd546bc341c145e2bcd9e96ee2aef99a| |stage 5: Debrief| nicewebrl.utils - INFO - {'message': 'Ping 2104'}
+[0m[31muser 1/1:  493808053 |block 5: block_dd546bc341c145e2bcd9e96ee2aef99a| |stage 5: Debrief| nicewebrl.utils - INFO - {'message': 'Ping 3604'}
+[0m[31muser 1/1:  493808053 |block 5: block_dd546bc341c145e2bcd9e96ee2aef99a| |stage 5: Debrief| nicewebrl.utils - INFO - {'message': 'Ping 4970'}
+[0m[31muser 1/1:  493808053 |block 5: block_dd546bc341c145e2bcd9e96ee2aef99a| |stage 5: Debrief| nicewebrl.utils - INFO - {'message': 'Ping 6207'}
+[0m[31muser 1/1:  493808053 |block 5: block_dd546bc341c145e2bcd9e96ee2aef99a| |stage 5: Debrief| nicewebrl.utils - INFO - {'message': 'Ping 3004'}
+[0m[31muser 1/1:  493808053 |block 5: block_dd546bc341c145e2bcd9e96ee2aef99a| |stage 5: Debrief| nicewebrl.utils - INFO - {'message': 'Ping 3157'}
+[0m[31muser 1/1:  493808053 |block 5: block_dd546bc341c145e2bcd9e96ee2aef99a| |stage 5: Debrief| nicewebrl.utils - INFO - {'message': 'Ping 875'}
+[0m[31muser 1/1:  493808053 |block 5: block_dd546bc341c145e2bcd9e96ee2aef99a| |stage 5: Debrief| nicewebrl.utils - INFO - {'message': 'Ping 8073'}
+[0m[31muser 1/1:  493808053 |block 5: block_dd546bc341c145e2bcd9e96ee2aef99a| |stage 5: Debrief| nicewebrl.utils - INFO - {'message': 'Ping 1146'}
+[0m[31muser 1/1:  493808053 |block 5: block_dd546bc341c145e2bcd9e96ee2aef99a| |stage 5: Debrief| nicewebrl.utils - INFO - {'message': 'Ping 8034'}
+[0m[31muser 1/1:  493808053 |block 5: undefined| |stage 5: undefined| nicewebrl.experiment - INFO - Block order: ['block_b234937dc984493f8b61265de160b3df', 'block_208aa915a0e64e1083df1be3ef5bfad8', 'block_e9407749ca0a453aa8e1014c49642a57', 'block_e4cd35e9a79c4dc89f31244e24a89405', 'block_29c2dc44f5574250b5689e004ecd7772']
+[0m[31muser 1/1:  493808053 |block 5: undefined| |stage 5: undefined| __main__ - INFO - Session saved to database → seed=493808053
+[0m[31muser 1/1:  493808053 |block 5: undefined| |stage 5: undefined| nicewebrl.utils - INFO - {'message': 'Ping 97'}
+[0m[31muser 1/1:  493808053 |block 5: undefined| |stage 5: undefined| nicewebrl.experiment - INFO - Block order: ['block_b234937dc984493f8b61265de160b3df', 'block_208aa915a0e64e1083df1be3ef5bfad8', 'block_e9407749ca0a453aa8e1014c49642a57', 'block_e4cd35e9a79c4dc89f31244e24a89405', 'block_29c2dc44f5574250b5689e004ecd7772']
+[0m[31muser 1/1:  493808053 |block 5: undefined| |stage 5: undefined| __main__ - INFO - Session saved to database → seed=493808053
+[0m[31muser 1/1:  493808053 |block 5: undefined| |stage 5: undefined| nicewebrl.utils - INFO - {'message': 'Ping 7133'}
+[0m[31muser 1/1:  493808053 |block 5: undefined| |stage 5: undefined| nicegui - WARNING - http://localhost:8084/.well-known/appspecific/com.chrome.devtools.json not found
+[0m[31muser 1/2:  493808053 |block 5: undefined| |stage 5: undefined| nicewebrl.utils - INFO - {'message': 'Ping 2936'}
+[0m[31muser 1/2:  493808053 |block 5: undefined| |stage 5: undefined| nicewebrl.utils - INFO - {'message': 'Ping 375'}
+[0m[31muser 1/2:  493808053 |block 5: undefined| |stage 5: undefined| nicewebrl.utils - INFO - {'message': 'Ping 9424'}
+[0m[31muser 1/2:  493808053 |block 5: undefined| |stage 5: undefined| nicewebrl.utils - INFO - {'message': 'Ping 2977'}
+[0m[31muser 1/2:  493808053 |block 5: undefined| |stage 5: undefined| nicewebrl.utils - INFO - {'message': 'Ping 7434'}
+[0m[31muser 1/2:  493808053 |block 5: undefined| |stage 5: undefined| nicewebrl.utils - INFO - {'message': 'Ping 3389'}
+[0m[31muser 1/2:  493808053 |block 5: undefined| |stage 5: undefined| nicewebrl.utils - INFO - {'message': 'Ping 4347'}
+[0m[31muser 1/2:  493808053 |block 5: undefined| |stage 5: undefined| nicewebrl.utils - INFO - {'message': 'Ping 9895'}
+[0m[31muser 1/2:  493808053 |block 5: undefined| |stage 5: undefined| nicewebrl.utils - INFO - {'message': 'Ping 7297'}
+[0m[31muser 1/2:  493808053 |block 5: undefined| |stage 5: undefined| nicewebrl.utils - INFO - {'message': 'Ping 7417'}
+[0m[31muser 1/2:  493808053 |block 5: undefined| |stage 5: undefined| nicewebrl.utils - INFO - {'message': 'Ping 5864'}
+[0m[31muser 1/2:  493808053 |block 5: undefined| |stage 5: undefined| nicewebrl.utils - INFO - {'message': 'Ping 1975'}
+[0m[31muser 1/2:  493808053 |block 5: undefined| |stage 5: undefined| nicewebrl.utils - INFO - {'message': 'Ping 9935'}
+[0m[31muser 1/2:  493808053 |block 5: undefined| |stage 5: undefined| nicewebrl.utils - INFO - {'message': 'Ping 7835'}
+[0m[31muser 1/2:  493808053 |block 5: undefined| |stage 5: undefined| nicewebrl.utils - INFO - {'message': 'Ping 3807'}
+[0m[31muser 1/2:  493808053 |block 5: undefined| |stage 5: undefined| nicewebrl.utils - INFO - {'message': 'Ping 4590'}
+[0m[31muser 1/2:  493808053 |block 5: undefined| |stage 5: undefined| nicewebrl.utils - INFO - {'message': 'Ping 8492'}
+[0m[31muser 1/2:  493808053 |block 5: undefined| |stage 5: undefined| nicewebrl.utils - INFO - {'message': 'Ping 7472'}
+[0m[31muser 1/2:  493808053 |block 5: undefined| |stage 5: undefined| nicewebrl.utils - INFO - {'message': 'Ping 7019'}
+[0m[31muser 1/2:  493808053 |block 5: undefined| |stage 5: undefined| nicewebrl.utils - INFO - {'message': 'Ping 818'}
+[0m[31muser 1/2:  493808053 |block 5: undefined| |stage 5: undefined| nicewebrl.utils - INFO - {'message': 'Ping 7795'}
+[0m[31muser 1/2:  493808053 |block 5: undefined| |stage 5: undefined| nicewebrl.utils - INFO - {'message': 'Ping 4871'}
+[0m[31muser 1/2:  493808053 |block 5: undefined| |stage 5: undefined| nicewebrl.utils - INFO - {'message': 'Ping 5214'}
+[0m[31muser 1/2:  493808053 |block 5: undefined| |stage 5: undefined| nicewebrl.utils - INFO - {'message': 'Ping 2978'}
+[0m

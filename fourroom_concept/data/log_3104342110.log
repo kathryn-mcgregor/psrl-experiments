@@ -1,0 +1,6 @@
+[31muser 1/1:  3104342110 |block 0: undefined| |stage 0: undefined| nicewebrl.experiment - INFO - Block order: ['block_e05db053895e45d88d5c7e9ca95f68dd', 'block_8968764ea4e44f71b79d81580e5d27e5', 'block_43cf6953da6a454b9dbb7106ae61cf8f', 'block_75b7ea9fc61f40b28b842d087137eec7', 'block_a9c77863e67c49208d55b4da07ed25b7']
+[0m[31muser 1/1:  3104342110 |block 0: undefined| |stage 0: undefined| nicegui - WARNING - http://localhost:8084/.well-known/appspecific/com.chrome.devtools.json not found
+[0m[31muser 1/1:  3104342110 |block 0: undefined| |stage 0: undefined| nicewebrl.utils - INFO - {'message': 'Ping 8552'}
+[0m[31muser 1/1:  3104342110 |block 0: undefined| |stage 0: undefined| __main__ - INFO - New episode: mode=bijection dims=['shape', 'color', 'texture'] n_kinds={'shape': 5, 'color': 5, 'texture': 5} n_goals=5 rule=color='blue'
+[0m[31muser 1/1:  3104342110 |block 0: block_e05db053895e45d88d5c7e9ca95f68dd| |stage 0: Welcome| nicegui - WARNING - Event listeners changed after initial definition. Re-rendering affected elements.
+[0m

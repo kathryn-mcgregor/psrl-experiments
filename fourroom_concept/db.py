@@ -48,7 +48,7 @@ else:
     async def _get_pool() -> asyncpg.Pool:
         global _pool
         if _pool is None:
-            _pool = await asyncpg.create_pool(_pg_url)
+            _pool = await asyncpg.create_pool(_pg_url, min_size=1, max_size=5)
         return _pool
 
     async def _execute(sql: str, params: tuple = ()):
@@ -114,7 +114,10 @@ CREATE TABLE IF NOT EXISTS sessions (
     total_score  INTEGER NOT NULL,
     total_steps  INTEGER NOT NULL,
     log          TEXT    NOT NULL,
-    mazes        TEXT    NOT NULL
+    mazes        TEXT    NOT NULL,
+    prolific_pid TEXT,
+    study_id     TEXT,
+    session_id   TEXT
 )
 """
 
@@ -132,9 +135,30 @@ CREATE TABLE IF NOT EXISTS sessions (
     total_score  INTEGER NOT NULL,
     total_steps  INTEGER NOT NULL,
     log          TEXT    NOT NULL,
-    mazes        TEXT    NOT NULL
+    mazes        TEXT    NOT NULL,
+    prolific_pid TEXT,
+    study_id     TEXT,
+    session_id   TEXT
 )
 """
+
+_MIGRATE_SESSIONS_PG = """
+DO $$
+BEGIN
+    IF NOT EXISTS (SELECT 1 FROM information_schema.columns
+                   WHERE table_name='sessions' AND column_name='prolific_pid') THEN
+        ALTER TABLE sessions ADD COLUMN prolific_pid TEXT;
+        ALTER TABLE sessions ADD COLUMN study_id     TEXT;
+        ALTER TABLE sessions ADD COLUMN session_id   TEXT;
+    END IF;
+END$$;
+"""
+
+_MIGRATE_SESSIONS_SQLITE = [
+    "ALTER TABLE sessions ADD COLUMN prolific_pid TEXT",
+    "ALTER TABLE sessions ADD COLUMN study_id     TEXT",
+    "ALTER TABLE sessions ADD COLUMN session_id   TEXT",
+]
 
 
 async def init_tables():
@@ -142,10 +166,17 @@ async def init_tables():
     if _USE_POSTGRES:
         await _execute(_CREATE_STEPS_PG)
         await _execute(_CREATE_SESSIONS_PG)
+        await _execute(_MIGRATE_SESSIONS_PG)
     else:
         os.makedirs(os.path.dirname(_DB_PATH), exist_ok=True)
         await _execute(_CREATE_STEPS)
         await _execute(_CREATE_SESSIONS)
+        # Add new columns to existing SQLite DBs (fails silently if already present)
+        for sql in _MIGRATE_SESSIONS_SQLITE:
+            try:
+                await _execute(sql)
+            except Exception:
+                pass
 
 
 # ---------------------------------------------------------------------------
@@ -178,7 +209,7 @@ async def insert_step(
              prev_pos, new_pos, moved, visited_goal, left_goal, reward)
         VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11)
         """,
-        (seed, timestamp, maze_idx, maze_step, action,
+        (str(seed), timestamp, maze_idx, maze_step, action,
          prev_pos, new_pos, moved, visited_goal, left_goal, reward),
     )
 
@@ -196,41 +227,51 @@ async def upsert_session(
     total_steps: int,
     log: list,
     mazes: list,
+    prolific_pid: str | None = None,
+    study_id: str | None = None,
+    session_id: str | None = None,
 ):
     sql = (
         """
         INSERT INTO sessions
             (seed, completed_at, mode, dims, n_kinds, n_goals,
-             rule_dim, rule_value, total_score, total_steps, log, mazes)
-        VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+             rule_dim, rule_value, total_score, total_steps, log, mazes,
+             prolific_pid, study_id, session_id)
+        VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
         ON CONFLICT(seed) DO UPDATE SET
             completed_at=excluded.completed_at,
             mode=excluded.mode, dims=excluded.dims,
             n_kinds=excluded.n_kinds, n_goals=excluded.n_goals,
             rule_dim=excluded.rule_dim, rule_value=excluded.rule_value,
             total_score=excluded.total_score, total_steps=excluded.total_steps,
-            log=excluded.log, mazes=excluded.mazes
+            log=excluded.log, mazes=excluded.mazes,
+            prolific_pid=excluded.prolific_pid,
+            study_id=excluded.study_id, session_id=excluded.session_id
         """
         if not _USE_POSTGRES else
         """
         INSERT INTO sessions
             (seed, completed_at, mode, dims, n_kinds, n_goals,
-             rule_dim, rule_value, total_score, total_steps, log, mazes)
-        VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11, $12)
+             rule_dim, rule_value, total_score, total_steps, log, mazes,
+             prolific_pid, study_id, session_id)
+        VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11, $12, $13, $14, $15)
         ON CONFLICT(seed) DO UPDATE SET
             completed_at=EXCLUDED.completed_at,
             mode=EXCLUDED.mode, dims=EXCLUDED.dims,
             n_kinds=EXCLUDED.n_kinds, n_goals=EXCLUDED.n_goals,
             rule_dim=EXCLUDED.rule_dim, rule_value=EXCLUDED.rule_value,
             total_score=EXCLUDED.total_score, total_steps=EXCLUDED.total_steps,
-            log=EXCLUDED.log, mazes=EXCLUDED.mazes
+            log=EXCLUDED.log, mazes=EXCLUDED.mazes,
+            prolific_pid=EXCLUDED.prolific_pid,
+            study_id=EXCLUDED.study_id, session_id=EXCLUDED.session_id
         """
     )
     await _execute(sql, (
-        seed, completed_at, mode,
+        str(seed), completed_at, mode,
         json.dumps(dims), json.dumps(n_kinds), n_goals,
         rule_dim, rule_value, total_score, total_steps,
         json.dumps(log), json.dumps(mazes),
+        prolific_pid, study_id, session_id,
     ))
 
 

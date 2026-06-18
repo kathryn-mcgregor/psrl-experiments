@@ -1,0 +1,21 @@
+[32muser 2/2:  620113812 |block 0: undefined| |stage 0: undefined| nicewebrl.experiment - INFO - Block order: ['block_a5c90287ab234f0da7a9b2e00b0d93ca', 'block_9e6d6e247ba7451ead67e292eaa8ede0', 'block_de6d47bd54cb4e98acc79776041f8817', 'block_e31934a382734be0a598cc3fd0189717']
+[0m[32muser 2/2:  620113812 |block 0: undefined| |stage 0: undefined| nicegui - WARNING - http://localhost:8084/.well-known/appspecific/com.chrome.devtools.json not found
+[0m[32muser 2/2:  620113812 |block 0: undefined| |stage 0: undefined| nicewebrl.utils - INFO - {'message': 'Ping 7252'}
+[0m[32muser 2/2:  620113812 |block 0: undefined| |stage 0: undefined| __main__ - INFO - New episode: mode=bijection dims=['shape', 'color', 'texture'] n_kinds={'shape': 5, 'color': 5, 'texture': 5} n_goals=5 rule=texture='chevron'
+[0m[32muser 2/2:  620113812 |block 0: block_a5c90287ab234f0da7a9b2e00b0d93ca| |stage 0: Consent| nicegui - WARNING - Event listeners changed after initial definition. Re-rendering affected elements.
+[0m[32muser 2/2:  620113812 |block 0: block_a5c90287ab234f0da7a9b2e00b0d93ca| |stage 0: Consent| nicewebrl.utils - INFO - {'message': 'Ping 1102'}
+[0m[32muser 2/2:  620113812 |block 0: block_a5c90287ab234f0da7a9b2e00b0d93ca| |stage 0: Consent| nicewebrl.utils - INFO - {'message': 'Ping 1809'}
+[0m[32muser 2/2:  620113812 |block 0: block_a5c90287ab234f0da7a9b2e00b0d93ca| |stage 0: Consent| nicewebrl.utils - INFO - {'message': 'Ping 5363'}
+[0m[32muser 2/2:  620113812 |block 0: block_a5c90287ab234f0da7a9b2e00b0d93ca| |stage 0: Consent| nicewebrl.utils - INFO - {'message': 'Ping 1143'}
+[0m[32muser 2/2:  620113812 |block 0: block_a5c90287ab234f0da7a9b2e00b0d93ca| |stage 0: Consent| nicewebrl.utils - INFO - {'message': 'Ping 9022'}
+[0m[32muser 2/2:  620113812 |block 0: block_a5c90287ab234f0da7a9b2e00b0d93ca| |stage 0: Consent| nicewebrl.utils - INFO - {'message': 'Ping 6061'}
+[0m[31muser 1/1:  620113812 |block 0: undefined| |stage 0: undefined| nicewebrl.experiment - INFO - Block order: ['block_a2d80e16b48e448297a19ef510c946f4', 'block_7a22ad7a6f1e48acab27f1e496b2ae05', 'block_718afd6234ce416d96a3e9ec1fa2ce40', 'block_3ebd318dece54be299cc761beead4c90']
+[0m[31muser 1/1:  620113812 |block 0: undefined| |stage 0: undefined| nicegui - WARNING - http://localhost:8084/.well-known/appspecific/com.chrome.devtools.json not found
+[0m[31muser 1/1:  620113812 |block 0: undefined| |stage 0: undefined| nicewebrl.utils - INFO - {'message': 'Ping 9481'}
+[0m[31muser 1/1:  620113812 |block 0: block_a2d80e16b48e448297a19ef510c946f4| |stage 0: Consent| nicegui - WARNING - Event listeners changed after initial definition. Re-rendering affected elements.
+[0m[31muser 1/1:  620113812 |block 0: block_a2d80e16b48e448297a19ef510c946f4| |stage 0: Consent| __main__ - INFO - Stage finished: Consent
+[0m[31muser 1/1:  620113812 |block 1: block_7a22ad7a6f1e48acab27f1e496b2ae05| |stage 1: Instructions| nicewebrl.utils - INFO - {'message': 'Ping 7083'}
+[0m[31muser 1/1:  620113812 |block 2: block_718afd6234ce416d96a3e9ec1fa2ce40| |stage 2: GridWorld| nicewebrl.utils - INFO - {'message': 'Ping 4493'}
+[0m[31muser 1/1:  620113812 |block 2: block_718afd6234ce416d96a3e9ec1fa2ce40| |stage 2: GridWorld| __main__ - INFO - Stage finished: GridWorld
+[0m[31muser 1/1:  620113812 |block 4: block_3ebd318dece54be299cc761beead4c90| |stage 4: Debrief| __main__ - INFO - Session saved to database → seed=620113812
+[0m

@@ -1,0 +1,7 @@
+seed,completed_at,mode,dims,n_kinds,n_goals,rule_dim,rule_value,total_score,total_steps,prolific_pid,study_id,session_id
+4130865508,2026-06-17T17:20:11.751199+00:00,bijection,"[""shape"", ""color"", ""texture""]","{""shape"": 5, ""color"": 5, ""texture"": 5}",5,texture,striped,4,48,,,
+1135781980,2026-06-17T17:54:58.452359+00:00,bijection,"[""shape"", ""color"", ""texture""]","{""shape"": 5, ""color"": 5, ""texture"": 5}",5,texture,dotted,4,51,,,
+2201616836,2026-06-17T18:34:14.358583+00:00,bijection,"[""shape"", ""color"", ""texture""]","{""shape"": 5, ""color"": 5, ""texture"": 5}",5,color,red,4,52,,,
+813567045,2026-06-17T19:34:21.235274+00:00,bijection,"[""shape"", ""color"", ""texture""]","{""shape"": 5, ""color"": 5, ""texture"": 5}",5,color,blue,4,67,,,
+753045228,2026-06-17T22:06:29.756265+00:00,bijection,"[""shape"", ""color"", ""texture""]","{""shape"": 5, ""color"": 5, ""texture"": 5}",5,shape,circle,4,40,,,
+4244077428,2026-06-18T16:20:03.037667+00:00,bijection,"[""shape"", ""color"", ""texture""]","{""shape"": 5, ""color"": 5, ""texture"": 5}",5,color,purple,4,39,,,

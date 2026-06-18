@@ -5,4 +5,21 @@
 [0m[33muser 3/3:  278279228 |block 1: block_94560a165e334d7bbe1848c48fba7133| |stage 1: GridWorld| nicewebrl.utils - INFO - {'message': 'Ping 174'}
 [0m[33muser 3/3:  278279228 |block 1: block_94560a165e334d7bbe1848c48fba7133| |stage 1: GridWorld| __mp_main__ - INFO - Stage finished: GridWorld
 [0m[33muser 3/3:  278279228 |block 3: block_1fd60257088341759d6756f551728fbd| |stage 3: Debrief| __mp_main__ - INFO - Session saved to database → seed=278279228
+[0m[31muser 1/1:  278279228 |block 3: undefined| |stage 3: undefined| nicewebrl.experiment - INFO - Block order: ['block_58e3bb2e3a974eb8b5663a2bf1c36686', 'block_fa3c6153dc074619b30084311c9b0b7d', 'block_1c594f6774c14fbaa790327f726220dc', 'block_7fd85b96c87e40e88f6656054fae588e']
+[0m[31muser 1/1:  278279228 |block 3: undefined| |stage 3: undefined| nicewebrl.experiment - INFO - Block order: ['block_58e3bb2e3a974eb8b5663a2bf1c36686', 'block_fa3c6153dc074619b30084311c9b0b7d', 'block_1c594f6774c14fbaa790327f726220dc', 'block_7fd85b96c87e40e88f6656054fae588e']
+[0m[31muser 1/1:  278279228 |block 3: undefined| |stage 3: undefined| nicewebrl.utils - INFO - {'message': 'Ping 6130'}
+[0m[31muser 1/1:  278279228 |block 3: undefined| |stage 3: undefined| nicegui - WARNING - http://localhost:8084/.well-known/appspecific/com.chrome.devtools.json not found
+[0m[31muser 1/2:  278279228 |block 3: undefined| |stage 3: undefined| nicegui - ERROR - The parent slot of the element has been deleted.
+Traceback (most recent call last):
+  File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/nicegui/background_tasks.py", line 152, in _handle_exceptions
+    task.result()
+  File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/nicegui/timer.py", line 76, in _run_once
+    with self._get_context():
+         ^^^^^^^^^^^^^^^^^^^
+  File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/nicegui/elements/timer.py", line 15, in _get_context
+    return self.parent_slot or nullcontext()
+           ^^^^^^^^^^^^^^^^
+  File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/nicegui/element.py", line 148, in parent_slot
+    raise RuntimeError('The parent slot of the element has been deleted.')
+RuntimeError: The parent slot of the element has been deleted.
 [0m

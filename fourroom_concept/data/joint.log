@@ -1847,4 +1847,313 @@ RuntimeError: No TortoiseContext is currently active. Use 'async with TortoiseCo
 [0m[33muser 3/3:  278279228 |block 1: block_94560a165e334d7bbe1848c48fba7133| |stage 1: GridWorld| nicewebrl.utils - INFO - {'message': 'Ping 174'}
 [0m[33muser 3/3:  278279228 |block 1: block_94560a165e334d7bbe1848c48fba7133| |stage 1: GridWorld| __mp_main__ - INFO - Stage finished: GridWorld
 [0m[33muser 3/3:  278279228 |block 3: block_1fd60257088341759d6756f551728fbd| |stage 3: Debrief| __mp_main__ - INFO - Session saved to database → seed=278279228
+[0m[31muser 1/1:  278279228 |block 3: undefined| |stage 3: undefined| nicewebrl.experiment - INFO - Block order: ['block_58e3bb2e3a974eb8b5663a2bf1c36686', 'block_fa3c6153dc074619b30084311c9b0b7d', 'block_1c594f6774c14fbaa790327f726220dc', 'block_7fd85b96c87e40e88f6656054fae588e']
+[0m[31muser 1/1:  278279228 |block 3: undefined| |stage 3: undefined| nicewebrl.experiment - INFO - Block order: ['block_58e3bb2e3a974eb8b5663a2bf1c36686', 'block_fa3c6153dc074619b30084311c9b0b7d', 'block_1c594f6774c14fbaa790327f726220dc', 'block_7fd85b96c87e40e88f6656054fae588e']
+[0m[31muser 1/1:  278279228 |block 3: undefined| |stage 3: undefined| nicewebrl.utils - INFO - {'message': 'Ping 6130'}
+[0m[31muser 1/1:  278279228 |block 3: undefined| |stage 3: undefined| nicegui - WARNING - http://localhost:8084/.well-known/appspecific/com.chrome.devtools.json not found
+[0m[32muser 2/2:  1256621632 |block 0: undefined| |stage 0: undefined| nicewebrl.experiment - INFO - Block order: ['block_58e3bb2e3a974eb8b5663a2bf1c36686', 'block_fa3c6153dc074619b30084311c9b0b7d', 'block_1c594f6774c14fbaa790327f726220dc', 'block_7fd85b96c87e40e88f6656054fae588e']
+[0m[32muser 2/2:  1256621632 |block 0: undefined| |stage 0: undefined| nicegui - WARNING - http://localhost:8084/.well-known/appspecific/com.chrome.devtools.json not found
+[0m[32muser 2/2:  1256621632 |block 0: undefined| |stage 0: undefined| nicewebrl.utils - INFO - {'message': 'Ping 9776'}
+[0m[32muser 2/2:  1256621632 |block 0: undefined| |stage 0: undefined| nicewebrl.utils - INFO - {'message': 'Ping 6854'}
+[0m[31muser 1/2:  278279228 |block 3: undefined| |stage 3: undefined| nicegui - ERROR - The parent slot of the element has been deleted.
+Traceback (most recent call last):
+  File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/nicegui/background_tasks.py", line 152, in _handle_exceptions
+    task.result()
+  File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/nicegui/timer.py", line 76, in _run_once
+    with self._get_context():
+         ^^^^^^^^^^^^^^^^^^^
+  File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/nicegui/elements/timer.py", line 15, in _get_context
+    return self.parent_slot or nullcontext()
+           ^^^^^^^^^^^^^^^^
+  File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/nicegui/element.py", line 148, in parent_slot
+    raise RuntimeError('The parent slot of the element has been deleted.')
+RuntimeError: The parent slot of the element has been deleted.
+[0m[32muser 2/2:  1256621632 |block 0: undefined| |stage 0: undefined| nicewebrl.utils - INFO - {'message': 'Ping 8795'}
+[0m[31muser 1/1:  1256621632 |block 0: undefined| |stage 0: undefined| nicewebrl.experiment - INFO - Block order: ['block_cc2d6ed7f0db4a8987b45fc8696a941a', 'block_71e203eef01d475d931c43e7aeab4c95', 'block_01b14da555e44a56b21c8379c21c45bb', 'block_651c2b55d79c4827922beccfc3d94d5e']
+[0m[31muser 1/1:  1256621632 |block 0: undefined| |stage 0: undefined| __main__ - INFO - New episode: mode=bijection dims=['shape', 'color', 'texture'] n_kinds={'shape': 5, 'color': 5, 'texture': 5} n_goals=5 rule=texture='chevron'
+[0m[31muser 1/1:  1256621632 |block 0: block_cc2d6ed7f0db4a8987b45fc8696a941a| |stage 0: Consent| nicegui - WARNING - Response for / not ready after 3.0 seconds
+[0m[31muser 1/1:  1256621632 |block 0: block_cc2d6ed7f0db4a8987b45fc8696a941a| |stage 0: Consent| nicegui - WARNING - http://localhost:8084/.well-known/appspecific/com.chrome.devtools.json not found
+[0m[31muser 1/1:  1256621632 |block 0: undefined| |stage 0: undefined| nicewebrl.experiment - INFO - Block order: ['block_cc2d6ed7f0db4a8987b45fc8696a941a', 'block_71e203eef01d475d931c43e7aeab4c95', 'block_01b14da555e44a56b21c8379c21c45bb', 'block_651c2b55d79c4827922beccfc3d94d5e']
+[0m[31muser 1/1:  1256621632 |block 0: block_cc2d6ed7f0db4a8987b45fc8696a941a| |stage 0: Consent| nicegui - WARNING - Response for / not ready after 3.0 seconds
+[0m[32muser 2/2:  None nicegui - WARNING - http://localhost:8084/.well-known/appspecific/com.chrome.devtools.json not found
+[0m[33muser 3/3:  1240525145 |block 0: undefined| |stage 0: undefined| nicewebrl.experiment - INFO - Block order: ['block_cc2d6ed7f0db4a8987b45fc8696a941a', 'block_71e203eef01d475d931c43e7aeab4c95', 'block_01b14da555e44a56b21c8379c21c45bb', 'block_651c2b55d79c4827922beccfc3d94d5e']
+[0m[33muser 3/3:  1240525145 |block 0: undefined| |stage 0: undefined| __main__ - INFO - New episode: mode=bijection dims=['shape', 'color', 'texture'] n_kinds={'shape': 5, 'color': 5, 'texture': 5} n_goals=5 rule=texture='outline'
+[0m[33muser 3/3:  1240525145 |block 0: undefined| |stage 0: undefined| nicewebrl.experiment - INFO - Block order: ['block_cc2d6ed7f0db4a8987b45fc8696a941a', 'block_71e203eef01d475d931c43e7aeab4c95', 'block_01b14da555e44a56b21c8379c21c45bb', 'block_651c2b55d79c4827922beccfc3d94d5e']
+[0m[33muser 3/3:  1240525145 |block 0: block_cc2d6ed7f0db4a8987b45fc8696a941a| |stage 0: Consent| nicegui - WARNING - Response for / not ready after 3.0 seconds
+[0m[33muser 3/3:  1240525145 |block 0: block_cc2d6ed7f0db4a8987b45fc8696a941a| |stage 0: Consent| nicegui - WARNING - Response for / not ready after 3.0 seconds
+[0m[33muser 3/3:  1240525145 |block 0: block_cc2d6ed7f0db4a8987b45fc8696a941a| |stage 0: Consent| nicegui - WARNING - http://localhost:8084/.well-known/appspecific/com.chrome.devtools.json not found
+[0m[33muser 3/3:  1240525145 |block 0: undefined| |stage 0: undefined| nicewebrl.experiment - INFO - Block order: ['block_cc2d6ed7f0db4a8987b45fc8696a941a', 'block_71e203eef01d475d931c43e7aeab4c95', 'block_01b14da555e44a56b21c8379c21c45bb', 'block_651c2b55d79c4827922beccfc3d94d5e']
+[0m[33muser 3/3:  1240525145 |block 0: block_cc2d6ed7f0db4a8987b45fc8696a941a| |stage 0: Consent| nicegui - WARNING - Response for / not ready after 3.0 seconds
+[0m[33muser 3/3:  1240525145 |block 0: block_cc2d6ed7f0db4a8987b45fc8696a941a| |stage 0: Consent| nicegui - WARNING - http://localhost:8084/.well-known/appspecific/com.chrome.devtools.json not found
+[0m[33muser 3/3:  1240525145 |block 0: undefined| |stage 0: undefined| nicewebrl.experiment - INFO - Block order: ['block_cc2d6ed7f0db4a8987b45fc8696a941a', 'block_71e203eef01d475d931c43e7aeab4c95', 'block_01b14da555e44a56b21c8379c21c45bb', 'block_651c2b55d79c4827922beccfc3d94d5e']
+[0m[33muser 3/3:  1240525145 |block 0: block_cc2d6ed7f0db4a8987b45fc8696a941a| |stage 0: Consent| nicegui - WARNING - Response for / not ready after 3.0 seconds
+[0m[33muser 3/3:  1240525145 |block 0: block_cc2d6ed7f0db4a8987b45fc8696a941a| |stage 0: Consent| nicegui - WARNING - http://localhost:8084/.well-known/appspecific/com.chrome.devtools.json not found
+[0m[33muser 3/3:  1240525145 |block 0: undefined| |stage 0: undefined| nicewebrl.experiment - INFO - Block order: ['block_cc2d6ed7f0db4a8987b45fc8696a941a', 'block_71e203eef01d475d931c43e7aeab4c95', 'block_01b14da555e44a56b21c8379c21c45bb', 'block_651c2b55d79c4827922beccfc3d94d5e']
+[0m[33muser 3/3:  1240525145 |block 0: block_cc2d6ed7f0db4a8987b45fc8696a941a| |stage 0: Consent| nicegui - WARNING - Response for / not ready after 3.0 seconds
+[0m[33muser 3/3:  1240525145 |block 0: block_cc2d6ed7f0db4a8987b45fc8696a941a| |stage 0: Consent| nicegui - WARNING - http://localhost:8084/.well-known/appspecific/com.chrome.devtools.json not found
+[0m[33muser 3/3:  1240525145 |block 0: undefined| |stage 0: undefined| nicewebrl.experiment - INFO - Block order: ['block_cc2d6ed7f0db4a8987b45fc8696a941a', 'block_71e203eef01d475d931c43e7aeab4c95', 'block_01b14da555e44a56b21c8379c21c45bb', 'block_651c2b55d79c4827922beccfc3d94d5e']
+[0m[33muser 3/3:  1240525145 |block 0: block_cc2d6ed7f0db4a8987b45fc8696a941a| |stage 0: Consent| nicegui - WARNING - Response for / not ready after 3.0 seconds
+[0m[31muser 1/1:  1240525145 |block 0: undefined| |stage 0: undefined| nicewebrl.experiment - INFO - Block order: ['block_7085c15673e84d1fb0f7bb69a7b499f0', 'block_607386c39a354fc7bb5433bc054424ce', 'block_fe75352a3efd41b9a845440faa18be4b', 'block_65a7fd86085749bbb837a015b2a6f6bf']
+[0m[31muser 1/1:  1240525145 |block 0: block_7085c15673e84d1fb0f7bb69a7b499f0| |stage 0: Consent| nicegui - WARNING - Response for / not ready after 3.0 seconds
+[0m[32muser 2/2:  None nicegui - WARNING - http://localhost:8084/.well-known/appspecific/com.chrome.devtools.json not found
+[0m[33muser 3/3:  3729087007 |block 0: undefined| |stage 0: undefined| nicewebrl.experiment - INFO - Block order: ['block_7085c15673e84d1fb0f7bb69a7b499f0', 'block_607386c39a354fc7bb5433bc054424ce', 'block_fe75352a3efd41b9a845440faa18be4b', 'block_65a7fd86085749bbb837a015b2a6f6bf']
+[0m[33muser 3/3:  3729087007 |block 0: undefined| |stage 0: undefined| __main__ - INFO - New episode: mode=bijection dims=['shape', 'color', 'texture'] n_kinds={'shape': 5, 'color': 5, 'texture': 5} n_goals=5 rule=shape='square'
+[0m[33muser 3/3:  3729087007 |block 0: undefined| |stage 0: undefined| nicewebrl.experiment - INFO - Block order: ['block_7085c15673e84d1fb0f7bb69a7b499f0', 'block_607386c39a354fc7bb5433bc054424ce', 'block_fe75352a3efd41b9a845440faa18be4b', 'block_65a7fd86085749bbb837a015b2a6f6bf']
+[0m[33muser 3/3:  3729087007 |block 0: block_7085c15673e84d1fb0f7bb69a7b499f0| |stage 0: Consent| nicegui - WARNING - Response for / not ready after 3.0 seconds
+[0m[33muser 3/3:  3729087007 |block 0: block_7085c15673e84d1fb0f7bb69a7b499f0| |stage 0: Consent| nicegui - WARNING - Response for / not ready after 3.0 seconds
+[0m[33muser 3/3:  3729087007 |block 0: undefined| |stage 0: undefined| nicewebrl.experiment - INFO - Block order: ['block_7085c15673e84d1fb0f7bb69a7b499f0', 'block_607386c39a354fc7bb5433bc054424ce', 'block_fe75352a3efd41b9a845440faa18be4b', 'block_65a7fd86085749bbb837a015b2a6f6bf']
+[0m[33muser 3/3:  3729087007 |block 0: block_7085c15673e84d1fb0f7bb69a7b499f0| |stage 0: Consent| nicegui - WARNING - Response for / not ready after 3.0 seconds
+[0m[33muser 3/3:  3729087007 |block 0: undefined| |stage 0: undefined| nicewebrl.experiment - INFO - Block order: ['block_7085c15673e84d1fb0f7bb69a7b499f0', 'block_607386c39a354fc7bb5433bc054424ce', 'block_fe75352a3efd41b9a845440faa18be4b', 'block_65a7fd86085749bbb837a015b2a6f6bf']
+[0m[33muser 3/3:  3729087007 |block 0: block_7085c15673e84d1fb0f7bb69a7b499f0| |stage 0: Consent| nicegui - WARNING - Response for / not ready after 3.0 seconds
+[0m[33muser 3/3:  3729087007 |block 0: undefined| |stage 0: undefined| nicewebrl.experiment - INFO - Block order: ['block_7085c15673e84d1fb0f7bb69a7b499f0', 'block_607386c39a354fc7bb5433bc054424ce', 'block_fe75352a3efd41b9a845440faa18be4b', 'block_65a7fd86085749bbb837a015b2a6f6bf']
+[0m[33muser 3/3:  3729087007 |block 0: block_7085c15673e84d1fb0f7bb69a7b499f0| |stage 0: Consent| nicegui - WARNING - Response for / not ready after 3.0 seconds
+[0m[33muser 3/3:  3729087007 |block 0: undefined| |stage 0: undefined| nicewebrl.experiment - INFO - Block order: ['block_7085c15673e84d1fb0f7bb69a7b499f0', 'block_607386c39a354fc7bb5433bc054424ce', 'block_fe75352a3efd41b9a845440faa18be4b', 'block_65a7fd86085749bbb837a015b2a6f6bf']
+[0m[33muser 3/3:  3729087007 |block 0: block_7085c15673e84d1fb0f7bb69a7b499f0| |stage 0: Consent| nicegui - WARNING - Response for / not ready after 3.0 seconds
+[0m[33muser 3/3:  3729087007 |block 0: undefined| |stage 0: undefined| nicewebrl.experiment - INFO - Block order: ['block_7085c15673e84d1fb0f7bb69a7b499f0', 'block_607386c39a354fc7bb5433bc054424ce', 'block_fe75352a3efd41b9a845440faa18be4b', 'block_65a7fd86085749bbb837a015b2a6f6bf']
+[0m[33muser 3/3:  3729087007 |block 0: block_7085c15673e84d1fb0f7bb69a7b499f0| |stage 0: Consent| nicegui - WARNING - Response for / not ready after 3.0 seconds
+[0m[33muser 3/3:  3729087007 |block 0: undefined| |stage 0: undefined| nicewebrl.experiment - INFO - Block order: ['block_7085c15673e84d1fb0f7bb69a7b499f0', 'block_607386c39a354fc7bb5433bc054424ce', 'block_fe75352a3efd41b9a845440faa18be4b', 'block_65a7fd86085749bbb837a015b2a6f6bf']
+[0m[33muser 3/3:  3729087007 |block 0: block_7085c15673e84d1fb0f7bb69a7b499f0| |stage 0: Consent| nicegui - WARNING - Response for / not ready after 3.0 seconds
+[0m[33muser 3/3:  3729087007 |block 0: undefined| |stage 0: undefined| nicewebrl.experiment - INFO - Block order: ['block_7085c15673e84d1fb0f7bb69a7b499f0', 'block_607386c39a354fc7bb5433bc054424ce', 'block_fe75352a3efd41b9a845440faa18be4b', 'block_65a7fd86085749bbb837a015b2a6f6bf']
+[0m[33muser 3/3:  3729087007 |block 0: block_7085c15673e84d1fb0f7bb69a7b499f0| |stage 0: Consent| nicegui - WARNING - Response for / not ready after 3.0 seconds
+[0m[33muser 3/3:  3729087007 |block 0: undefined| |stage 0: undefined| nicewebrl.experiment - INFO - Block order: ['block_7085c15673e84d1fb0f7bb69a7b499f0', 'block_607386c39a354fc7bb5433bc054424ce', 'block_fe75352a3efd41b9a845440faa18be4b', 'block_65a7fd86085749bbb837a015b2a6f6bf']
+[0m[33muser 3/3:  3729087007 |block 0: block_7085c15673e84d1fb0f7bb69a7b499f0| |stage 0: Consent| nicegui - WARNING - Response for / not ready after 3.0 seconds
+[0m[33muser 3/3:  3729087007 |block 0: undefined| |stage 0: undefined| nicewebrl.experiment - INFO - Block order: ['block_7085c15673e84d1fb0f7bb69a7b499f0', 'block_607386c39a354fc7bb5433bc054424ce', 'block_fe75352a3efd41b9a845440faa18be4b', 'block_65a7fd86085749bbb837a015b2a6f6bf']
+[0m[33muser 3/3:  3729087007 |block 0: block_7085c15673e84d1fb0f7bb69a7b499f0| |stage 0: Consent| nicegui - WARNING - Response for / not ready after 3.0 seconds
+[0m[33muser 3/3:  3729087007 |block 0: undefined| |stage 0: undefined| nicewebrl.experiment - INFO - Block order: ['block_7085c15673e84d1fb0f7bb69a7b499f0', 'block_607386c39a354fc7bb5433bc054424ce', 'block_fe75352a3efd41b9a845440faa18be4b', 'block_65a7fd86085749bbb837a015b2a6f6bf']
+[0m[33muser 3/3:  3729087007 |block 0: block_7085c15673e84d1fb0f7bb69a7b499f0| |stage 0: Consent| nicegui - WARNING - Response for / not ready after 3.0 seconds
+[0m[31muser 1/1:  3729087007 |block 0: undefined| |stage 0: undefined| nicewebrl.experiment - INFO - Block order: ['block_a5c90287ab234f0da7a9b2e00b0d93ca', 'block_9e6d6e247ba7451ead67e292eaa8ede0', 'block_de6d47bd54cb4e98acc79776041f8817', 'block_e31934a382734be0a598cc3fd0189717']
+[0m[31muser 1/1:  3729087007 |block 0: undefined| |stage 0: undefined| nicewebrl.utils - INFO - {'message': 'Ping 784'}
+[0m[31muser 1/1:  3729087007 |block 0: undefined| |stage 0: undefined| nicegui - WARNING - http://localhost:8084/.well-known/appspecific/com.chrome.devtools.json not found
+[0m[32muser 2/2:  620113812 |block 0: undefined| |stage 0: undefined| nicewebrl.experiment - INFO - Block order: ['block_a5c90287ab234f0da7a9b2e00b0d93ca', 'block_9e6d6e247ba7451ead67e292eaa8ede0', 'block_de6d47bd54cb4e98acc79776041f8817', 'block_e31934a382734be0a598cc3fd0189717']
+[0m[32muser 2/2:  620113812 |block 0: undefined| |stage 0: undefined| nicegui - WARNING - http://localhost:8084/.well-known/appspecific/com.chrome.devtools.json not found
+[0m[32muser 2/2:  620113812 |block 0: undefined| |stage 0: undefined| nicewebrl.utils - INFO - {'message': 'Ping 7252'}
+[0m[32muser 2/2:  620113812 |block 0: undefined| |stage 0: undefined| __main__ - INFO - New episode: mode=bijection dims=['shape', 'color', 'texture'] n_kinds={'shape': 5, 'color': 5, 'texture': 5} n_goals=5 rule=texture='chevron'
+[0m[32muser 2/2:  620113812 |block 0: block_a5c90287ab234f0da7a9b2e00b0d93ca| |stage 0: Consent| nicegui - WARNING - Event listeners changed after initial definition. Re-rendering affected elements.
+[0m[31muser 1/2:  3729087007 |block 0: undefined| |stage 0: undefined| nicegui - ERROR - 'NoneType' object has no attribute 'error'
+Traceback (most recent call last):
+  File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/asyncio/tasks.py", line 500, in wait_for
+    return fut.result()
+           ^^^^^^^^^^^^
+  File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/asyncio/locks.py", line 213, in wait
+    await fut
+asyncio.exceptions.CancelledError
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/nicegui/javascript_request.py", line 28, in __await__
+    yield from asyncio.wait_for(self._event.wait(), self.timeout).__await__()
+  File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/asyncio/tasks.py", line 502, in wait_for
+    raise exceptions.TimeoutError() from exc
+TimeoutError
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/nicewebrl/run_experiment.py", line 192, in wait_for_nicegui_ready
+    result = await ui.run_javascript(
+             ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/nicegui/client.py", line 272, in send_and_wait
+    return await JavaScriptRequest(request_id, timeout=timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/nicegui/javascript_request.py", line 30, in __await__
+    raise TimeoutError(f'JavaScript did not respond within {self.timeout:.1f} s') from e
+TimeoutError: JavaScript did not respond within 10.0 s
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/nicegui/page.py", line 126, in check_for_late_return_value
+    if task.result() is not None:
+       ^^^^^^^^^^^^^
+  File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/nicegui/page.py", line 180, in wait_for_result
+    return create_500_error_page(e, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/nicegui/page.py", line 140, in create_500_error_page
+    raise e
+  File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/nicegui/page.py", line 177, in wait_for_result
+    return await result
+           ^^^^^^^^^^^^
+  File "/Users/km6297/Library/Mobile Documents/com~apple~CloudDocs/Desktop/projects/psrl/psrl-experiments/fourroom_concept/web_app.py", line 307, in index
+    await wait_for_nicegui_ready()
+  File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/nicewebrl/run_experiment.py", line 198, in wait_for_nicegui_ready
+    module_logger.error(f"Error checking ready signal: {e}")
+    ^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'error'
+[0m[32muser 2/2:  620113812 |block 0: block_a5c90287ab234f0da7a9b2e00b0d93ca| |stage 0: Consent| nicewebrl.utils - INFO - {'message': 'Ping 1102'}
+[0m[32muser 2/2:  620113812 |block 0: block_a5c90287ab234f0da7a9b2e00b0d93ca| |stage 0: Consent| nicewebrl.utils - INFO - {'message': 'Ping 1809'}
+[0m[32muser 2/2:  620113812 |block 0: block_a5c90287ab234f0da7a9b2e00b0d93ca| |stage 0: Consent| nicewebrl.utils - INFO - {'message': 'Ping 5363'}
+[0m[32muser 2/2:  620113812 |block 0: block_a5c90287ab234f0da7a9b2e00b0d93ca| |stage 0: Consent| nicewebrl.utils - INFO - {'message': 'Ping 1143'}
+[0m[32muser 2/2:  620113812 |block 0: block_a5c90287ab234f0da7a9b2e00b0d93ca| |stage 0: Consent| nicewebrl.utils - INFO - {'message': 'Ping 9022'}
+[0m[32muser 2/2:  620113812 |block 0: block_a5c90287ab234f0da7a9b2e00b0d93ca| |stage 0: Consent| nicewebrl.utils - INFO - {'message': 'Ping 6061'}
+[0m[31muser 1/1:  620113812 |block 0: undefined| |stage 0: undefined| nicewebrl.experiment - INFO - Block order: ['block_a2d80e16b48e448297a19ef510c946f4', 'block_7a22ad7a6f1e48acab27f1e496b2ae05', 'block_718afd6234ce416d96a3e9ec1fa2ce40', 'block_3ebd318dece54be299cc761beead4c90']
+[0m[31muser 1/1:  620113812 |block 0: undefined| |stage 0: undefined| nicegui - WARNING - http://localhost:8084/.well-known/appspecific/com.chrome.devtools.json not found
+[0m[31muser 1/1:  620113812 |block 0: undefined| |stage 0: undefined| nicewebrl.utils - INFO - {'message': 'Ping 9481'}
+[0m[31muser 1/1:  620113812 |block 0: block_a2d80e16b48e448297a19ef510c946f4| |stage 0: Consent| nicegui - WARNING - Event listeners changed after initial definition. Re-rendering affected elements.
+[0m[31muser 1/1:  620113812 |block 0: block_a2d80e16b48e448297a19ef510c946f4| |stage 0: Consent| __main__ - INFO - Stage finished: Consent
+[0m[31muser 1/1:  620113812 |block 1: block_7a22ad7a6f1e48acab27f1e496b2ae05| |stage 1: Instructions| nicewebrl.utils - INFO - {'message': 'Ping 7083'}
+[0m[31muser 1/1:  620113812 |block 2: block_718afd6234ce416d96a3e9ec1fa2ce40| |stage 2: GridWorld| nicewebrl.utils - INFO - {'message': 'Ping 4493'}
+[0m[31muser 1/1:  620113812 |block 2: block_718afd6234ce416d96a3e9ec1fa2ce40| |stage 2: GridWorld| __main__ - INFO - Stage finished: GridWorld
+[0m[31muser 1/1:  620113812 |block 4: block_3ebd318dece54be299cc761beead4c90| |stage 4: Debrief| __main__ - INFO - Session saved to database → seed=620113812
+[0m[31muser 1/1:  3104342110 |block 0: undefined| |stage 0: undefined| nicewebrl.experiment - INFO - Block order: ['block_e05db053895e45d88d5c7e9ca95f68dd', 'block_8968764ea4e44f71b79d81580e5d27e5', 'block_43cf6953da6a454b9dbb7106ae61cf8f', 'block_75b7ea9fc61f40b28b842d087137eec7', 'block_a9c77863e67c49208d55b4da07ed25b7']
+[0m[31muser 1/1:  3104342110 |block 0: undefined| |stage 0: undefined| nicegui - WARNING - http://localhost:8084/.well-known/appspecific/com.chrome.devtools.json not found
+[0m[31muser 1/1:  3104342110 |block 0: undefined| |stage 0: undefined| nicewebrl.utils - INFO - {'message': 'Ping 8552'}
+[0m[31muser 1/1:  3104342110 |block 0: undefined| |stage 0: undefined| __main__ - INFO - New episode: mode=bijection dims=['shape', 'color', 'texture'] n_kinds={'shape': 5, 'color': 5, 'texture': 5} n_goals=5 rule=color='blue'
+[0m[31muser 1/1:  3104342110 |block 0: block_e05db053895e45d88d5c7e9ca95f68dd| |stage 0: Welcome| nicegui - WARNING - Event listeners changed after initial definition. Re-rendering affected elements.
+[0m[32muser 2/2:  2043275651 |block 0: undefined| |stage 0: undefined| nicewebrl.experiment - INFO - Block order: ['block_e05db053895e45d88d5c7e9ca95f68dd', 'block_8968764ea4e44f71b79d81580e5d27e5', 'block_43cf6953da6a454b9dbb7106ae61cf8f', 'block_75b7ea9fc61f40b28b842d087137eec7', 'block_a9c77863e67c49208d55b4da07ed25b7']
+[0m[32muser 2/2:  2043275651 |block 0: undefined| |stage 0: undefined| nicegui - WARNING - http://localhost:8084/.well-known/appspecific/com.chrome.devtools.json not found
+[0m[32muser 2/2:  2043275651 |block 0: undefined| |stage 0: undefined| nicewebrl.utils - INFO - {'message': 'Ping 8646'}
+[0m[32muser 2/2:  2043275651 |block 0: undefined| |stage 0: undefined| __main__ - INFO - New episode: mode=bijection dims=['shape', 'color', 'texture'] n_kinds={'shape': 5, 'color': 5, 'texture': 5} n_goals=5 rule=texture='striped'
+[0m[32muser 2/2:  2043275651 |block 0: block_e05db053895e45d88d5c7e9ca95f68dd| |stage 0: Welcome| nicegui - WARNING - Event listeners changed after initial definition. Re-rendering affected elements.
+[0m[32muser 2/2:  2043275651 |block 0: block_e05db053895e45d88d5c7e9ca95f68dd| |stage 0: Welcome| nicewebrl.utils - INFO - {'message': 'Ping 4931'}
+[0m[32muser 2/2:  2043275651 |block 0: block_e05db053895e45d88d5c7e9ca95f68dd| |stage 0: Welcome| nicewebrl.utils - INFO - {'message': 'Ping 9062'}
+[0m[32muser 2/2:  2043275651 |block 0: block_e05db053895e45d88d5c7e9ca95f68dd| |stage 0: Welcome| nicewebrl.utils - INFO - {'message': 'Ping 7984'}
+[0m[32muser 2/2:  2043275651 |block 0: block_e05db053895e45d88d5c7e9ca95f68dd| |stage 0: Welcome| nicewebrl.utils - ERROR - 0. Task was cancelled. Cleaning up and retrying...
+[0m[32muser 2/2:  2043275651 |block 0: block_e05db053895e45d88d5c7e9ca95f68dd| |stage 0: Welcome| nicewebrl.utils - ERROR - Error: ''
+[0m[32muser 2/2:  2043275651 |block 0: block_e05db053895e45d88d5c7e9ca95f68dd| |stage 0: Welcome| nicewebrl.utils - ERROR - 0. Task was cancelled. Cleaning up and retrying...
+[0m[32muser 2/2:  2043275651 |block 0: block_e05db053895e45d88d5c7e9ca95f68dd| |stage 0: Welcome| nicewebrl.utils - ERROR - Error: ''
+[0m[31muser 1/1:  2043275651 |block 0: undefined| |stage 0: undefined| nicewebrl.experiment - INFO - Block order: ['block_9cef604272f64945b9549ea2d3d753f7', 'block_e479c530ceca496a8ba3218e40707148', 'block_77cfd2e397e14206b2d842752811aeb6', 'block_694211c417534915a56d9ef556302310', 'block_10a4226551eb4013b795a5852e75cbbc']
+[0m[31muser 1/1:  2043275651 |block 0: block_9cef604272f64945b9549ea2d3d753f7| |stage 0: Welcome| nicegui - WARNING - http://localhost:8084/.well-known/appspecific/com.chrome.devtools.json not found
+[0m[31muser 1/1:  2043275651 |block 0: block_9cef604272f64945b9549ea2d3d753f7| |stage 0: Welcome| nicewebrl.utils - INFO - {'message': 'Ping 8560'}
+[0m[32muser 2/2:  2938297877 |block 0: undefined| |stage 0: undefined| nicewebrl.experiment - INFO - Block order: ['block_9cef604272f64945b9549ea2d3d753f7', 'block_e479c530ceca496a8ba3218e40707148', 'block_77cfd2e397e14206b2d842752811aeb6', 'block_694211c417534915a56d9ef556302310', 'block_10a4226551eb4013b795a5852e75cbbc']
+[0m[32muser 2/2:  2938297877 |block 0: undefined| |stage 0: undefined| __main__ - INFO - New episode: mode=bijection dims=['shape', 'color', 'texture'] n_kinds={'shape': 5, 'color': 5, 'texture': 5} n_goals=5 rule=color='red'
+[0m[32muser 2/2:  2938297877 |block 0: block_9cef604272f64945b9549ea2d3d753f7| |stage 0: Welcome| nicegui - WARNING - http://localhost:8084/.well-known/appspecific/com.chrome.devtools.json not found
+[0m[32muser 2/2:  2938297877 |block 0: block_9cef604272f64945b9549ea2d3d753f7| |stage 0: Welcome| nicewebrl.utils - INFO - {'message': 'Ping 2287'}
+[0m[32muser 2/2:  2938297877 |block 1: block_e479c530ceca496a8ba3218e40707148| |stage 1: Consent| __main__ - INFO - Stage finished: Consent
+[0m[33muser 3/3:  1814643438 |block 0: undefined| |stage 0: undefined| nicewebrl.experiment - INFO - Block order: ['block_9cef604272f64945b9549ea2d3d753f7', 'block_e479c530ceca496a8ba3218e40707148', 'block_77cfd2e397e14206b2d842752811aeb6', 'block_694211c417534915a56d9ef556302310', 'block_10a4226551eb4013b795a5852e75cbbc']
+[0m[33muser 3/3:  1814643438 |block 0: undefined| |stage 0: undefined| __main__ - INFO - New episode: mode=bijection dims=['shape', 'color', 'texture'] n_kinds={'shape': 5, 'color': 5, 'texture': 5} n_goals=5 rule=shape='triangle'
+[0m[33muser 3/3:  1814643438 |block 0: block_9cef604272f64945b9549ea2d3d753f7| |stage 0: Welcome| nicegui - WARNING - http://localhost:8084/.well-known/appspecific/com.chrome.devtools.json not found
+[0m[33muser 3/3:  1814643438 |block 0: block_9cef604272f64945b9549ea2d3d753f7| |stage 0: Welcome| nicewebrl.utils - INFO - {'message': 'Ping 9228'}
+[0m[33muser 3/3:  1814643438 |block 1: block_e479c530ceca496a8ba3218e40707148| |stage 1: Consent| __main__ - INFO - Stage finished: Consent
+[0m[33muser 3/3:  1814643438 |block 2: block_77cfd2e397e14206b2d842752811aeb6| |stage 2: Instructions| nicewebrl.utils - INFO - {'message': 'Ping 3853'}
+[0m[33muser 3/3:  1814643438 |block 2: block_77cfd2e397e14206b2d842752811aeb6| |stage 2: Instructions| nicewebrl.utils - INFO - {'message': 'Ping 420'}
+[0m[33muser 3/3:  1814643438 |block 2: block_77cfd2e397e14206b2d842752811aeb6| |stage 2: Instructions| nicewebrl.utils - INFO - {'message': 'Ping 6139'}
+[0m[33muser 3/3:  1814643438 |block 2: block_77cfd2e397e14206b2d842752811aeb6| |stage 2: Instructions| nicewebrl.utils - INFO - {'message': 'Ping 4723'}
+[0m[33muser 3/3:  1814643438 |block 2: block_77cfd2e397e14206b2d842752811aeb6| |stage 2: Instructions| nicewebrl.utils - INFO - {'message': 'Ping 902'}
+[0m[33muser 3/3:  1814643438 |block 2: block_77cfd2e397e14206b2d842752811aeb6| |stage 2: Instructions| nicewebrl.utils - INFO - {'message': 'Ping 9113'}
+[0m[33muser 3/3:  1814643438 |block 2: block_77cfd2e397e14206b2d842752811aeb6| |stage 2: Instructions| nicewebrl.utils - ERROR - 0. Task was cancelled. Cleaning up and retrying...
+[0m[33muser 3/3:  1814643438 |block 2: block_77cfd2e397e14206b2d842752811aeb6| |stage 2: Instructions| nicewebrl.utils - ERROR - Error: ''
+[0m[33muser 3/3:  1814643438 |block 2: block_77cfd2e397e14206b2d842752811aeb6| |stage 2: Instructions| nicewebrl.utils - ERROR - 0. Task was cancelled. Cleaning up and retrying...
+[0m[33muser 3/3:  1814643438 |block 2: block_77cfd2e397e14206b2d842752811aeb6| |stage 2: Instructions| nicewebrl.utils - ERROR - Error: ''
+[0m[31muser 1/1:  493808053 |block 0: undefined| |stage 0: undefined| nicewebrl.experiment - INFO - Block order: ['block_ea33b73d81a54ff5bd34a0ff0c65025e', 'block_7ae9fc0340494aad8e2b1c0c471ee078', 'block_4eea848d3e294058aaadfddf5a8b8493', 'block_bb347c6abc274182a0ab8fcb417b4a50', 'block_dd546bc341c145e2bcd9e96ee2aef99a']
+[0m[31muser 1/1:  493808053 |block 0: undefined| |stage 0: undefined| __main__ - INFO - New episode: mode=bijection dims=['shape', 'color', 'texture'] n_kinds={'shape': 5, 'color': 5, 'texture': 5} n_goals=5 rule=shape='triangle'
+[0m[31muser 1/1:  493808053 |block 0: block_ea33b73d81a54ff5bd34a0ff0c65025e| |stage 0: Welcome| nicewebrl.utils - INFO - {'message': 'Ping 5818'}
+[0m[31muser 1/1:  493808053 |block 1: block_7ae9fc0340494aad8e2b1c0c471ee078| |stage 1: Consent| __main__ - INFO - Stage finished: Consent
+[0m[31muser 1/1:  493808053 |block 3: block_bb347c6abc274182a0ab8fcb417b4a50| |stage 3: GridWorld| nicewebrl.utils - INFO - {'message': 'Ping 2521'}
+[0m[31muser 1/1:  493808053 |block 3: block_bb347c6abc274182a0ab8fcb417b4a50| |stage 3: GridWorld| __main__ - INFO - Stage finished: GridWorld
+[0m[31muser 1/1:  493808053 |block 5: block_dd546bc341c145e2bcd9e96ee2aef99a| |stage 5: Debrief| __main__ - INFO - Session saved to database → seed=493808053
+[0m[31muser 1/1:  493808053 |block 5: block_dd546bc341c145e2bcd9e96ee2aef99a| |stage 5: Debrief| nicewebrl.utils - INFO - {'message': 'Ping 4758'}
+[0m[31muser 1/1:  493808053 |block 5: block_dd546bc341c145e2bcd9e96ee2aef99a| |stage 5: Debrief| nicewebrl.utils - INFO - {'message': 'Ping 2594'}
+[0m[31muser 1/1:  493808053 |block 5: block_dd546bc341c145e2bcd9e96ee2aef99a| |stage 5: Debrief| nicewebrl.utils - INFO - {'message': 'Ping 5755'}
+[0m[31muser 1/1:  493808053 |block 5: block_dd546bc341c145e2bcd9e96ee2aef99a| |stage 5: Debrief| nicewebrl.utils - INFO - {'message': 'Ping 9173'}
+[0m[31muser 1/1:  493808053 |block 5: block_dd546bc341c145e2bcd9e96ee2aef99a| |stage 5: Debrief| nicewebrl.utils - INFO - {'message': 'Ping 4199'}
+[0m[31muser 1/1:  493808053 |block 5: block_dd546bc341c145e2bcd9e96ee2aef99a| |stage 5: Debrief| nicewebrl.utils - INFO - {'message': 'Ping 1801'}
+[0m[31muser 1/1:  493808053 |block 5: block_dd546bc341c145e2bcd9e96ee2aef99a| |stage 5: Debrief| nicewebrl.utils - INFO - {'message': 'Ping 7774'}
+[0m[31muser 1/1:  493808053 |block 5: block_dd546bc341c145e2bcd9e96ee2aef99a| |stage 5: Debrief| nicewebrl.utils - INFO - {'message': 'Ping 1234'}
+[0m[31muser 1/1:  493808053 |block 5: block_dd546bc341c145e2bcd9e96ee2aef99a| |stage 5: Debrief| nicewebrl.utils - INFO - {'message': 'Ping 9595'}
+[0m[31muser 1/1:  493808053 |block 5: block_dd546bc341c145e2bcd9e96ee2aef99a| |stage 5: Debrief| nicewebrl.utils - INFO - {'message': 'Ping 1982'}
+[0m[31muser 1/1:  493808053 |block 5: block_dd546bc341c145e2bcd9e96ee2aef99a| |stage 5: Debrief| nicewebrl.utils - INFO - {'message': 'Ping 2237'}
+[0m[31muser 1/1:  493808053 |block 5: block_dd546bc341c145e2bcd9e96ee2aef99a| |stage 5: Debrief| nicewebrl.utils - INFO - {'message': 'Ping 1032'}
+[0m[31muser 1/1:  493808053 |block 5: block_dd546bc341c145e2bcd9e96ee2aef99a| |stage 5: Debrief| nicewebrl.utils - INFO - {'message': 'Ping 6836'}
+[0m[31muser 1/1:  493808053 |block 5: block_dd546bc341c145e2bcd9e96ee2aef99a| |stage 5: Debrief| nicewebrl.utils - INFO - {'message': 'Ping 9802'}
+[0m[31muser 1/1:  493808053 |block 5: block_dd546bc341c145e2bcd9e96ee2aef99a| |stage 5: Debrief| nicewebrl.utils - INFO - {'message': 'Ping 1316'}
+[0m[31muser 1/1:  493808053 |block 5: block_dd546bc341c145e2bcd9e96ee2aef99a| |stage 5: Debrief| nicewebrl.utils - INFO - {'message': 'Ping 4580'}
+[0m[31muser 1/1:  493808053 |block 5: block_dd546bc341c145e2bcd9e96ee2aef99a| |stage 5: Debrief| nicewebrl.utils - INFO - {'message': 'Ping 5366'}
+[0m[31muser 1/1:  493808053 |block 5: block_dd546bc341c145e2bcd9e96ee2aef99a| |stage 5: Debrief| nicewebrl.utils - INFO - {'message': 'Ping 2104'}
+[0m[31muser 1/1:  493808053 |block 5: block_dd546bc341c145e2bcd9e96ee2aef99a| |stage 5: Debrief| nicewebrl.utils - INFO - {'message': 'Ping 3604'}
+[0m[31muser 1/1:  493808053 |block 5: block_dd546bc341c145e2bcd9e96ee2aef99a| |stage 5: Debrief| nicewebrl.utils - INFO - {'message': 'Ping 4970'}
+[0m[31muser 1/1:  493808053 |block 5: block_dd546bc341c145e2bcd9e96ee2aef99a| |stage 5: Debrief| nicewebrl.utils - INFO - {'message': 'Ping 6207'}
+[0m[31muser 1/1:  493808053 |block 5: block_dd546bc341c145e2bcd9e96ee2aef99a| |stage 5: Debrief| nicewebrl.utils - INFO - {'message': 'Ping 3004'}
+[0m[31muser 1/1:  493808053 |block 5: block_dd546bc341c145e2bcd9e96ee2aef99a| |stage 5: Debrief| nicewebrl.utils - INFO - {'message': 'Ping 3157'}
+[0m[31muser 1/1:  493808053 |block 5: block_dd546bc341c145e2bcd9e96ee2aef99a| |stage 5: Debrief| nicewebrl.utils - INFO - {'message': 'Ping 875'}
+[0m[31muser 1/1:  493808053 |block 5: block_dd546bc341c145e2bcd9e96ee2aef99a| |stage 5: Debrief| nicewebrl.utils - INFO - {'message': 'Ping 8073'}
+[0m[31muser 1/1:  493808053 |block 5: block_dd546bc341c145e2bcd9e96ee2aef99a| |stage 5: Debrief| nicewebrl.utils - INFO - {'message': 'Ping 1146'}
+[0m[31muser 1/1:  493808053 |block 5: block_dd546bc341c145e2bcd9e96ee2aef99a| |stage 5: Debrief| nicewebrl.utils - INFO - {'message': 'Ping 8034'}
+[0m[31muser 1/1:  493808053 |block 5: undefined| |stage 5: undefined| nicewebrl.experiment - INFO - Block order: ['block_b234937dc984493f8b61265de160b3df', 'block_208aa915a0e64e1083df1be3ef5bfad8', 'block_e9407749ca0a453aa8e1014c49642a57', 'block_e4cd35e9a79c4dc89f31244e24a89405', 'block_29c2dc44f5574250b5689e004ecd7772']
+[0m[31muser 1/1:  493808053 |block 5: undefined| |stage 5: undefined| __main__ - INFO - Session saved to database → seed=493808053
+[0m[31muser 1/1:  493808053 |block 5: undefined| |stage 5: undefined| nicewebrl.utils - INFO - {'message': 'Ping 97'}
+[0m[31muser 1/1:  493808053 |block 5: undefined| |stage 5: undefined| nicewebrl.experiment - INFO - Block order: ['block_b234937dc984493f8b61265de160b3df', 'block_208aa915a0e64e1083df1be3ef5bfad8', 'block_e9407749ca0a453aa8e1014c49642a57', 'block_e4cd35e9a79c4dc89f31244e24a89405', 'block_29c2dc44f5574250b5689e004ecd7772']
+[0m[31muser 1/1:  493808053 |block 5: undefined| |stage 5: undefined| __main__ - INFO - Session saved to database → seed=493808053
+[0m[31muser 1/1:  493808053 |block 5: undefined| |stage 5: undefined| nicewebrl.utils - INFO - {'message': 'Ping 7133'}
+[0m[31muser 1/1:  493808053 |block 5: undefined| |stage 5: undefined| nicegui - WARNING - http://localhost:8084/.well-known/appspecific/com.chrome.devtools.json not found
+[0m[32muser 2/2:  2116497768 |block 0: undefined| |stage 0: undefined| nicewebrl.experiment - INFO - Block order: ['block_b234937dc984493f8b61265de160b3df', 'block_208aa915a0e64e1083df1be3ef5bfad8', 'block_e9407749ca0a453aa8e1014c49642a57', 'block_e4cd35e9a79c4dc89f31244e24a89405', 'block_29c2dc44f5574250b5689e004ecd7772']
+[0m[32muser 2/2:  2116497768 |block 0: undefined| |stage 0: undefined| __main__ - INFO - New episode: mode=bijection dims=['shape', 'color', 'texture'] n_kinds={'shape': 5, 'color': 5, 'texture': 5} n_goals=5 rule=color='yellow'
+[0m[32muser 2/2:  2116497768 |block 0: block_b234937dc984493f8b61265de160b3df| |stage 0: Welcome| nicegui - WARNING - http://localhost:8084/.well-known/appspecific/com.chrome.devtools.json not found
+[0m[32muser 2/2:  2116497768 |block 0: block_b234937dc984493f8b61265de160b3df| |stage 0: Welcome| nicewebrl.utils - INFO - {'message': 'Ping 8035'}
+[0m[32muser 2/2:  2116497768 |block 1: block_208aa915a0e64e1083df1be3ef5bfad8| |stage 1: Consent| __main__ - INFO - Stage finished: Consent
+[0m[31muser 1/2:  493808053 |block 5: undefined| |stage 5: undefined| nicewebrl.utils - INFO - {'message': 'Ping 2936'}
+[0m[32muser 2/2:  2116497768 |block 3: block_e4cd35e9a79c4dc89f31244e24a89405| |stage 3: GridWorld| nicewebrl.utils - INFO - {'message': 'Ping 8815'}
+[0m[31muser 1/2:  493808053 |block 5: undefined| |stage 5: undefined| nicewebrl.utils - INFO - {'message': 'Ping 375'}
+[0m[32muser 2/2:  2116497768 |block 3: block_e4cd35e9a79c4dc89f31244e24a89405| |stage 3: GridWorld| __main__ - INFO - Stage finished: GridWorld
+[0m[32muser 2/2:  2116497768 |block 5: block_29c2dc44f5574250b5689e004ecd7772| |stage 5: Debrief| __main__ - INFO - Session saved to database → seed=2116497768
+[0m[32muser 2/2:  2116497768 |block 5: block_29c2dc44f5574250b5689e004ecd7772| |stage 5: Debrief| nicewebrl.utils - INFO - {'message': 'Ping 4074'}
+[0m[31muser 1/2:  493808053 |block 5: undefined| |stage 5: undefined| nicewebrl.utils - INFO - {'message': 'Ping 9424'}
+[0m[32muser 2/2:  2116497768 |block 5: block_29c2dc44f5574250b5689e004ecd7772| |stage 5: Debrief| nicewebrl.utils - INFO - {'message': 'Ping 7548'}
+[0m[31muser 1/2:  493808053 |block 5: undefined| |stage 5: undefined| nicewebrl.utils - INFO - {'message': 'Ping 2977'}
+[0m[32muser 2/2:  2116497768 |block 5: block_29c2dc44f5574250b5689e004ecd7772| |stage 5: Debrief| nicewebrl.utils - INFO - {'message': 'Ping 183'}
+[0m[31muser 1/2:  493808053 |block 5: undefined| |stage 5: undefined| nicewebrl.utils - INFO - {'message': 'Ping 7434'}
+[0m[32muser 2/2:  2116497768 |block 5: block_29c2dc44f5574250b5689e004ecd7772| |stage 5: Debrief| nicewebrl.utils - INFO - {'message': 'Ping 113'}
+[0m[31muser 1/2:  493808053 |block 5: undefined| |stage 5: undefined| nicewebrl.utils - INFO - {'message': 'Ping 3389'}
+[0m[32muser 2/2:  2116497768 |block 5: block_29c2dc44f5574250b5689e004ecd7772| |stage 5: Debrief| nicewebrl.utils - INFO - {'message': 'Ping 4631'}
+[0m[32muser 2/2:  2116497768 |block 5: block_29c2dc44f5574250b5689e004ecd7772| |stage 5: Debrief| nicewebrl.utils - INFO - {'message': 'Ping 1070'}
+[0m[31muser 1/2:  493808053 |block 5: undefined| |stage 5: undefined| nicewebrl.utils - INFO - {'message': 'Ping 4347'}
+[0m[32muser 2/2:  2116497768 |block 5: block_29c2dc44f5574250b5689e004ecd7772| |stage 5: Debrief| nicewebrl.utils - INFO - {'message': 'Ping 4047'}
+[0m[32muser 2/2:  2116497768 |block 5: block_29c2dc44f5574250b5689e004ecd7772| |stage 5: Debrief| nicewebrl.utils - INFO - {'message': 'Ping 4517'}
+[0m[31muser 1/2:  493808053 |block 5: undefined| |stage 5: undefined| nicewebrl.utils - INFO - {'message': 'Ping 9895'}
+[0m[32muser 2/2:  2116497768 |block 5: block_29c2dc44f5574250b5689e004ecd7772| |stage 5: Debrief| nicewebrl.utils - INFO - {'message': 'Ping 3163'}
+[0m[32muser 2/2:  2116497768 |block 5: block_29c2dc44f5574250b5689e004ecd7772| |stage 5: Debrief| nicewebrl.utils - INFO - {'message': 'Ping 3450'}
+[0m[31muser 1/2:  493808053 |block 5: undefined| |stage 5: undefined| nicewebrl.utils - INFO - {'message': 'Ping 7297'}
+[0m[32muser 2/2:  2116497768 |block 5: block_29c2dc44f5574250b5689e004ecd7772| |stage 5: Debrief| nicewebrl.utils - INFO - {'message': 'Ping 5504'}
+[0m[32muser 2/2:  2116497768 |block 5: block_29c2dc44f5574250b5689e004ecd7772| |stage 5: Debrief| nicewebrl.utils - INFO - {'message': 'Ping 9708'}
+[0m[31muser 1/2:  493808053 |block 5: undefined| |stage 5: undefined| nicewebrl.utils - INFO - {'message': 'Ping 7417'}
+[0m[32muser 2/2:  2116497768 |block 5: block_29c2dc44f5574250b5689e004ecd7772| |stage 5: Debrief| nicewebrl.utils - INFO - {'message': 'Ping 9306'}
+[0m[32muser 2/2:  2116497768 |block 5: block_29c2dc44f5574250b5689e004ecd7772| |stage 5: Debrief| nicewebrl.utils - INFO - {'message': 'Ping 1573'}
+[0m[31muser 1/2:  493808053 |block 5: undefined| |stage 5: undefined| nicewebrl.utils - INFO - {'message': 'Ping 5864'}
+[0m[32muser 2/2:  2116497768 |block 5: block_29c2dc44f5574250b5689e004ecd7772| |stage 5: Debrief| nicewebrl.utils - INFO - {'message': 'Ping 4578'}
+[0m[31muser 1/2:  493808053 |block 5: undefined| |stage 5: undefined| nicewebrl.utils - INFO - {'message': 'Ping 1975'}
+[0m[32muser 2/2:  2116497768 |block 5: block_29c2dc44f5574250b5689e004ecd7772| |stage 5: Debrief| nicewebrl.utils - INFO - {'message': 'Ping 5741'}
+[0m[31muser 1/2:  493808053 |block 5: undefined| |stage 5: undefined| nicewebrl.utils - INFO - {'message': 'Ping 9935'}
+[0m[32muser 2/2:  2116497768 |block 5: block_29c2dc44f5574250b5689e004ecd7772| |stage 5: Debrief| nicewebrl.utils - INFO - {'message': 'Ping 3916'}
+[0m[31muser 1/2:  493808053 |block 5: undefined| |stage 5: undefined| nicewebrl.utils - INFO - {'message': 'Ping 7835'}
+[0m[32muser 2/2:  2116497768 |block 5: block_29c2dc44f5574250b5689e004ecd7772| |stage 5: Debrief| nicewebrl.utils - INFO - {'message': 'Ping 4564'}
+[0m[31muser 1/2:  493808053 |block 5: undefined| |stage 5: undefined| nicewebrl.utils - INFO - {'message': 'Ping 3807'}
+[0m[32muser 2/2:  2116497768 |block 5: block_29c2dc44f5574250b5689e004ecd7772| |stage 5: Debrief| nicewebrl.utils - INFO - {'message': 'Ping 1581'}
+[0m[31muser 1/2:  493808053 |block 5: undefined| |stage 5: undefined| nicewebrl.utils - INFO - {'message': 'Ping 4590'}
+[0m[31muser 1/2:  493808053 |block 5: undefined| |stage 5: undefined| nicewebrl.utils - INFO - {'message': 'Ping 8492'}
+[0m[32muser 2/2:  2116497768 |block 5: block_29c2dc44f5574250b5689e004ecd7772| |stage 5: Debrief| nicewebrl.utils - INFO - {'message': 'Ping 4661'}
+[0m[32muser 2/2:  2116497768 |block 5: block_29c2dc44f5574250b5689e004ecd7772| |stage 5: Debrief| nicewebrl.utils - INFO - {'message': 'Ping 9861'}
+[0m[31muser 1/2:  493808053 |block 5: undefined| |stage 5: undefined| nicewebrl.utils - INFO - {'message': 'Ping 7472'}
+[0m[31muser 1/2:  493808053 |block 5: undefined| |stage 5: undefined| nicewebrl.utils - INFO - {'message': 'Ping 7019'}
+[0m[32muser 2/2:  2116497768 |block 5: block_29c2dc44f5574250b5689e004ecd7772| |stage 5: Debrief| nicewebrl.utils - INFO - {'message': 'Ping 5110'}
+[0m[31muser 1/2:  493808053 |block 5: undefined| |stage 5: undefined| nicewebrl.utils - INFO - {'message': 'Ping 818'}
+[0m[32muser 2/2:  2116497768 |block 5: block_29c2dc44f5574250b5689e004ecd7772| |stage 5: Debrief| nicewebrl.utils - INFO - {'message': 'Ping 5070'}
+[0m[31muser 1/2:  493808053 |block 5: undefined| |stage 5: undefined| nicewebrl.utils - INFO - {'message': 'Ping 7795'}
+[0m[32muser 2/2:  2116497768 |block 5: block_29c2dc44f5574250b5689e004ecd7772| |stage 5: Debrief| nicewebrl.utils - INFO - {'message': 'Ping 1032'}
+[0m[31muser 1/2:  493808053 |block 5: undefined| |stage 5: undefined| nicewebrl.utils - INFO - {'message': 'Ping 4871'}
+[0m[32muser 2/2:  2116497768 |block 5: block_29c2dc44f5574250b5689e004ecd7772| |stage 5: Debrief| nicewebrl.utils - INFO - {'message': 'Ping 2733'}
+[0m[32muser 2/2:  2116497768 |block 5: block_29c2dc44f5574250b5689e004ecd7772| |stage 5: Debrief| nicewebrl.utils - INFO - {'message': 'Ping 9098'}
+[0m[31muser 1/2:  493808053 |block 5: undefined| |stage 5: undefined| nicewebrl.utils - INFO - {'message': 'Ping 5214'}
+[0m[31muser 1/2:  493808053 |block 5: undefined| |stage 5: undefined| nicewebrl.utils - INFO - {'message': 'Ping 2978'}
+[0m[32muser 2/2:  2116497768 |block 5: block_29c2dc44f5574250b5689e004ecd7772| |stage 5: Debrief| nicewebrl.utils - INFO - {'message': 'Ping 9414'}
+[0m[32muser 2/2:  2116497768 |block 5: block_29c2dc44f5574250b5689e004ecd7772| |stage 5: Debrief| nicewebrl.utils - INFO - {'message': 'Ping 3132'}
+[0m[31muser 1/1:  2116497768 |block 5: undefined| |stage 5: undefined| nicewebrl.experiment - INFO - Block order: ['block_a164415ee51a418d83dcdbdf5ae74b61', 'block_6f9ffef6d0a7419390cfab941a9ef21a', 'block_bea4333ce16b4238ac4b4681a22b20cb', 'block_639029a2df9144e48b1dec3f0bf2461f', 'block_ee5103843fed40e19d60ed61034afcdf']
+[0m[31muser 1/1:  2116497768 |block 5: undefined| |stage 5: undefined| __main__ - INFO - Session saved to database → seed=2116497768
+[0m[31muser 1/1:  2116497768 |block 5: undefined| |stage 5: undefined| nicegui - WARNING - http://localhost:8084/.well-known/appspecific/com.chrome.devtools.json not found
+[0m[31muser 1/1:  2116497768 |block 5: undefined| |stage 5: undefined| nicewebrl.utils - INFO - {'message': 'Ping 2533'}
+[0m[31muser 1/1:  2116497768 |block 5: undefined| |stage 5: undefined| nicewebrl.experiment - INFO - Block order: ['block_a164415ee51a418d83dcdbdf5ae74b61', 'block_6f9ffef6d0a7419390cfab941a9ef21a', 'block_bea4333ce16b4238ac4b4681a22b20cb', 'block_639029a2df9144e48b1dec3f0bf2461f', 'block_ee5103843fed40e19d60ed61034afcdf']
+[0m[31muser 1/1:  2116497768 |block 5: undefined| |stage 5: undefined| __main__ - INFO - Session saved to database → seed=2116497768
+[0m[31muser 1/1:  2116497768 |block 5: undefined| |stage 5: undefined| nicewebrl.utils - INFO - {'message': 'Ping 7914'}
+[0m[31muser 1/1:  2116497768 |block 5: undefined| |stage 5: undefined| nicegui - WARNING - http://localhost:8084/.well-known/appspecific/com.chrome.devtools.json not found
+[0m[32muser 2/2:  2924364371 |block 0: undefined| |stage 0: undefined| nicewebrl.experiment - INFO - Block order: ['block_a164415ee51a418d83dcdbdf5ae74b61', 'block_6f9ffef6d0a7419390cfab941a9ef21a', 'block_bea4333ce16b4238ac4b4681a22b20cb', 'block_639029a2df9144e48b1dec3f0bf2461f', 'block_ee5103843fed40e19d60ed61034afcdf']
+[0m[32muser 2/2:  2924364371 |block 0: undefined| |stage 0: undefined| __main__ - INFO - New episode: mode=bijection dims=['shape', 'color', 'texture'] n_kinds={'shape': 5, 'color': 5, 'texture': 5} n_goals=5 rule=color='purple'
+[0m[32muser 2/2:  2924364371 |block 0: block_a164415ee51a418d83dcdbdf5ae74b61| |stage 0: Welcome| nicegui - WARNING - http://localhost:8084/.well-known/appspecific/com.chrome.devtools.json not found
+[0m[32muser 2/2:  2924364371 |block 0: block_a164415ee51a418d83dcdbdf5ae74b61| |stage 0: Welcome| nicewebrl.utils - INFO - {'message': 'Ping 493'}
+[0m[32muser 2/2:  2924364371 |block 1: block_6f9ffef6d0a7419390cfab941a9ef21a| |stage 1: Consent| __main__ - INFO - Stage finished: Consent
+[0m[31muser 1/2:  2116497768 |block 5: undefined| |stage 5: undefined| nicewebrl.utils - INFO - {'message': 'Ping 6446'}
+[0m[32muser 2/2:  2924364371 |block 3: block_639029a2df9144e48b1dec3f0bf2461f| |stage 3: GridWorld| nicewebrl.utils - INFO - {'message': 'Ping 7347'}
+[0m[32muser 2/2:  2924364371 |block 3: block_639029a2df9144e48b1dec3f0bf2461f| |stage 3: GridWorld| __main__ - INFO - Stage finished: GridWorld
+[0m[32muser 2/2:  2924364371 |block 5: block_ee5103843fed40e19d60ed61034afcdf| |stage 5: Debrief| __main__ - INFO - Session saved to database → seed=2924364371
+[0m[31muser 1/2:  2116497768 |block 5: undefined| |stage 5: undefined| nicewebrl.utils - INFO - {'message': 'Ping 7800'}
+[0m[31muser 1/2:  2116497768 |block 5: undefined| |stage 5: undefined| nicewebrl.utils - INFO - {'message': 'Ping 2998'}
+[0m[31muser 1/2:  2116497768 |block 5: undefined| |stage 5: undefined| nicewebrl.utils - INFO - {'message': 'Ping 1522'}
 [0m

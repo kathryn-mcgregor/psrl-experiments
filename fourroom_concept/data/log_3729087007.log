@@ -1,0 +1,80 @@
+[33muser 3/3:  3729087007 |block 0: undefined| |stage 0: undefined| nicewebrl.experiment - INFO - Block order: ['block_7085c15673e84d1fb0f7bb69a7b499f0', 'block_607386c39a354fc7bb5433bc054424ce', 'block_fe75352a3efd41b9a845440faa18be4b', 'block_65a7fd86085749bbb837a015b2a6f6bf']
+[0m[33muser 3/3:  3729087007 |block 0: undefined| |stage 0: undefined| __main__ - INFO - New episode: mode=bijection dims=['shape', 'color', 'texture'] n_kinds={'shape': 5, 'color': 5, 'texture': 5} n_goals=5 rule=shape='square'
+[0m[33muser 3/3:  3729087007 |block 0: undefined| |stage 0: undefined| nicewebrl.experiment - INFO - Block order: ['block_7085c15673e84d1fb0f7bb69a7b499f0', 'block_607386c39a354fc7bb5433bc054424ce', 'block_fe75352a3efd41b9a845440faa18be4b', 'block_65a7fd86085749bbb837a015b2a6f6bf']
+[0m[33muser 3/3:  3729087007 |block 0: block_7085c15673e84d1fb0f7bb69a7b499f0| |stage 0: Consent| nicegui - WARNING - Response for / not ready after 3.0 seconds
+[0m[33muser 3/3:  3729087007 |block 0: block_7085c15673e84d1fb0f7bb69a7b499f0| |stage 0: Consent| nicegui - WARNING - Response for / not ready after 3.0 seconds
+[0m[33muser 3/3:  3729087007 |block 0: undefined| |stage 0: undefined| nicewebrl.experiment - INFO - Block order: ['block_7085c15673e84d1fb0f7bb69a7b499f0', 'block_607386c39a354fc7bb5433bc054424ce', 'block_fe75352a3efd41b9a845440faa18be4b', 'block_65a7fd86085749bbb837a015b2a6f6bf']
+[0m[33muser 3/3:  3729087007 |block 0: block_7085c15673e84d1fb0f7bb69a7b499f0| |stage 0: Consent| nicegui - WARNING - Response for / not ready after 3.0 seconds
+[0m[33muser 3/3:  3729087007 |block 0: undefined| |stage 0: undefined| nicewebrl.experiment - INFO - Block order: ['block_7085c15673e84d1fb0f7bb69a7b499f0', 'block_607386c39a354fc7bb5433bc054424ce', 'block_fe75352a3efd41b9a845440faa18be4b', 'block_65a7fd86085749bbb837a015b2a6f6bf']
+[0m[33muser 3/3:  3729087007 |block 0: block_7085c15673e84d1fb0f7bb69a7b499f0| |stage 0: Consent| nicegui - WARNING - Response for / not ready after 3.0 seconds
+[0m[33muser 3/3:  3729087007 |block 0: undefined| |stage 0: undefined| nicewebrl.experiment - INFO - Block order: ['block_7085c15673e84d1fb0f7bb69a7b499f0', 'block_607386c39a354fc7bb5433bc054424ce', 'block_fe75352a3efd41b9a845440faa18be4b', 'block_65a7fd86085749bbb837a015b2a6f6bf']
+[0m[33muser 3/3:  3729087007 |block 0: block_7085c15673e84d1fb0f7bb69a7b499f0| |stage 0: Consent| nicegui - WARNING - Response for / not ready after 3.0 seconds
+[0m[33muser 3/3:  3729087007 |block 0: undefined| |stage 0: undefined| nicewebrl.experiment - INFO - Block order: ['block_7085c15673e84d1fb0f7bb69a7b499f0', 'block_607386c39a354fc7bb5433bc054424ce', 'block_fe75352a3efd41b9a845440faa18be4b', 'block_65a7fd86085749bbb837a015b2a6f6bf']
+[0m[33muser 3/3:  3729087007 |block 0: block_7085c15673e84d1fb0f7bb69a7b499f0| |stage 0: Consent| nicegui - WARNING - Response for / not ready after 3.0 seconds
+[0m[33muser 3/3:  3729087007 |block 0: undefined| |stage 0: undefined| nicewebrl.experiment - INFO - Block order: ['block_7085c15673e84d1fb0f7bb69a7b499f0', 'block_607386c39a354fc7bb5433bc054424ce', 'block_fe75352a3efd41b9a845440faa18be4b', 'block_65a7fd86085749bbb837a015b2a6f6bf']
+[0m[33muser 3/3:  3729087007 |block 0: block_7085c15673e84d1fb0f7bb69a7b499f0| |stage 0: Consent| nicegui - WARNING - Response for / not ready after 3.0 seconds
+[0m[33muser 3/3:  3729087007 |block 0: undefined| |stage 0: undefined| nicewebrl.experiment - INFO - Block order: ['block_7085c15673e84d1fb0f7bb69a7b499f0', 'block_607386c39a354fc7bb5433bc054424ce', 'block_fe75352a3efd41b9a845440faa18be4b', 'block_65a7fd86085749bbb837a015b2a6f6bf']
+[0m[33muser 3/3:  3729087007 |block 0: block_7085c15673e84d1fb0f7bb69a7b499f0| |stage 0: Consent| nicegui - WARNING - Response for / not ready after 3.0 seconds
+[0m[33muser 3/3:  3729087007 |block 0: undefined| |stage 0: undefined| nicewebrl.experiment - INFO - Block order: ['block_7085c15673e84d1fb0f7bb69a7b499f0', 'block_607386c39a354fc7bb5433bc054424ce', 'block_fe75352a3efd41b9a845440faa18be4b', 'block_65a7fd86085749bbb837a015b2a6f6bf']
+[0m[33muser 3/3:  3729087007 |block 0: block_7085c15673e84d1fb0f7bb69a7b499f0| |stage 0: Consent| nicegui - WARNING - Response for / not ready after 3.0 seconds
+[0m[33muser 3/3:  3729087007 |block 0: undefined| |stage 0: undefined| nicewebrl.experiment - INFO - Block order: ['block_7085c15673e84d1fb0f7bb69a7b499f0', 'block_607386c39a354fc7bb5433bc054424ce', 'block_fe75352a3efd41b9a845440faa18be4b', 'block_65a7fd86085749bbb837a015b2a6f6bf']
+[0m[33muser 3/3:  3729087007 |block 0: block_7085c15673e84d1fb0f7bb69a7b499f0| |stage 0: Consent| nicegui - WARNING - Response for / not ready after 3.0 seconds
+[0m[33muser 3/3:  3729087007 |block 0: undefined| |stage 0: undefined| nicewebrl.experiment - INFO - Block order: ['block_7085c15673e84d1fb0f7bb69a7b499f0', 'block_607386c39a354fc7bb5433bc054424ce', 'block_fe75352a3efd41b9a845440faa18be4b', 'block_65a7fd86085749bbb837a015b2a6f6bf']
+[0m[33muser 3/3:  3729087007 |block 0: block_7085c15673e84d1fb0f7bb69a7b499f0| |stage 0: Consent| nicegui - WARNING - Response for / not ready after 3.0 seconds
+[0m[33muser 3/3:  3729087007 |block 0: undefined| |stage 0: undefined| nicewebrl.experiment - INFO - Block order: ['block_7085c15673e84d1fb0f7bb69a7b499f0', 'block_607386c39a354fc7bb5433bc054424ce', 'block_fe75352a3efd41b9a845440faa18be4b', 'block_65a7fd86085749bbb837a015b2a6f6bf']
+[0m[33muser 3/3:  3729087007 |block 0: block_7085c15673e84d1fb0f7bb69a7b499f0| |stage 0: Consent| nicegui - WARNING - Response for / not ready after 3.0 seconds
+[0m[31muser 1/1:  3729087007 |block 0: undefined| |stage 0: undefined| nicewebrl.experiment - INFO - Block order: ['block_a5c90287ab234f0da7a9b2e00b0d93ca', 'block_9e6d6e247ba7451ead67e292eaa8ede0', 'block_de6d47bd54cb4e98acc79776041f8817', 'block_e31934a382734be0a598cc3fd0189717']
+[0m[31muser 1/1:  3729087007 |block 0: undefined| |stage 0: undefined| nicewebrl.utils - INFO - {'message': 'Ping 784'}
+[0m[31muser 1/1:  3729087007 |block 0: undefined| |stage 0: undefined| nicegui - WARNING - http://localhost:8084/.well-known/appspecific/com.chrome.devtools.json not found
+[0m[31muser 1/2:  3729087007 |block 0: undefined| |stage 0: undefined| nicegui - ERROR - 'NoneType' object has no attribute 'error'
+Traceback (most recent call last):
+  File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/asyncio/tasks.py", line 500, in wait_for
+    return fut.result()
+           ^^^^^^^^^^^^
+  File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/asyncio/locks.py", line 213, in wait
+    await fut
+asyncio.exceptions.CancelledError
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/nicegui/javascript_request.py", line 28, in __await__
+    yield from asyncio.wait_for(self._event.wait(), self.timeout).__await__()
+  File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/asyncio/tasks.py", line 502, in wait_for
+    raise exceptions.TimeoutError() from exc
+TimeoutError
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/nicewebrl/run_experiment.py", line 192, in wait_for_nicegui_ready
+    result = await ui.run_javascript(
+             ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/nicegui/client.py", line 272, in send_and_wait
+    return await JavaScriptRequest(request_id, timeout=timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/nicegui/javascript_request.py", line 30, in __await__
+    raise TimeoutError(f'JavaScript did not respond within {self.timeout:.1f} s') from e
+TimeoutError: JavaScript did not respond within 10.0 s
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/nicegui/page.py", line 126, in check_for_late_return_value
+    if task.result() is not None:
+       ^^^^^^^^^^^^^
+  File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/nicegui/page.py", line 180, in wait_for_result
+    return create_500_error_page(e, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/nicegui/page.py", line 140, in create_500_error_page
+    raise e
+  File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/nicegui/page.py", line 177, in wait_for_result
+    return await result
+           ^^^^^^^^^^^^
+  File "/Users/km6297/Library/Mobile Documents/com~apple~CloudDocs/Desktop/projects/psrl/psrl-experiments/fourroom_concept/web_app.py", line 307, in index
+    await wait_for_nicegui_ready()
+  File "/Users/km6297/miniconda3/envs/psrl-experiments/lib/python3.11/site-packages/nicewebrl/run_experiment.py", line 198, in wait_for_nicegui_ready
+    module_logger.error(f"Error checking ready signal: {e}")
+    ^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'error'
+[0m

@@ -1,0 +1,6 @@
+[32muser 2/2:  2938297877 |block 0: undefined| |stage 0: undefined| nicewebrl.experiment - INFO - Block order: ['block_9cef604272f64945b9549ea2d3d753f7', 'block_e479c530ceca496a8ba3218e40707148', 'block_77cfd2e397e14206b2d842752811aeb6', 'block_694211c417534915a56d9ef556302310', 'block_10a4226551eb4013b795a5852e75cbbc']
+[0m[32muser 2/2:  2938297877 |block 0: undefined| |stage 0: undefined| __main__ - INFO - New episode: mode=bijection dims=['shape', 'color', 'texture'] n_kinds={'shape': 5, 'color': 5, 'texture': 5} n_goals=5 rule=color='red'
+[0m[32muser 2/2:  2938297877 |block 0: block_9cef604272f64945b9549ea2d3d753f7| |stage 0: Welcome| nicegui - WARNING - http://localhost:8084/.well-known/appspecific/com.chrome.devtools.json not found
+[0m[32muser 2/2:  2938297877 |block 0: block_9cef604272f64945b9549ea2d3d753f7| |stage 0: Welcome| nicewebrl.utils - INFO - {'message': 'Ping 2287'}
+[0m[32muser 2/2:  2938297877 |block 1: block_e479c530ceca496a8ba3218e40707148| |stage 1: Consent| __main__ - INFO - Stage finished: Consent
+[0m
